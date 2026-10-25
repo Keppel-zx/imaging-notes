@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CMOS · SPAD · RGB-D 成像技术每日精读课程与文献归档"><title>Imaging Notes · 成像技术精读</title>
+<style>
+:root{--bg:#f5f7fb;--ink:#192a39;--muted:#687985;--line:#dce4e9;--accent:#166d82;--card:white}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}
+header{background:#122d40;color:white;padding:46px max(22px,calc((100vw - 1080px)/2));}
+.kicker{letter-spacing:.17em;color:#9ec9d3;font-size:12px;font-weight:700}h1{font-size:clamp(29px,4vw,48px);line-height:1.17;letter-spacing:-.03em;margin:14px 0}header p{max-width:720px;color:#d0e1e6}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.tags span{border:1px solid #547080;border-radius:20px;padding:4px 12px;font-size:12px;color:#d7eaed}
+main{max-width:1080px;padding:32px 20px 80px;margin:auto}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:-60px;margin-bottom:35px;position:relative}.metric{background:white;border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 9px 25px #0d304018}.metric strong{font-size:26px;display:block}.metric span{font-size:13px;color:var(--muted)}
+h2{font-size:23px;margin:36px 0 12px}.lead{color:var(--muted)}
+.toolbar{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}.toolbar input,.toolbar select{padding:12px;border-radius:10px;border:1px solid var(--line);background:white;font-size:14px}.toolbar input{flex:1;min-width:220px}
+.week{margin:18px 0;border:1px solid var(--line);background:var(--card);border-radius:16px;overflow:hidden}
+.week summary{list-style:none;cursor:pointer;padding:18px 20px;display:flex;align-items:center;gap:14px;font-weight:700}.week summary::-webkit-details-marker{display:none}
+.pill{border-radius:7px;background:#e6f1f4;color:var(--accent);padding:5px 10px;font-size:12px;white-space:nowrap}.week small{color:var(--muted);display:block;font-weight:400}
+.lesson{border-top:1px solid #edf0f2;padding:13px 20px;display:grid;grid-template-columns:60px 115px 1fr auto;gap:12px;align-items:center}
+.lesson .day{font-size:12px;color:var(--accent);font-weight:700}.date{color:var(--muted);font-size:12px}.name{font-weight:600}.state{color:#8795a0;font-size:12px}.ready{color:#138169}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.note{padding:20px;background:#eaf2f5;border-radius:14px;border:1px solid #cddfe4;margin-top:24px}
+footer{text-align:center;padding:30px;font-size:13px;color:var(--muted)}
+@media(max-width:650px){.metrics{grid-template-columns:repeat(3,1fr);gap:7px}.metric{padding:11px}.metric strong{font-size:20px}.lesson{grid-template-columns:46px 1fr auto}.lesson .date{display:none}.state{font-size:11px}}
+</style></head><body>
+<header><div class="kicker">IMAGING SCIENCE / READING LIBRARY</div><h1>从传感器到成像系统<br>每日精读档案</h1><p>CMOS · SPAD · RGB-D · ISP · 图像质量评价<br>以真实教材、标准、公式和原始图表为依据，建立能够持续检索的知识资料库。</p>
+<div class="tags"><span>8 周课程</span><span>56 期精读</span><span>自主学习 · 随时阅读</span><span>原文对照 · 深入讲解</span></div></header>
+<main><section class="metrics"><div class="metric"><strong>08</strong><span>专题周</span></div><div class="metric"><strong>56</strong><span>在线课程</span></div><div class="metric"><strong id="published">56</strong><span>已归档精读</span></div></section>
+<h2>课程归档</h2><p class="lead">根据时间、主题或关键词浏览。全部 56 讲已提供阅读页面；按周或关键词找到需要的主题。</p>
+<div class="toolbar"><input id="q" placeholder="搜索：PTC / SPAD / MTF / 噪声 / 标定..."><select id="filter"><option value="all">全部课程</option><option value="published">仅看已发布</option></select></div>
+<div id="outline"></div>
+<div class="note"><b>关于课程版本</b><p>当前是 56 讲中文系统导读的第一版：课程均可阅读，包含概念解释、适用条件、常见误区和可查阅的教材章节。它并非 56 篇逐页逐图的原文精读；教材原始图片、完整逐段翻译和严格页码核验需要后续逐讲完善。版权教材全文未随网站公开提供。</p></div>
+<h2>资料入口</h2><p>核心参考：<em>Camera Image Quality Benchmarking</em>、<em>Photon Transfer</em>、EMVA 1288、ICCV 2023 ISP Tutorial、两本 ToF 教材及色彩工程教材。公开资源：<a target="_blank" rel="noopener" href="https://github.com/cruxopen/openISP">openISP</a> · <a target="_blank" rel="noopener" href="https://docs.imatest.com/docs">Imatest Docs</a>。</p>
+</main><footer>Imaging Notes · 文献精读归档 · 2026</footer>
+<script>
+let lessons=[];
+const days=["周日","周一","周二","周三","周四","周五","周六"];
+fetch("./lessons.json").then(r=>r.json()).then(data=>{lessons=data;render()}).catch(()=>{document.getElementById("outline").textContent="课程数据加载失败。请通过本地服务器或网站托管访问。"});
+document.getElementById("q").addEventListener("input",render);
+document.getElementById("filter").addEventListener("change",render);
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}
+function render(){
+const q=document.getElementById("q").value.toLowerCase().trim(),filter=document.getElementById("filter").value;
+const container=document.getElementById("outline");container.replaceChildren();
+document.getElementById("published").textContent=lessons.filter(x=>x.status==="published"&&x.url).length;
+const wt=["成像系统基础与 CMOS 参数", "EMVA 1288 与传感器性能测试", "ISP 与 RAW 图像处理", "相机客观与主观画质", "SPAD 单光子探测", "ToF 测距与误差", "RGB-D 系统与深度图", "综合应用与专题深化"];
+for(let wi=0;wi<8;wi++){
+ const subset=lessons.filter(x=>x.week===wi+1&&(filter!=="published"||(x.status==="published"&&x.url))&&(!q||(x.title+" "+x.source+" "+x.day).toLowerCase().includes(q)));
+ if(!subset.length)continue;
+ const detail=el("details","week");if(wi===0||q||filter==="published")detail.open=true;
+ const summary=el("summary");summary.append(el("span","pill","W"+(wi+1)));
+ const head=el("div");head.append(el("div","",wt[wi]));head.append(el("small","",subset.length+" 个主题"));summary.append(head);detail.append(summary);
+ subset.forEach(item=>{
+  const line=el("div","lesson");line.append(el("span","day","D"+String(item.day).padStart(2,"0")));
+  line.append(el("span","date",item.date));
+  const title=item.status==="published"&&item.url?el("a","name",item.title):el("span","name",item.title);
+  if(item.status==="published"&&item.url){title.href=item.url;title.setAttribute("target","_self")}
+  line.append(title);line.append(el("span",item.status==="published"?"state ready":"state",item.status==="published"?"阅读":"待发布"));
+  detail.append(line)
+ });container.append(detail);
+}
+if(!container.children.length)container.textContent="没有符合条件的课程。";
+}
+</script></body></html>
