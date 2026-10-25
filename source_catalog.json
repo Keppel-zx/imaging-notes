@@ -1,0 +1,4776 @@
+{
+  "sources": [
+    {
+      "id": "emva",
+      "title": "EMVA Standard 1288: Standard for Characterization of Image Sensors and Cameras, Release 3.1",
+      "authors": "European Machine Vision Association",
+      "publication": "30 December 2016",
+      "pdf_pages": 39,
+      "sha256": "0734aafd946b70ba585d8a70f06fdffa92b6226ea5557ac83e2d46e2e799ea64",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [
+        [
+          1,
+          "Introduction and Scope",
+          4
+        ],
+        [
+          1,
+          "Sensitivity, Linearity, and Noise",
+          5
+        ],
+        [
+          2,
+          "Linear Signal Model",
+          5
+        ],
+        [
+          2,
+          "Noise Model",
+          6
+        ],
+        [
+          2,
+          "Signal-to-Noise Ratio (SNR)",
+          6
+        ],
+        [
+          2,
+          "Signal Saturation and Absolute Sensitivity Threshold",
+          7
+        ],
+        [
+          1,
+          "Dark Current",
+          8
+        ],
+        [
+          2,
+          "Mean and Variance",
+          8
+        ],
+        [
+          2,
+          "Temperature Dependence",
+          8
+        ],
+        [
+          1,
+          "Spatial Nonuniformity and Defect Pixels",
+          8
+        ],
+        [
+          2,
+          "Spatial Variances, DSNU, and PRNU",
+          9
+        ],
+        [
+          2,
+          "Types of Nonuniformities",
+          9
+        ],
+        [
+          2,
+          "Defect Pixels",
+          10
+        ],
+        [
+          3,
+          "Logarithmic Histograms.",
+          10
+        ],
+        [
+          3,
+          "Accumulated Histograms.",
+          10
+        ],
+        [
+          2,
+          "Highpass Filtering",
+          11
+        ],
+        [
+          1,
+          "Overview Measurement Setup and Methods",
+          12
+        ],
+        [
+          1,
+          "Methods for Sensitivity, Linearity, and Noise",
+          12
+        ],
+        [
+          2,
+          "Geometry of Homogeneous Light Source",
+          12
+        ],
+        [
+          2,
+          "Spectral Properties of Light Source",
+          13
+        ],
+        [
+          2,
+          "Variation of Irradiation",
+          14
+        ],
+        [
+          2,
+          "Calibration of Irradiation",
+          14
+        ],
+        [
+          2,
+          "Measurement Conditions for Linearity and Sensitivity",
+          15
+        ],
+        [
+          2,
+          "Evaluation of the Measurements according to the Photon Transfer Method",
+          15
+        ],
+        [
+          2,
+          "Evaluation of Linearity",
+          18
+        ],
+        [
+          1,
+          "Methods for Dark Current",
+          20
+        ],
+        [
+          2,
+          "Evaluation of Dark Current at One Temperature",
+          20
+        ],
+        [
+          2,
+          "Evaluation of Dark Current with Temperatures",
+          21
+        ],
+        [
+          1,
+          "Methods for Spatial Nonuniformity and Defect Pixels",
+          21
+        ],
+        [
+          2,
+          "Spatial Standard Deviation, DSNU, PRNU and total SNR",
+          21
+        ],
+        [
+          2,
+          "Horizontal and Vertical Spectrograms",
+          22
+        ],
+        [
+          2,
+          "Horizontal and Vertical Profiles",
+          24
+        ],
+        [
+          2,
+          "Defect Pixel Characterization",
+          26
+        ],
+        [
+          1,
+          "Methods for Spectral Sensitivity",
+          29
+        ],
+        [
+          2,
+          "Spectral Light Source Setup",
+          29
+        ],
+        [
+          2,
+          "Measuring Conditions",
+          29
+        ],
+        [
+          2,
+          "Calibration",
+          29
+        ],
+        [
+          2,
+          "Evaluation",
+          29
+        ],
+        [
+          1,
+          "Publishing the Results",
+          31
+        ],
+        [
+          2,
+          "Basic Information",
+          31
+        ],
+        [
+          2,
+          "The EMVA 1288 Datasheet",
+          31
+        ],
+        [
+          1,
+          "Bibliography",
+          33
+        ],
+        [
+          1,
+          "Notation",
+          34
+        ],
+        [
+          1,
+          "Changes to Release A2.01",
+          35
+        ],
+        [
+          2,
+          "Added Features",
+          35
+        ],
+        [
+          2,
+          "Extension of Methods to Vary Irradiation",
+          35
+        ],
+        [
+          2,
+          "Modifications in Conditions and Procedures",
+          35
+        ],
+        [
+          2,
+          "Limit for Minimal Temporal Standard Deviation; Introduction of Quantization Noise",
+          36
+        ],
+        [
+          2,
+          "Highpass Filtering with Nonuniformity Measurements",
+          37
+        ],
+        [
+          1,
+          "Changes to Release 3.0",
+          38
+        ],
+        [
+          2,
+          "Changes",
+          38
+        ],
+        [
+          2,
+          "Added Features",
+          38
+        ],
+        [
+          1,
+          "List of Contributors",
+          39
+        ]
+      ]
+    },
+    {
+      "id": "isp",
+      "title": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+      "authors": "Michael S. Brown",
+      "publication": "ICCV 2023 tutorial slides (uploaded PDF)",
+      "pdf_pages": 267,
+      "sha256": "64ca28210302119202ac0894e24b60f253047a04481b4dd4c3278d496aa0ed27",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [],
+      "document_structure": "267-page tutorial slide deck; no embedded chapter bookmarks. Exact cited slide pages are indexed per lesson."
+    },
+    {
+      "id": "depth",
+      "title": "Time-of-Flight and Structured Light Depth Cameras: Technology and Applications",
+      "authors": "Pietro Zanuttigh; Giulio Marin; Carlo Dal Mutto; Fabio Dominio; Ludovico Minto; Guido Maria Cortelazzo",
+      "publication": "Springer, 2016",
+      "pdf_pages": 360,
+      "sha256": "f850dece9d4b792633d7db7b6a81fd4b928a32c11838776ea51495387a6beade",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [
+        [
+          1,
+          "Preface",
+          8
+        ],
+        [
+          1,
+          "Contents",
+          10
+        ],
+        [
+          1,
+          "1 Introduction ",
+          14
+        ],
+        [
+          2,
+          "1.1 Basics of Imaging Systems",
+          16
+        ],
+        [
+          3,
+          "1.1.1 Pin-Hole Camera Model",
+          16
+        ],
+        [
+          3,
+          "1.1.2 Camera Geometry and Projection Matrix",
+          18
+        ],
+        [
+          3,
+          "1.1.3 Lens Distortions",
+          21
+        ],
+        [
+          2,
+          "1.2 Stereo Vision Systems",
+          22
+        ],
+        [
+          3,
+          "1.2.1 Two-view Stereo Systems",
+          22
+        ],
+        [
+          4,
+          "1.2.1.1 Epipolar Geometry",
+          27
+        ],
+        [
+          4,
+          "1.2.1.2 Epipolar Rectification",
+          28
+        ],
+        [
+          4,
+          "1.2.1.3 The Correspondence Problem",
+          30
+        ],
+        [
+          3,
+          "1.2.2 N-view Stereo Systems and Structure from Motion",
+          31
+        ],
+        [
+          3,
+          "1.2.3 Calibrated and Uncalibrated 3D Reconstruction",
+          34
+        ],
+        [
+          2,
+          "1.3 Basics of Structured Light Depth Cameras",
+          35
+        ],
+        [
+          2,
+          "1.4 Basics of ToF Depth Cameras",
+          40
+        ],
+        [
+          3,
+          "1.4.1 ToF Operation Principle",
+          40
+        ],
+        [
+          3,
+          "1.4.2 Direct ToF Measurement Methods",
+          42
+        ],
+        [
+          4,
+          "1.4.2.1 Direct Pulse Modulation",
+          42
+        ],
+        [
+          4,
+          "1.4.2.2 Direct CW Modulation",
+          43
+        ],
+        [
+          3,
+          "1.4.3 Surface Measurement by Single Point and Matricial ToF Systems",
+          43
+        ],
+        [
+          3,
+          "1.4.4 ToF Depth Camera Components",
+          44
+        ],
+        [
+          4,
+          "1.4.4.1 Modulation Methods for ToF Depth Cameras",
+          45
+        ],
+        [
+          4,
+          "1.4.4.2 ToF Depth Camera Transmitter Basics",
+          46
+        ],
+        [
+          4,
+          "1.4.4.3 ToF Depth Camera Receiver Basics",
+          48
+        ],
+        [
+          2,
+          "1.5 Book Overview",
+          49
+        ],
+        [
+          2,
+          "References",
+          51
+        ],
+        [
+          1,
+          "Part I Operating Principles of Depth Cameras",
+          54
+        ],
+        [
+          2,
+          "2 Operating Principles of Structured Light Depth Cameras ",
+          55
+        ],
+        [
+          3,
+          "2.1 Camera Virtualization",
+          56
+        ],
+        [
+          3,
+          "2.2 General Characteristics",
+          62
+        ],
+        [
+          4,
+          "2.2.1 Depth Resolution",
+          63
+        ],
+        [
+          3,
+          "2.3 Illuminator Design Approaches",
+          64
+        ],
+        [
+          4,
+          "2.3.1 Implementing Uniqueness by Signal Multiplexing",
+          66
+        ],
+        [
+          5,
+          "2.3.1.1 Wavelength Multiplexing",
+          66
+        ],
+        [
+          5,
+          "2.3.1.2 Range Multiplexing",
+          67
+        ],
+        [
+          5,
+          "2.3.1.3 Temporal Multiplexing",
+          69
+        ],
+        [
+          5,
+          "2.3.1.4 Spatial Multiplexing",
+          73
+        ],
+        [
+          4,
+          "2.3.2 Structured Light Systems Non-idealities",
+          77
+        ],
+        [
+          3,
+          "2.4 Examples of Structured Light Depth Cameras",
+          79
+        ],
+        [
+          4,
+          "2.4.1 The Intel RealSense F200",
+          79
+        ],
+        [
+          4,
+          "2.4.2 The Intel RealSense R200",
+          82
+        ],
+        [
+          4,
+          "2.4.3 The Primesense Camera (AKA Kinect™ v1)",
+          85
+        ],
+        [
+          3,
+          "2.5 Conclusions and Further Reading",
+          89
+        ],
+        [
+          3,
+          "References",
+          90
+        ],
+        [
+          2,
+          "3 Operating Principles of Time-of-Flight Depth Cameras ",
+          92
+        ],
+        [
+          3,
+          "3.1 AM Modulation Within In-Pixel Photo-Mixing Devices",
+          92
+        ],
+        [
+          4,
+          "3.1.1 Sinusoidal Modulation",
+          94
+        ],
+        [
+          4,
+          "3.1.2 Square Wave Modulation",
+          97
+        ],
+        [
+          3,
+          "3.2 Imaging Characteristics of ToF Depth Cameras",
+          107
+        ],
+        [
+          3,
+          "3.3 Practical Implementation Issues of ToF Depth Cameras",
+          110
+        ],
+        [
+          4,
+          "3.3.1 Phase Wrapping",
+          111
+        ],
+        [
+          4,
+          "3.3.2 Harmonic Distortion",
+          111
+        ],
+        [
+          4,
+          "3.3.3 Photon-Shot Noise",
+          111
+        ],
+        [
+          4,
+          "3.3.4 Saturation and Motion Blur",
+          113
+        ],
+        [
+          4,
+          "3.3.5 Multipath Error",
+          114
+        ],
+        [
+          4,
+          "3.3.6 Flying Pixels",
+          116
+        ],
+        [
+          4,
+          "3.3.7 Other Noise Sources",
+          117
+        ],
+        [
+          3,
+          "3.4 Examples of ToF Depth Cameras",
+          118
+        ],
+        [
+          4,
+          "3.4.1 Kinect™ v2",
+          118
+        ],
+        [
+          4,
+          "3.4.2 MESA ToF Depth Cameras",
+          119
+        ],
+        [
+          4,
+          "3.4.3 PMD Devices",
+          121
+        ],
+        [
+          4,
+          "3.4.4 ToF Depth Cameras Based on SoftKinetic Technology",
+          121
+        ],
+        [
+          3,
+          "3.5 Conclusions and Further Reading",
+          122
+        ],
+        [
+          3,
+          "References",
+          123
+        ],
+        [
+          1,
+          "Part II Extraction of 3D Information from Depth Cameras Data",
+          125
+        ],
+        [
+          2,
+          "4 Calibration ",
+          126
+        ],
+        [
+          3,
+          "4.1 Calibration of a Generic Imaging Device",
+          127
+        ],
+        [
+          4,
+          "4.1.1 Measurement's Accuracy, Precision and Resolution",
+          127
+        ],
+        [
+          4,
+          "4.1.2 General Calibration Procedure",
+          128
+        ],
+        [
+          4,
+          "4.1.3 Supervised and Unsupervised Calibration",
+          130
+        ],
+        [
+          4,
+          "4.1.4 Calibration Error",
+          131
+        ],
+        [
+          4,
+          "4.1.5 Geometric Calibration",
+          134
+        ],
+        [
+          4,
+          "4.1.6 Photometric Calibration",
+          136
+        ],
+        [
+          3,
+          "4.2 Calibration of Standard Cameras",
+          138
+        ],
+        [
+          4,
+          "4.2.1 Calibration of a Single Camera",
+          139
+        ],
+        [
+          4,
+          "4.2.2 Calibration of a Stereo Vision System",
+          143
+        ],
+        [
+          4,
+          "4.2.3 Extension to N-View Systems",
+          148
+        ],
+        [
+          3,
+          "4.3 Calibration of Depth Cameras",
+          151
+        ],
+        [
+          4,
+          "4.3.1 Calibration of Structured Light Depth Cameras",
+          152
+        ],
+        [
+          4,
+          "4.3.2 Calibration of ToF Depth Cameras",
+          156
+        ],
+        [
+          3,
+          "4.4 Calibration of Heterogeneous Imaging Systems",
+          159
+        ],
+        [
+          4,
+          "4.4.1 Calibration of a Depth Camera and a Standard Camera",
+          160
+        ],
+        [
+          4,
+          "4.4.2 Calibration of a Depth Camera and a Stereo Vision System",
+          161
+        ],
+        [
+          4,
+          "4.4.3 Calibration of Multiple Depth Cameras",
+          163
+        ],
+        [
+          3,
+          "4.5 Conclusions and Further Readings",
+          164
+        ],
+        [
+          3,
+          "References",
+          165
+        ],
+        [
+          2,
+          "5 Data Fusion from Depth and Standard Cameras ",
+          169
+        ],
+        [
+          3,
+          "5.1 Acquisition Setup with Multiple Sensors",
+          170
+        ],
+        [
+          4,
+          "5.1.1 Example of Acquisition Setups",
+          171
+        ],
+        [
+          4,
+          "5.1.2 Data Registration",
+          173
+        ],
+        [
+          3,
+          "5.2 Fusion of a Depth Camera with a Single Color Camera",
+          177
+        ],
+        [
+          4,
+          "5.2.1 Local Filtering and Interpolation Techniques",
+          177
+        ],
+        [
+          4,
+          "5.2.2 Global Optimization Based Approaches",
+          183
+        ],
+        [
+          3,
+          "5.3 Fusion of a Depth Camera with a Stereo System",
+          186
+        ],
+        [
+          4,
+          "5.3.1 Local Fusion Methods",
+          188
+        ],
+        [
+          5,
+          "5.3.1.1 Confidence Based Techniques",
+          188
+        ],
+        [
+          5,
+          "5.3.1.2 Probabilistic Approaches",
+          189
+        ],
+        [
+          4,
+          "5.3.2 Global Optimization Based Approaches",
+          195
+        ],
+        [
+          5,
+          "5.3.2.1 MAP-MRF Probabilistic Fusion Framework",
+          196
+        ],
+        [
+          5,
+          "5.3.2.2 Other Global Optimization Based Frameworks",
+          198
+        ],
+        [
+          4,
+          "5.3.3 Other Approaches",
+          200
+        ],
+        [
+          3,
+          "5.4 Conclusions and Further Reading",
+          201
+        ],
+        [
+          3,
+          "References",
+          202
+        ],
+        [
+          1,
+          "Part III Applications of Depth Camera Data",
+          205
+        ],
+        [
+          2,
+          "6 Scene Segmentation Assisted by Depth Data ",
+          206
+        ],
+        [
+          3,
+          "6.1 Scene Matting with Color and Depth Data",
+          208
+        ],
+        [
+          4,
+          "6.1.1 Single Frame Matting with Color and Depth Data",
+          211
+        ],
+        [
+          4,
+          "6.1.2 Video Matting with Color and Depth Data",
+          216
+        ],
+        [
+          3,
+          "6.2 Scene Segmentation from Color and Depth Data",
+          218
+        ],
+        [
+          4,
+          "6.2.1 Single Frame Segmentation from Color and Depth Data",
+          219
+        ],
+        [
+          4,
+          "6.2.2 Single Frame Segmentation: Clustering of Multidimensional Vectors",
+          221
+        ],
+        [
+          4,
+          "6.2.3 Single Frame Segmentation: Graph-Based Approaches",
+          225
+        ],
+        [
+          4,
+          "6.2.4 Single Frame Segmentation Based on Geometric Clues",
+          227
+        ],
+        [
+          4,
+          "6.2.5 Video Segmentation from Color and Depth Data",
+          228
+        ],
+        [
+          3,
+          "6.3 Semantic Segmentation from Color and Depth Data",
+          229
+        ],
+        [
+          3,
+          "6.4 Conclusions and Further Reading",
+          234
+        ],
+        [
+          3,
+          "References",
+          235
+        ],
+        [
+          2,
+          "7 3D Scene Reconstruction from Depth Camera Data ",
+          238
+        ],
+        [
+          3,
+          "7.1 3D Reconstruction from Depth Camera Data",
+          240
+        ],
+        [
+          3,
+          "7.2 Pre-processing of the Views",
+          242
+        ],
+        [
+          3,
+          "7.3 Rough Pairwise Registration",
+          243
+        ],
+        [
+          3,
+          "7.4 Fine Pairwise Registration",
+          244
+        ],
+        [
+          3,
+          "7.5 Global Registration",
+          247
+        ],
+        [
+          3,
+          "7.6 Fusion of the Registered Views",
+          248
+        ],
+        [
+          4,
+          "7.6.1 KinectFusion",
+          249
+        ],
+        [
+          3,
+          "7.7 Reconstruction of Dynamic Scenes",
+          251
+        ],
+        [
+          3,
+          "7.8 SLAM with Depth Camera Data",
+          254
+        ],
+        [
+          3,
+          "7.9 Conclusions and Further Reading",
+          255
+        ],
+        [
+          3,
+          "References",
+          256
+        ],
+        [
+          2,
+          "8 Human Pose Estimation and Tracking ",
+          259
+        ],
+        [
+          3,
+          "8.1 Human Body Models",
+          261
+        ],
+        [
+          4,
+          "8.1.1 Articulated Objects",
+          263
+        ],
+        [
+          4,
+          "8.1.2 Kinematic Skeleton Models",
+          265
+        ],
+        [
+          4,
+          "8.1.3 Augmented Skeleton Models",
+          266
+        ],
+        [
+          3,
+          "8.2 Human Pose Estimation",
+          268
+        ],
+        [
+          4,
+          "8.2.1 Learning Based Approaches and the Kinect™ pose Estimation Algorithm",
+          269
+        ],
+        [
+          4,
+          "8.2.2 Example-Based Approaches",
+          274
+        ],
+        [
+          4,
+          "8.2.3 Point of Interest Detection",
+          276
+        ],
+        [
+          3,
+          "8.3 Human Pose Tracking",
+          278
+        ],
+        [
+          4,
+          "8.3.1 Optimization-Based Approaches",
+          280
+        ],
+        [
+          5,
+          "8.3.1.1 Local Optimization Methods",
+          282
+        ],
+        [
+          4,
+          "8.3.2 ICP and Ray Casting Approaches",
+          284
+        ],
+        [
+          4,
+          "8.3.3 Filtering Approaches",
+          286
+        ],
+        [
+          5,
+          "8.3.3.1 Pose Tracking with Particle Filter",
+          287
+        ],
+        [
+          5,
+          "8.3.3.2 Pose Tracking with Kalman Filter",
+          290
+        ],
+        [
+          4,
+          "8.3.4 Approaches Based on Markov Random Fields",
+          292
+        ],
+        [
+          3,
+          "8.4 Conclusions and Further Reading",
+          294
+        ],
+        [
+          3,
+          "References",
+          295
+        ],
+        [
+          2,
+          "9 Gesture Recognition ",
+          299
+        ],
+        [
+          3,
+          "9.1 Static Gesture Recognition",
+          301
+        ],
+        [
+          4,
+          "9.1.1 Pose-Based Descriptors",
+          302
+        ],
+        [
+          4,
+          "9.1.2 Contour Shape-Based Descriptors",
+          303
+        ],
+        [
+          4,
+          "9.1.3 Surface Shape Descriptors",
+          310
+        ],
+        [
+          4,
+          "9.1.4 Area and Volume Occupancy Descriptors",
+          313
+        ],
+        [
+          4,
+          "9.1.5 Depth Image-Based Descriptors",
+          316
+        ],
+        [
+          4,
+          "9.1.6 Convex Hull-Based Descriptors",
+          323
+        ],
+        [
+          4,
+          "9.1.7 Feature Classification",
+          324
+        ],
+        [
+          4,
+          "9.1.8 Feature Selection",
+          326
+        ],
+        [
+          4,
+          "9.1.9 Static Gesture Recognition with Deep Learning",
+          327
+        ],
+        [
+          3,
+          "9.2 Dynamic Gesture Recognition",
+          329
+        ],
+        [
+          4,
+          "9.2.1 Deterministic Recognition Approaches",
+          330
+        ],
+        [
+          4,
+          "9.2.2 Stochastic Recognition Approaches",
+          333
+        ],
+        [
+          5,
+          "9.2.2.1 Dynamic Gesture Recognition with Hidden Markov Models",
+          334
+        ],
+        [
+          5,
+          "9.2.2.2 Dynamic Gesture Recognition with Hierarchical Markov Models",
+          337
+        ],
+        [
+          4,
+          "9.2.3 Dynamic Gesture Recognition with Action Graphs",
+          338
+        ],
+        [
+          4,
+          "9.2.4 Descriptors for Dynamic Gesture Recognition",
+          343
+        ],
+        [
+          3,
+          "9.3 Conclusions and Further Readings",
+          349
+        ],
+        [
+          3,
+          "References",
+          349
+        ],
+        [
+          2,
+          "10 Conclusions ",
+          354
+        ],
+        [
+          1,
+          "Index",
+          356
+        ]
+      ]
+    },
+    {
+      "id": "spad",
+      "title": "TOF Range-Imaging Cameras",
+      "authors": "Fabio Remondino; David Stoppa (editors)",
+      "publication": "Springer, 2013",
+      "pdf_pages": 243,
+      "sha256": "1e717678352e27c8fda956548b98bf4027ad5ea7dbc1909b99335e964dc5fe8a",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [
+        [
+          1,
+          "TOF Range-Imaging Cameras",
+          3
+        ],
+        [
+          2,
+          "Contents",
+          5
+        ],
+        [
+          2,
+          "1 State-of-the-Art of TOF Range-Imaging Sensors",
+          6
+        ],
+        [
+          3,
+          "1…Introduction",
+          6
+        ],
+        [
+          3,
+          "2…Working Principle of TOF Cameras",
+          8
+        ],
+        [
+          4,
+          "2.1 TOF Detection System",
+          8
+        ],
+        [
+          4,
+          "2.2 TOF Measurement Techniques",
+          8
+        ],
+        [
+          3,
+          "3…Time-Resolved Image Sensor Technologies",
+          9
+        ],
+        [
+          3,
+          "4…Conclusions",
+          11
+        ],
+        [
+          3,
+          "References",
+          12
+        ],
+        [
+          2,
+          "2 SPAD-Based Sensors",
+          15
+        ],
+        [
+          3,
+          "1…Introduction",
+          15
+        ],
+        [
+          3,
+          "2…The Physics of SPADs",
+          16
+        ],
+        [
+          3,
+          "3…CMOS SPAD Design",
+          19
+        ],
+        [
+          3,
+          "4…TCSPC Based TOF Camera Systems",
+          21
+        ],
+        [
+          3,
+          "5…Single-Photon Synchronous Detection",
+          30
+        ],
+        [
+          3,
+          "6…Phase-Domain Delta-Sigma TOF Imaging",
+          35
+        ],
+        [
+          3,
+          "7…Perspectives and Outlook",
+          38
+        ],
+        [
+          3,
+          "Acknowledgments",
+          40
+        ],
+        [
+          3,
+          "References",
+          40
+        ],
+        [
+          2,
+          "3 Electronics-Based 3D Sensors",
+          43
+        ],
+        [
+          3,
+          "1…Pulsed I-TOF 3D Imaging Method",
+          44
+        ],
+        [
+          4,
+          "1.1 Principle of Operation",
+          44
+        ],
+        [
+          4,
+          "1.2 Signal and Noise Analysis",
+          45
+        ],
+        [
+          3,
+          "2…Case Study 1: 50 x 30-Pixel Array with Fully Differential 3D Pixel",
+          46
+        ],
+        [
+          4,
+          "2.1 Sensor Design",
+          47
+        ],
+        [
+          5,
+          "2.1.1 Theoretical Limit",
+          48
+        ],
+        [
+          4,
+          "2.2 Circuit Analysis",
+          48
+        ],
+        [
+          4,
+          "2.3 Measurements and Outlook",
+          49
+        ],
+        [
+          5,
+          "2.3.1 Improving the Sensor",
+          50
+        ],
+        [
+          3,
+          "3…Case Study 2: 160 x 120-Pixel Array with Two-Stage Pixel",
+          52
+        ],
+        [
+          4,
+          "3.1 Sensor Design",
+          52
+        ],
+        [
+          4,
+          "3.2 Circuit Analysis",
+          53
+        ],
+        [
+          5,
+          "3.2.1 Two-Stage Pixel Simulation",
+          54
+        ],
+        [
+          4,
+          "3.3 Test Setup and Measurement Results",
+          55
+        ],
+        [
+          5,
+          "3.3.1 Description of Setup",
+          56
+        ],
+        [
+          5,
+          "3.3.2 Distance Measurements",
+          57
+        ],
+        [
+          3,
+          "4…Correlation I-TOF 3D Imaging Method",
+          58
+        ],
+        [
+          4,
+          "4.1 Sensors Architecture",
+          60
+        ],
+        [
+          4,
+          "4.2 Signal and Noise Analysis",
+          60
+        ],
+        [
+          3,
+          "5…Case Study 3: 2 x 32 Dual-Line TOF Sensor",
+          61
+        ],
+        [
+          4,
+          "5.1 Sensor Circuit",
+          62
+        ],
+        [
+          4,
+          "5.2 Test Setup and Measurement Results",
+          64
+        ],
+        [
+          5,
+          "5.2.1 Single Pixel Characterization",
+          65
+        ],
+        [
+          5,
+          "5.2.2 Dual Line Sensor Array Characterization",
+          66
+        ],
+        [
+          3,
+          "6…Case Study 4: 16 x 16 Pixel Array TOF Sensor Design",
+          66
+        ],
+        [
+          4,
+          "6.1 Sensor Circuit",
+          67
+        ],
+        [
+          4,
+          "6.2 Test Setup and Measurement Results",
+          68
+        ],
+        [
+          5,
+          "6.2.1 Single Pixel Characterization",
+          69
+        ],
+        [
+          5,
+          "6.2.2 Pixel Sensor Array Characterization",
+          69
+        ],
+        [
+          3,
+          "7…Discussion and Comparison",
+          70
+        ],
+        [
+          3,
+          "References",
+          71
+        ],
+        [
+          2,
+          "4 Sensors Based on In-Pixel Photo-Mixing Devices",
+          73
+        ],
+        [
+          3,
+          "1…Introduction",
+          73
+        ],
+        [
+          3,
+          "2…Basic Principle of Operation",
+          74
+        ],
+        [
+          3,
+          "3…Charge-Domain Electro-Optical Demodulators",
+          78
+        ],
+        [
+          4,
+          "3.1 Basic Gate-Based Demodulators",
+          78
+        ],
+        [
+          4,
+          "3.2 Current-Assisted Demodulators",
+          82
+        ],
+        [
+          4,
+          "3.3 Pinned-Photodiode Demodulators",
+          83
+        ],
+        [
+          4,
+          "3.4 Static Drift Field Demodulators",
+          84
+        ],
+        [
+          4,
+          "3.5 Other Concepts",
+          87
+        ],
+        [
+          3,
+          "4…Pixel Architectures",
+          88
+        ],
+        [
+          3,
+          "5…Conclusion",
+          89
+        ],
+        [
+          3,
+          "References",
+          90
+        ],
+        [
+          2,
+          "5 Understanding and Ameliorating Mixed Pixels and Multipath Interference in AMCW Lidar",
+          94
+        ],
+        [
+          3,
+          "1…Introduction",
+          94
+        ],
+        [
+          4,
+          "1.1 Time of Flight Measurement Techniques",
+          95
+        ],
+        [
+          4,
+          "1.2 The Formation of Mixed Pixels and Multipath Interference",
+          98
+        ],
+        [
+          3,
+          "2…Modelling Mixed Pixels and Multipath Interference",
+          100
+        ],
+        [
+          4,
+          "2.1 The Formation of Range Measurements",
+          101
+        ],
+        [
+          4,
+          "2.2 Modelling Mixed Pixels",
+          102
+        ],
+        [
+          4,
+          "2.3 Perturbations Due to Multiple Returns",
+          103
+        ],
+        [
+          3,
+          "3…Point Scanning Systems and Detection Approaches",
+          105
+        ],
+        [
+          4,
+          "3.1 Normal Angle and Edge Length Detection",
+          106
+        ],
+        [
+          4,
+          "3.2 Adam’s Detection Algorithm",
+          107
+        ],
+        [
+          4,
+          "3.3 Classification Based Detection",
+          108
+        ],
+        [
+          4,
+          "3.4 Characterising Error at Spatial Discontinuities",
+          108
+        ],
+        [
+          3,
+          "4…Restoration and Full-Field Systems",
+          109
+        ],
+        [
+          4,
+          "4.1 Scattering Restoration Using Scene Texture, Structured Light or Calibration Squares",
+          110
+        ],
+        [
+          4,
+          "4.2 Restoration by Spatial Deconvolution",
+          112
+        ],
+        [
+          4,
+          "4.3 Restoration by Modelling Intra-Scene Scattering",
+          113
+        ],
+        [
+          4,
+          "4.4 Mixed Pixel Restoration by Parametric Surface Modelling",
+          1
+        ],
+        [
+          4,
+          "4.5 Correlation Waveform Deconvolution/Waveform Shape Fitting",
+          1
+        ],
+        [
+          4,
+          "4.6 Multifrequency Methods",
+          116
+        ],
+        [
+          3,
+          "5…Conclusion",
+          117
+        ],
+        [
+          3,
+          "6…Understanding Mixed Pixels and Multipath Interference",
+          117
+        ],
+        [
+          4,
+          "6.1 Lidar Modulation Techniques",
+          117
+        ],
+        [
+          3,
+          "References",
+          118
+        ],
+        [
+          2,
+          "6 3D Cameras: Errors, Calibration and Orientation",
+          120
+        ],
+        [
+          3,
+          "1…Introduction",
+          120
+        ],
+        [
+          3,
+          "2…Geometric Models",
+          121
+        ],
+        [
+          3,
+          "3…Orientation",
+          123
+        ],
+        [
+          4,
+          "3.1 Marker-Based Orientation",
+          124
+        ],
+        [
+          4,
+          "3.2 Sensor-Based Orientation",
+          124
+        ],
+        [
+          4,
+          "3.3 Data-Driven Orientation",
+          125
+        ],
+        [
+          3,
+          "4…Error Sources",
+          125
+        ],
+        [
+          4,
+          "4.1 Lens Distortions",
+          127
+        ],
+        [
+          4,
+          "4.2 Scene-Independent Range Errors Modelled Physically",
+          128
+        ],
+        [
+          4,
+          "4.3 Range Errors Depending on Position in the Focal Plane and Range Errors Related to the Recorded Amplitude",
+          129
+        ],
+        [
+          4,
+          "4.4 Internal Scattering",
+          129
+        ],
+        [
+          4,
+          "4.5 Fixed Pattern Noise",
+          131
+        ],
+        [
+          4,
+          "4.6 Errors Dependent on Integration Time",
+          131
+        ],
+        [
+          4,
+          "4.7 Camera Warm Up Errors",
+          132
+        ],
+        [
+          4,
+          "4.8 Ambiguity Interval",
+          133
+        ],
+        [
+          4,
+          "4.9 Multi-Path Effects in Object Space",
+          134
+        ],
+        [
+          3,
+          "5…System Calibration",
+          135
+        ],
+        [
+          4,
+          "5.1 Purpose of Calibration",
+          135
+        ],
+        [
+          4,
+          "5.2 Calibration Approaches",
+          135
+        ],
+        [
+          4,
+          "5.3 Self-Calibration Methods",
+          136
+        ],
+        [
+          4,
+          "5.4 Model Formulation and Solution",
+          138
+        ],
+        [
+          3,
+          "6…Summary",
+          138
+        ],
+        [
+          3,
+          "References",
+          139
+        ],
+        [
+          2,
+          "7 TOF Cameras for Architectural Surveys",
+          142
+        ],
+        [
+          3,
+          "1…Introduction",
+          142
+        ],
+        [
+          3,
+          "2…TOF Camera Analysis for Architectural Surveys",
+          143
+        ],
+        [
+          4,
+          "2.1 Pre-calibration and Data Acquisition Methodology",
+          145
+        ],
+        [
+          4,
+          "2.2 Influence of the Angle of Incidence on Distance Measurements",
+          146
+        ],
+        [
+          4,
+          "2.3 Influence of Object Reflectivity on Distance Measurements",
+          148
+        ],
+        [
+          4,
+          "2.4 Tests, Data Processing, Comparisons and Results in Cultural Heritage Architectural Surveying",
+          151
+        ],
+        [
+          4,
+          "2.5 An Architectural Frieze, Survey and Accuracy Evaluation of TOF Camera Performances",
+          151
+        ],
+        [
+          4,
+          "2.6 Data Acquisition and Processing of Two Windows",
+          153
+        ],
+        [
+          4,
+          "2.7 Digital Photogrammetry Multi-Image Matching Approach for Break-Line Extraction",
+          157
+        ],
+        [
+          4,
+          "2.8 Results and Discussions",
+          160
+        ],
+        [
+          3,
+          "3…Conclusions",
+          164
+        ],
+        [
+          3,
+          "References",
+          165
+        ],
+        [
+          2,
+          "8 Indoor Positioning and Navigation Using Time-Of-Flight Cameras",
+          168
+        ],
+        [
+          3,
+          "1…Introduction",
+          168
+        ],
+        [
+          3,
+          "2…Positioning Inside the Room Based on a CityGML Model",
+          170
+        ],
+        [
+          4,
+          "2.1 Room Identification Through Object Detection",
+          172
+        ],
+        [
+          4,
+          "2.2 Accurate Positioning Using Distance Measurements",
+          172
+        ],
+        [
+          3,
+          "3…Mapping and Ego-Motion Estimation",
+          173
+        ],
+        [
+          4,
+          "3.1 Sensor Data Processing",
+          173
+        ],
+        [
+          4,
+          "3.2 Mapping and Ego-Motion Estimation",
+          174
+        ],
+        [
+          3,
+          "4…3D Collision Avoidance",
+          176
+        ],
+        [
+          3,
+          "5…Conclusions and Outlook",
+          178
+        ],
+        [
+          3,
+          "Acknowledgments",
+          178
+        ],
+        [
+          3,
+          "References",
+          178
+        ],
+        [
+          2,
+          "9 TOF Cameras and Stereo Systems: Comparison and Data Fusion",
+          180
+        ],
+        [
+          3,
+          "1…Stereo Vision Systems",
+          181
+        ],
+        [
+          4,
+          "1.1 Basic Geometry of a Stereo Vision System",
+          181
+        ],
+        [
+          4,
+          "1.2 Stereo Vision Algorithms",
+          184
+        ],
+        [
+          4,
+          "1.3 Local Stereo Algorithms",
+          185
+        ],
+        [
+          4,
+          "1.4 Global Stereo Algorithms",
+          186
+        ],
+        [
+          4,
+          "1.5 Semi-Global Stereo Algorithm",
+          187
+        ],
+        [
+          3,
+          "2…Comparison of TOF Cameras and Stereo System",
+          188
+        ],
+        [
+          4,
+          "2.1 Fundamental Metrological Quantities",
+          188
+        ],
+        [
+          4,
+          "2.2 Accuracy, Precision and Resolution of TOF Cameras and Stereo Systems",
+          189
+        ],
+        [
+          5,
+          "2.2.1 Accuracy",
+          189
+        ],
+        [
+          5,
+          "2.2.2 Precision",
+          191
+        ],
+        [
+          5,
+          "2.2.3 Resolution",
+          192
+        ],
+        [
+          4,
+          "2.3 Experimental Comparisons",
+          194
+        ],
+        [
+          3,
+          "3…Fusion of Time-Of-Flight and Stereo Data",
+          196
+        ],
+        [
+          4,
+          "3.1 Characteristics of the Acquisition Setup",
+          197
+        ],
+        [
+          4,
+          "3.2 Local Approaches",
+          199
+        ],
+        [
+          4,
+          "3.3 Global Approaches",
+          201
+        ],
+        [
+          4,
+          "3.4 Semi-Global Approaches",
+          202
+        ],
+        [
+          3,
+          "4…Conclusions",
+          203
+        ],
+        [
+          3,
+          "References",
+          203
+        ],
+        [
+          2,
+          "10 TOF Cameras in Ambient Assisted Living Applications",
+          206
+        ],
+        [
+          3,
+          "1…Introduction",
+          206
+        ],
+        [
+          3,
+          "2…Advantages of Active Vision in AAL Contexts",
+          207
+        ],
+        [
+          3,
+          "3…A TOF Camera-Based Framework for Fall Detection",
+          210
+        ],
+        [
+          4,
+          "3.1 The Hardware Platform",
+          211
+        ],
+        [
+          4,
+          "3.2 Camera Mounting Setup",
+          211
+        ],
+        [
+          4,
+          "3.3 Self-Calibration of Extrinsic Parameters",
+          212
+        ],
+        [
+          4,
+          "3.4 Background Modeling, People Segmentation and Tracking",
+          219
+        ],
+        [
+          4,
+          "3.5 The Fall Detection Strategy",
+          221
+        ],
+        [
+          4,
+          "3.6 The Simulation Setup",
+          222
+        ],
+        [
+          4,
+          "3.7 Experimental Results",
+          222
+        ],
+        [
+          5,
+          "3.7.1 Floor Detection",
+          222
+        ],
+        [
+          5,
+          "3.7.2 People Detection and Tracking",
+          224
+        ],
+        [
+          5,
+          "3.7.3 Fall Detection",
+          225
+        ],
+        [
+          3,
+          "4…A TOF Camera-Based Framework for Posture Recognition",
+          228
+        ],
+        [
+          4,
+          "4.1 The Experimental Setup",
+          229
+        ],
+        [
+          4,
+          "4.2 The Topological Approach",
+          230
+        ],
+        [
+          4,
+          "4.3 The Volumetric Approach",
+          233
+        ],
+        [
+          4,
+          "4.4 Experimental Results",
+          236
+        ],
+        [
+          3,
+          "5…Discussion and Conclusion",
+          237
+        ],
+        [
+          3,
+          "References",
+          240
+        ]
+      ]
+    },
+    {
+      "id": "ptc",
+      "title": "Photon Transfer: DN → λ",
+      "authors": "James R. Janesick",
+      "publication": "SPIE, 2007",
+      "pdf_pages": 250,
+      "sha256": "ce9abd1d0855a941f4fd70484b67916184e6aabe874456feaad55ba9c5943928",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [
+        [
+          1,
+          "1 Introduction",
+          8
+        ],
+        [
+          1,
+          "2 Photon Interaction",
+          14
+        ],
+        [
+          1,
+          "3 Photon Transfer Noise Sources",
+          15
+        ],
+        [
+          1,
+          "4 Photon Transfer Theory",
+          15
+        ],
+        [
+          1,
+          "5 Photon Transfer Curve",
+          15
+        ],
+        [
+          1,
+          "6 e−/DN Variance",
+          15
+        ],
+        [
+          1,
+          "7 Nonlinearity",
+          15
+        ],
+        [
+          1,
+          "8 Flat Fielding",
+          16
+        ],
+        [
+          1,
+          "9 Modulation Photon Transfer",
+          16
+        ],
+        [
+          1,
+          "10 Signal-to-noise Performance",
+          16
+        ],
+        [
+          1,
+          "11 Read Noise",
+          9
+        ],
+        [
+          1,
+          "12 Lux Transfer",
+          11
+        ]
+      ]
+    },
+    {
+      "id": "colour",
+      "title": "Fundamentals and Applications of Colour Engineering",
+      "authors": "Phil Green (editor)",
+      "publication": "Wiley, 2024 (PDF copyright/title metadata; uploaded filename says 2023)",
+      "pdf_pages": 400,
+      "sha256": "a1b823b4f95259b6964f6f5182a4c9985bf9282399aac159a0012d3f0ce7d3b0",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [
+        [
+          1,
+          "Fundamentals and Applications of Colour Engineering",
+          2
+        ],
+        [
+          1,
+          "Contents",
+          6
+        ],
+        [
+          1,
+          "Series Editor’s Foreword",
+          18
+        ],
+        [
+          1,
+          "Preface",
+          20
+        ],
+        [
+          1,
+          "Introductory Notes",
+          22
+        ],
+        [
+          1,
+          "1 Instruments and Methods for the Colour Measurements Required in Colour Engineering",
+          26
+        ],
+        [
+          2,
+          "1.1 Introduction",
+          26
+        ],
+        [
+          2,
+          "1.1.1 The Need for Colorimetry",
+          26
+        ],
+        [
+          3,
+          "1.1.2 The Principles of Colorimetry",
+          26
+        ],
+        [
+          3,
+          "1.1.3 Making the Transition from What We “See” to Quantifying How We “Match” a Colour",
+          27
+        ],
+        [
+          2,
+          "1.2 Visual Colorimetry",
+          28
+        ],
+        [
+          3,
+          "1.2.1 A Method to Uniquely Map the Colour of Lights and Objects",
+          28
+        ],
+        [
+          3,
+          "1.2.2 Development of the CIE Method of Visual Colorimetry",
+          29
+        ],
+        [
+          3,
+          "1.2.3 Applications of Visual Colorimetry",
+          31
+        ],
+        [
+          3,
+          "1.2.4 Disadvantages of Visual Colorimetry",
+          32
+        ],
+        [
+          2,
+          "1.3 Analogue Simulation of Visual Colorimetry",
+          32
+        ],
+        [
+          3,
+          "1.3.1 Replacing the Human Eye with an Optoelectronic Sensor",
+          32
+        ],
+        [
+          3,
+          "1.3.2 Substituting Coloured Filters to Approximate the CIE Colour-Matching Functions",
+          33
+        ],
+        [
+          3,
+          "1.3.3 Assessing the “Goodness of Fit” of a Set of Colorimeter Filters",
+          35
+        ],
+        [
+          3,
+          "1.3.4 Schematic Description of Analogue Filter Colorimeters",
+          36
+        ],
+        [
+          3,
+          "1.3.5 Disadvantages of Analogue Filter Colorimeters",
+          36
+        ],
+        [
+          2,
+          "1.4 Digital Simulation of Visual Colorimetry",
+          37
+        ],
+        [
+          3,
+          "1.4.1 Replacing the Analogue Filters with an Abridged Spectrometer",
+          37
+        ],
+        [
+          3,
+          "1.4.2 Assessing the “Goodness of Fit” of Abridged Spectrometers",
+          38
+        ],
+        [
+          3,
+          "1.4.3 Schematic Description of Digital Spectrocolorimeters",
+          38
+        ],
+        [
+          3,
+          "1.4.4 Advantages and Disadvantages of Digital Spectrocolorimeters",
+          39
+        ],
+        [
+          2,
+          "1.5 Selecting and Using Colorimeters and Spectrocolorimeters",
+          40
+        ],
+        [
+          3,
+          "1.5.1 Reading and Understanding Specifications and Technical Literature",
+          40
+        ],
+        [
+          3,
+          "1.5.2 Verifying Performance Specifications",
+          42
+        ],
+        [
+          3,
+          "1.5.3 Standards of Colour and Colour-difference",
+          42
+        ],
+        [
+          3,
+          "1.5.4 \u0007Sources of Error and Uncertainty in the Measurement of Reflectance, Transmittance and Radiance",
+          43
+        ],
+        [
+          2,
+          "1.6 Geometric Requirements for Colour Measurements",
+          43
+        ],
+        [
+          3,
+          "1.6.1 Colour Measurements from Self-Luminous Objects",
+          43
+        ],
+        [
+          3,
+          "1.6.2 Colour Measurements from Reflecting or Transmitting Objects",
+          44
+        ],
+        [
+          2,
+          "1.7 Conclusions and Expectations",
+          47
+        ],
+        [
+          3,
+          "1.7.1 Current CIE and ISO Activities in Colour and Colour-difference Measurements",
+          47
+        ],
+        [
+          3,
+          "1.7.2 Quality Management Systems and Colour Measurements",
+          47
+        ],
+        [
+          2,
+          "References",
+          48
+        ],
+        [
+          1,
+          "2 Colorimetry and Colour Difference",
+          52
+        ],
+        [
+          2,
+          "2.1 Introduction",
+          52
+        ],
+        [
+          2,
+          "2.2 Colorimetry",
+          52
+        ],
+        [
+          2,
+          "2.3 Normalization",
+          53
+        ],
+        [
+          2,
+          "2.4 Colour Matching Functions",
+          54
+        ],
+        [
+          2,
+          "2.5 Illuminants",
+          54
+        ],
+        [
+          2,
+          "2.6 Data for Observers and Illuminants",
+          55
+        ],
+        [
+          2,
+          "2.7 Range and Interval",
+          55
+        ],
+        [
+          2,
+          "2.8 Calculation of Chromaticity",
+          56
+        ],
+        [
+          2,
+          "2.9 Calculation of CIE 1976 Uniform Colour Spaces",
+          56
+        ],
+        [
+          2,
+          "2.10 Inversion of CIELAB Equations",
+          59
+        ],
+        [
+          2,
+          "2.11 Colour Difference",
+          59
+        ],
+        [
+          2,
+          "2.12 Problems with Using UCS Colour Difference",
+          60
+        ],
+        [
+          2,
+          "2.13 Uniformity of the Components of Colour Difference",
+          60
+        ],
+        [
+          3,
+          "2.13.1 Chroma",
+          60
+        ],
+        [
+          3,
+          "2.13.2 Hue",
+          61
+        ],
+        [
+          3,
+          "2.13.3 Lightness",
+          61
+        ],
+        [
+          2,
+          "2.14 Viewing Conditions",
+          61
+        ],
+        [
+          2,
+          "2.15 Surface Characteristics",
+          62
+        ],
+        [
+          2,
+          "2.16 Acceptability of Colour Differences",
+          62
+        ],
+        [
+          2,
+          "2.17 Overcoming the Limitations of UCS Colour Difference with Advanced Colour Difference Metrics",
+          62
+        ],
+        [
+          2,
+          "2.18 CIE94",
+          62
+        ],
+        [
+          2,
+          "2.19 CIEDE2000",
+          64
+        ],
+        [
+          2,
+          "2.20 Progress on Colour Difference Metrics since CIEDE2000",
+          66
+        ],
+        [
+          2,
+          "2.21 3D Colour Difference",
+          66
+        ],
+        [
+          2,
+          "2.22 Colour Difference in High Luminance Conditions",
+          66
+        ],
+        [
+          2,
+          "2.23 Colour Difference Formulas Based on Colour Appearance Models",
+          66
+        ],
+        [
+          2,
+          "2.24 Limitations in the Use of Advanced Colour Difference Metrics in Colour Imaging",
+          67
+        ],
+        [
+          2,
+          "2.25 Basis Conditions",
+          67
+        ],
+        [
+          3,
+          "2.25.1 Illuminant",
+          67
+        ],
+        [
+          3,
+          "2.25.2 Illuminance",
+          67
+        ],
+        [
+          3,
+          "2.25.3 Sample Separation",
+          67
+        ],
+        [
+          3,
+          "2.25.4 Sample Size and Image Structure",
+          68
+        ],
+        [
+          2,
+          "2.26 Colour Difference in Complex Images",
+          68
+        ],
+        [
+          2,
+          "2.27 Acceptability and Perceptibility",
+          69
+        ],
+        [
+          2,
+          "2.28 Large vs Small Differences",
+          69
+        ],
+        [
+          2,
+          "2.29 Deriving Colour Difference Tolerances",
+          69
+        ],
+        [
+          2,
+          "2.30 Sample Preparation",
+          70
+        ],
+        [
+          2,
+          "2.31 Psychophysical Experiments",
+          70
+        ],
+        [
+          3,
+          "2.31.1 Observer Variability and Experience",
+          70
+        ],
+        [
+          2,
+          "2.32 Colour Difference Judgements by Observers with a Colour Vision Deficiency",
+          71
+        ],
+        [
+          2,
+          "2.33 Calculating Colour Tolerances from Experimental Data",
+          71
+        ],
+        [
+          2,
+          "2.34 Calculation of Discrimination Ellipsoids and Tolerance Distributions",
+          71
+        ],
+        [
+          3,
+          "2.34.1 Calculation of Parametric Constants in Weightings Functions",
+          72
+        ],
+        [
+          2,
+          "2.35 Calculation of Acceptability Thresholds",
+          73
+        ],
+        [
+          2,
+          "2.36 Evaluating Colour Difference Metrics",
+          73
+        ],
+        [
+          2,
+          "2.37 Conclusion",
+          73
+        ],
+        [
+          2,
+          "References",
+          74
+        ],
+        [
+          1,
+          "3 Fundamentals of Device Characterization",
+          78
+        ],
+        [
+          2,
+          "3.1 Introduction",
+          78
+        ],
+        [
+          3,
+          "3.1.1 Objectives",
+          79
+        ],
+        [
+          2,
+          "3.2 Characterization Methods",
+          79
+        ],
+        [
+          3,
+          "3.2.1 Test Charts",
+          80
+        ],
+        [
+          3,
+          "3.2.2 Calibration",
+          80
+        ],
+        [
+          4,
+          "3.2.2.1 Matching Aim Values",
+          81
+        ],
+        [
+          4,
+          "3.2.2.2 Optimizing Performance",
+          81
+        ],
+        [
+          4,
+          "3.2.2.3 Perceptual Uniformity of Device Values",
+          81
+        ],
+        [
+          4,
+          "3.2.2.4 Optimization for Machine Vision",
+          81
+        ],
+        [
+          3,
+          "3.2.3 Linearization",
+          81
+        ],
+        [
+          2,
+          "3.3 Numerical Models",
+          82
+        ],
+        [
+          3,
+          "3.3.1 Regression Methods Used in Characterization",
+          83
+        ],
+        [
+          4,
+          "3.3.1.1 First Order Model",
+          83
+        ],
+        [
+          4,
+          "3.3.1.2 Higher Order Models",
+          84
+        ],
+        [
+          4,
+          "3.3.1.3 Choosing the Polynomial Order",
+          85
+        ],
+        [
+          4,
+          "3.3.1.4 Spline Methods",
+          85
+        ],
+        [
+          4,
+          "3.3.1.5 Weighted Regression",
+          85
+        ],
+        [
+          3,
+          "3.3.2 Domain",
+          86
+        ],
+        [
+          3,
+          "3.3.3 Optimization",
+          87
+        ],
+        [
+          3,
+          "3.3.4 Noisy and Discontinuous Data",
+          87
+        ],
+        [
+          3,
+          "3.3.5 Machine Learning",
+          87
+        ],
+        [
+          2,
+          "3.4 Look-Up Tables with Interpolation",
+          88
+        ],
+        [
+          3,
+          "3.4.1 Packing",
+          88
+        ],
+        [
+          3,
+          "3.4.2 Extraction",
+          89
+        ],
+        [
+          3,
+          "3.4.3 Interpolation",
+          89
+        ],
+        [
+          3,
+          "3.4.4 LUT Implementation",
+          91
+        ],
+        [
+          4,
+          "3.4.4.1 LUT implementation in ICC profiles",
+          92
+        ],
+        [
+          2,
+          "3.5 Evaluating Accuracy – Training and Test Data",
+          92
+        ],
+        [
+          2,
+          "References",
+          93
+        ],
+        [
+          1,
+          "4 Characterization of Input Devices",
+          96
+        ],
+        [
+          2,
+          "4.1 Input Channels",
+          96
+        ],
+        [
+          2,
+          "4.2 Characterization Goals",
+          97
+        ],
+        [
+          2,
+          "4.3 Transform Encoding",
+          98
+        ],
+        [
+          2,
+          "4.4 Dynamic Range",
+          98
+        ],
+        [
+          2,
+          "4.5 Input Characterization Methods",
+          99
+        ],
+        [
+          3,
+          "4.5.1 Scanners",
+          99
+        ],
+        [
+          2,
+          "4.6 Targets",
+          99
+        ],
+        [
+          2,
+          "4.7 Modelling",
+          99
+        ],
+        [
+          3,
+          "4.7.1 Digital Cameras",
+          100
+        ],
+        [
+          2,
+          "4.8 Target-Based Characterization",
+          100
+        ],
+        [
+          2,
+          "4.9 Targets",
+          100
+        ],
+        [
+          2,
+          "4.10 Modelling",
+          101
+        ],
+        [
+          3,
+          "4.10.1 Spectral Sensitivity-based Methods",
+          102
+        ],
+        [
+          3,
+          "4.10.2 Machine Learning Methods",
+          103
+        ],
+        [
+          3,
+          "4.10.3 Spectral Characterization of Input Devices",
+          103
+        ],
+        [
+          2,
+          "References",
+          103
+        ],
+        [
+          1,
+          "5 Color Processing for Digital Cameras",
+          106
+        ],
+        [
+          2,
+          "5.1 Introduction",
+          106
+        ],
+        [
+          2,
+          "5.2 Basics of a Camera Sensor",
+          107
+        ],
+        [
+          2,
+          "5.3 The Camera Pipeline",
+          108
+        ],
+        [
+          3,
+          "5.3.1 Defective Pixel Correction",
+          108
+        ],
+        [
+          3,
+          "5.3.2 Black-Level Correction and Normalization",
+          109
+        ],
+        [
+          3,
+          "5.3.3 Lens Shading Correction",
+          109
+        ],
+        [
+          3,
+          "5.3.4 Autofocus, Autoexposure, Auto White Balance",
+          110
+        ],
+        [
+          4,
+          "5.3.4.1 Autoexposure",
+          110
+        ],
+        [
+          4,
+          "5.3.4.2 Autofocus",
+          111
+        ],
+        [
+          3,
+          "5.3.5 White Balance and Auto White Balance",
+          112
+        ],
+        [
+          4,
+          "5.3.5.1 White Balance",
+          112
+        ],
+        [
+          4,
+          "5.3.5.2 Manual and Auto White Balance",
+          112
+        ],
+        [
+          3,
+          "5.3.6 Demosaicing",
+          113
+        ],
+        [
+          3,
+          "5.3.7 Noise Reduction",
+          114
+        ],
+        [
+          3,
+          "5.3.8 Color Space Transform to Device-Independent Color Space",
+          114
+        ],
+        [
+          3,
+          "5.3.9 Photo-Finishing/Rendering",
+          115
+        ],
+        [
+          4,
+          "5.3.9.1 General and Selective Color Manipulation",
+          115
+        ],
+        [
+          4,
+          "5.3.9.2 Global and Local Tone-Mapping",
+          115
+        ],
+        [
+          4,
+          "5.3.9.3 Sharpening/Noise and Grain",
+          116
+        ],
+        [
+          4,
+          "5.3.9.4 Image Resizing/Super-Resolution",
+          116
+        ],
+        [
+          3,
+          "5.3.10 Color Mapping to Final Image Encoding Color Space",
+          117
+        ],
+        [
+          3,
+          "5.3.11 Compression and Save to Storage",
+          117
+        ],
+        [
+          3,
+          "5.3.12 RAW Image Capture",
+          117
+        ],
+        [
+          2,
+          "5.4 Multi-Frame Processing",
+          118
+        ],
+        [
+          3,
+          "5.4.1 HDR Imaging",
+          118
+        ],
+        [
+          3,
+          "5.4.2 Low-Light/Night-Mode Imaging",
+          119
+        ],
+        [
+          2,
+          "5.5 Towards the Neural ISP",
+          119
+        ],
+        [
+          2,
+          "5.6 Concluding Remarks",
+          120
+        ],
+        [
+          2,
+          "Acknowledgment",
+          120
+        ],
+        [
+          2,
+          "References",
+          120
+        ],
+        [
+          1,
+          "6 Display Calibration",
+          124
+        ],
+        [
+          2,
+          "6.1 Introduction",
+          124
+        ],
+        [
+          2,
+          "6.2 From CRT to Contemporary Display Technologies",
+          124
+        ],
+        [
+          2,
+          "6.3 The Display Never Sleeps… Merging Television and Computer Display Standards",
+          127
+        ],
+        [
+          2,
+          "6.4 The Evolution of Display Calibration Capabilities",
+          128
+        ],
+        [
+          3,
+          "6.4.1 Gamut Mapping",
+          129
+        ],
+        [
+          3,
+          "6.4.2 Manual Calibration",
+          130
+        ],
+        [
+          3,
+          "6.4.3 One Dimensional Lookup",
+          133
+        ],
+        [
+          3,
+          "6.3.4 The Matrix Shaper Architecture",
+          133
+        ],
+        [
+          3,
+          "6.4.5 Single 3-Dimensional LUT",
+          134
+        ],
+        [
+          4,
+          "6.4.5.1 3DLUT Considerations",
+          136
+        ],
+        [
+          3,
+          "6.4.6 Hybrid Matrix Shaper Utilizing 3DLUT Followed by a 1DLUT",
+          136
+        ],
+        [
+          2,
+          "6.5 Measurement Set Requirements",
+          136
+        ],
+        [
+          3,
+          "6.5.1 Pattern Generation",
+          137
+        ],
+        [
+          3,
+          "6.5.2 How Many Measurements are Needed?",
+          137
+        ],
+        [
+          3,
+          "6.5.3 Methods to Mitigate Drift in Display Measurements",
+          137
+        ],
+        [
+          2,
+          "6.6 Calibration Validation Methodologies",
+          138
+        ],
+        [
+          3,
+          "6.6.1 Numerical Scales",
+          138
+        ],
+        [
+          3,
+          "6.6.2 Visual Evaluation Targets and Methods",
+          139
+        ],
+        [
+          2,
+          "6.7 Low Blue Light Developments",
+          139
+        ],
+        [
+          2,
+          "6.8 Conclusions",
+          142
+        ],
+        [
+          2,
+          "References",
+          142
+        ],
+        [
+          1,
+          "7 Characterizing Hard Copy Printers",
+          144
+        ],
+        [
+          2,
+          "7.1 Introduction",
+          144
+        ],
+        [
+          2,
+          "7.2 Properties of Hard Copy Printers",
+          145
+        ],
+        [
+          2,
+          "7.3 Substrates and Inks",
+          145
+        ],
+        [
+          3,
+          "7.3.1 Fluorescent Whitening Agents",
+          145
+        ],
+        [
+          3,
+          "7.3.2 Inks",
+          145
+        ],
+        [
+          2,
+          "7.4 Colour Gamut",
+          145
+        ],
+        [
+          2,
+          "7.5 Halftoning",
+          146
+        ],
+        [
+          2,
+          "7.6 Mechanical Printing Systems",
+          147
+        ],
+        [
+          2,
+          "7.7 Printing Conditions",
+          147
+        ],
+        [
+          2,
+          "7.8 Digital Systems",
+          147
+        ],
+        [
+          2,
+          "7.9 RGB Printers",
+          147
+        ],
+        [
+          2,
+          "7.10 Test Charts",
+          148
+        ],
+        [
+          2,
+          "7.11 Printer Models",
+          149
+        ],
+        [
+          2,
+          "7.12 Block Dye Model",
+          150
+        ],
+        [
+          2,
+          "7.13 Physical Models",
+          151
+        ],
+        [
+          3,
+          "7.13.1 Density",
+          151
+        ],
+        [
+          3,
+          "7.13.2 Dot Area Models",
+          151
+        ],
+        [
+          4,
+          "7.13.2.1 Murray-Davies",
+          152
+        ],
+        [
+          4,
+          "7.13.2.2 Yule-Nielsen",
+          152
+        ],
+        [
+          4,
+          "7.13.2.3 Clapper-Yule",
+          153
+        ],
+        [
+          4,
+          "7.13.2.4 Additivity Failure",
+          153
+        ],
+        [
+          3,
+          "7.13.3 Neugebauer",
+          153
+        ],
+        [
+          4,
+          "7.13.3.1 Modified and Extended Neugebauer Equations",
+          155
+        ],
+        [
+          4,
+          "7.13.3.2 N-Modified Neugebauer Equations",
+          155
+        ],
+        [
+          3,
+          "7.13.4 Vector-Corrected Neugebauer Equations",
+          155
+        ],
+        [
+          4,
+          "7.13.4.1 Cellular Extensions",
+          155
+        ],
+        [
+          4,
+          "7.13.4.2 Spectral Extensions",
+          156
+        ],
+        [
+          4,
+          "7.13.4.3 Evaluation of Different Forms of the Neugebauer Equations",
+          156
+        ],
+        [
+          3,
+          "7.13.5 Colorant Models",
+          156
+        ],
+        [
+          4,
+          "7.13.5.1 Masking Equations",
+          156
+        ],
+        [
+          3,
+          "7.13.6 Beer-Bouguer",
+          157
+        ],
+        [
+          3,
+          "7.13.7 Kubelka-Munk",
+          157
+        ],
+        [
+          3,
+          "7.13.8 Extensions",
+          159
+        ],
+        [
+          2,
+          "7.14 Numerical Models and Look-up Tables",
+          159
+        ],
+        [
+          3,
+          "7.14.1 Black Printer",
+          159
+        ],
+        [
+          4,
+          "7.14.1.1 Spectral Grey-Component Replacement",
+          161
+        ],
+        [
+          4,
+          "7.14.1.2 Black Generation Algorithm",
+          161
+        ],
+        [
+          2,
+          "7.15 Inverting the Model",
+          162
+        ],
+        [
+          2,
+          "7.16 Multi-Colour and Spot Colour Characterization",
+          162
+        ],
+        [
+          2,
+          "7.17 Spectral Characterization",
+          162
+        ],
+        [
+          2,
+          "7.18 White Ink",
+          163
+        ],
+        [
+          2,
+          "7.19 Reducing the Frequency of Characterization",
+          163
+        ],
+        [
+          2,
+          "7.20 Conclusions",
+          163
+        ],
+        [
+          2,
+          "References",
+          163
+        ],
+        [
+          1,
+          "8 Colour Encodings",
+          168
+        ],
+        [
+          2,
+          "8.1 Introduction",
+          168
+        ],
+        [
+          2,
+          "8.2 Colour Encoding Components",
+          168
+        ],
+        [
+          2,
+          "8.3 Colour Spaces",
+          169
+        ],
+        [
+          2,
+          "8.4 Device and Colour Space Encodings",
+          169
+        ],
+        [
+          2,
+          "8.5 Colorimetric Interpretation",
+          169
+        ],
+        [
+          2,
+          "8.6 Image State",
+          170
+        ],
+        [
+          2,
+          "8.7 Standard 3-Component Colour Space Encodings",
+          171
+        ],
+        [
+          2,
+          "8.8 Colour Gamut",
+          171
+        ],
+        [
+          3,
+          "8.8.1 Extended Colour Gamut",
+          172
+        ],
+        [
+          2,
+          "8.9 Precision and Range",
+          172
+        ],
+        [
+          3,
+          "8.9.1 High Dynamic Range",
+          173
+        ],
+        [
+          3,
+          "8.9.2 Negative Values",
+          174
+        ],
+        [
+          2,
+          "8.10 Luminance/Chrominance Encodings",
+          174
+        ],
+        [
+          2,
+          "8.11 Conversion to Colorimetry",
+          175
+        ],
+        [
+          2,
+          "8.12 Implementation Issues",
+          175
+        ],
+        [
+          2,
+          "8.13 File Formats",
+          177
+        ],
+        [
+          2,
+          "References",
+          177
+        ],
+        [
+          1,
+          "9 Colour Gamut Communication",
+          180
+        ],
+        [
+          2,
+          "9.1 Introduction",
+          180
+        ],
+        [
+          3,
+          "9.1.1 Device Colour Gamut and the Usable Colour Gamut",
+          180
+        ],
+        [
+          3,
+          "9.1.2 Colour Space",
+          181
+        ],
+        [
+          3,
+          "9.1.3 Factors Affecting Colour Gamut",
+          182
+        ],
+        [
+          3,
+          "9.1.4 Gamut of an Image",
+          182
+        ],
+        [
+          2,
+          "9.2 How to Describe Colour Gamuts",
+          182
+        ],
+        [
+          3,
+          "9.2.1 Convex Hull",
+          183
+        ],
+        [
+          3,
+          "9.2.2 Alpha-Shapes",
+          183
+        ],
+        [
+          3,
+          "9.2.3 The Segment Maxima Method",
+          184
+        ],
+        [
+          3,
+          "9.2.4 Gamut Based on a Printer Model",
+          184
+        ],
+        [
+          3,
+          "9.2.5 Gamulyt Method",
+          185
+        ],
+        [
+          3,
+          "9.2.6 The Mountain Range Method",
+          186
+        ],
+        [
+          3,
+          "9.2.7 Defining Gamut Boundaries with a Test Target",
+          186
+        ],
+        [
+          2,
+          "9.3 How to Obtain a Colour Gamut of a Printing System",
+          187
+        ],
+        [
+          2,
+          "9.4 How to Obtain a Colour Gamut of a Display",
+          188
+        ],
+        [
+          2,
+          "9.5 How to Calculate Gamut Volume",
+          188
+        ],
+        [
+          2,
+          "9.6 How to Analyse Colour Gamuts",
+          189
+        ],
+        [
+          3,
+          "9.6.1 Metrics for Comparing Colour Gamuts",
+          190
+        ],
+        [
+          3,
+          "9.6.2 Gamut Analysis of an N-Colour Printing Process",
+          191
+        ],
+        [
+          2,
+          "9.7 How to Visualize Colour Gamuts",
+          192
+        ],
+        [
+          3,
+          "9.7.1 Venn Diagram",
+          193
+        ],
+        [
+          3,
+          "9.7.2 Gamut Rings",
+          194
+        ],
+        [
+          2,
+          "9.8 How to Communicate Colour Gamuts",
+          196
+        ],
+        [
+          3,
+          "9.8.1 How to Encode a Colour Gamut Description",
+          197
+        ],
+        [
+          4,
+          "9.8.1.1 Encoding Based on CxF",
+          198
+        ],
+        [
+          4,
+          "9.8.1.2 Encoding Based on an ICC Profile",
+          198
+        ],
+        [
+          4,
+          "9.8.1.3 Encoding Based on Tab-Delimited Text Files",
+          198
+        ],
+        [
+          2,
+          "9.9 Summary",
+          198
+        ],
+        [
+          2,
+          "References",
+          199
+        ],
+        [
+          1,
+          "10 The ICC Colour Management Architecture",
+          202
+        ],
+        [
+          2,
+          "10.1 Origins of the ICC",
+          202
+        ],
+        [
+          2,
+          "10.2 Fundamentals of the ICC Architecture: The PCS, the ICC Profile, Transforms and the CMM",
+          203
+        ],
+        [
+          3,
+          "10.2.1 Range and Precision",
+          204
+        ],
+        [
+          3,
+          "10.2.2 Tags and Types",
+          205
+        ],
+        [
+          3,
+          "10.2.3 Media-Relative Colorimetry",
+          205
+        ],
+        [
+          3,
+          "10.2.4 Image State",
+          206
+        ],
+        [
+          3,
+          "10.2.5 Rendering Intents",
+          206
+        ],
+        [
+          3,
+          "10.2.6 Profile Classes",
+          208
+        ],
+        [
+          3,
+          "10.2.7 Features of ICC v4",
+          208
+        ],
+        [
+          3,
+          "10.2.8 Making Profiles",
+          209
+        ],
+        [
+          3,
+          "10.2.9 Embedding Profiles",
+          209
+        ],
+        [
+          3,
+          "10.2.10 CMMs",
+          209
+        ],
+        [
+          2,
+          "10.3 Other CMM Operations",
+          210
+        ],
+        [
+          3,
+          "10.3.1 Function Inversion",
+          210
+        ],
+        [
+          3,
+          "10.3.2 Black Point Compensation",
+          210
+        ],
+        [
+          3,
+          "10.3.3 Channel Preservation",
+          211
+        ],
+        [
+          3,
+          "10.3.4 Gamut Mapping",
+          211
+        ],
+        [
+          3,
+          "10.3.5 Copyright and Security",
+          212
+        ],
+        [
+          2,
+          "10.4 Workflows",
+          212
+        ],
+        [
+          2,
+          "10.5 Current Status of ICC.1",
+          213
+        ],
+        [
+          3,
+          "10.5.1 Limitations of ICC.1",
+          213
+        ],
+        [
+          2,
+          "10.6 ICC.2",
+          214
+        ],
+        [
+          3,
+          "10.6.1 PCS",
+          214
+        ],
+        [
+          3,
+          "10.6.2 Data Types",
+          214
+        ],
+        [
+          3,
+          "10.6.3 Multiprocess Elements",
+          214
+        ],
+        [
+          3,
+          "10.6.4 Calculator",
+          214
+        ],
+        [
+          3,
+          "10.6.5 Workflows",
+          215
+        ],
+        [
+          2,
+          "References",
+          215
+        ],
+        [
+          1,
+          "11 iccMAX Color Management – Philosophy, Overview, and Basics",
+          218
+        ],
+        [
+          2,
+          "11.1 Background and Philosophy Leading to iccMAX",
+          218
+        ],
+        [
+          2,
+          "11.2 Overview",
+          219
+        ],
+        [
+          3,
+          "11.2.1 Making Connections",
+          219
+        ],
+        [
+          3,
+          "11.2.2 Transform Connection and Application",
+          224
+        ],
+        [
+          3,
+          "11.2.3 Encoding Transforms",
+          225
+        ],
+        [
+          3,
+          "11.2.4 MultiProcessing Element Transforms",
+          227
+        ],
+        [
+          4,
+          "11.2.4.1 Matrix Elements",
+          227
+        ],
+        [
+          4,
+          "11.2.4.2 Curve Elements",
+          228
+        ],
+        [
+          4,
+          "11.2.4.3 Tint Array Elements",
+          228
+        ],
+        [
+          4,
+          "11.2.4.4 CLUT Elements",
+          228
+        ],
+        [
+          4,
+          "11.2.4.5 Tone Mapping Element",
+          228
+        ],
+        [
+          4,
+          "11.2.4.6 Calculator Element",
+          229
+        ],
+        [
+          4,
+          "11.2.4.7 Emissive Elements",
+          229
+        ],
+        [
+          4,
+          "11.2.4.8 Emission Observer Element",
+          230
+        ],
+        [
+          4,
+          "11.2.4.9 Reflectance CLUT Element",
+          230
+        ],
+        [
+          4,
+          "11.2.4.10 Reflectance Observer Element",
+          230
+        ],
+        [
+          4,
+          "11.2.4.11 CAM Elements",
+          230
+        ],
+        [
+          3,
+          "11.2.5 Profile Structure Generalization",
+          231
+        ],
+        [
+          2,
+          "11.3 Creating Transforms",
+          232
+        ],
+        [
+          2,
+          "11.4 Specification Subsets via ICSs",
+          234
+        ],
+        [
+          2,
+          "11.5 Domain Specific Examples",
+          235
+        ],
+        [
+          3,
+          "11.5.1 Photography",
+          235
+        ],
+        [
+          3,
+          "11.5.2 Packaging",
+          235
+        ],
+        [
+          3,
+          "11.5.3 Medical Imaging",
+          236
+        ],
+        [
+          3,
+          "11.5.4 Fine Art",
+          236
+        ],
+        [
+          3,
+          "11.5.5 Critical Color on Wide Gamut Displays",
+          236
+        ],
+        [
+          2,
+          "11.6 Getting Started with iccMAX (Where Color Engineering Comes to Play)",
+          237
+        ],
+        [
+          2,
+          "11.7 Conclusion",
+          238
+        ],
+        [
+          2,
+          "References",
+          238
+        ],
+        [
+          1,
+          "12 Sensor Adjustment",
+          240
+        ],
+        [
+          2,
+          "12.1 Introduction",
+          240
+        ],
+        [
+          2,
+          "12.2 Aims of Sensor Adjustment",
+          240
+        ],
+        [
+          2,
+          "12.3 Luminance Adjustment",
+          241
+        ],
+        [
+          2,
+          "12.4 Chromatic Adaptation",
+          243
+        ],
+        [
+          3,
+          "12.4.1 Chromatic Adaptation in Colour Management",
+          244
+        ],
+        [
+          3,
+          "12.4.2 Chromatic Adaptation in ICC.2",
+          245
+        ],
+        [
+          2,
+          "12.5 Material-Equivalent Adjustment",
+          245
+        ],
+        [
+          2,
+          "12.6 Local Adaptation",
+          246
+        ],
+        [
+          2,
+          "12.7 Incomplete Adaptation",
+          247
+        ],
+        [
+          2,
+          "References",
+          248
+        ],
+        [
+          1,
+          "13 Evaluating Colour Transforms",
+          252
+        ],
+        [
+          2,
+          "13.1 Introduction",
+          252
+        ],
+        [
+          2,
+          "13.2 Accuracy",
+          252
+        ],
+        [
+          3,
+          "13.2.1 Metamerism",
+          253
+        ],
+        [
+          3,
+          "13.2.2 Smoothness",
+          254
+        ],
+        [
+          3,
+          "13.2.3 Spatial Artefacts",
+          254
+        ],
+        [
+          3,
+          "13.2.4 Spectral Accuracy",
+          254
+        ],
+        [
+          3,
+          "13.2.5 Acceptability",
+          255
+        ],
+        [
+          3,
+          "13.2.6 Sources of Error in Colour Transforms",
+          255
+        ],
+        [
+          3,
+          "13.2.7 Procedures for Colorimetric Transform Evaluation",
+          256
+        ],
+        [
+          3,
+          "13.2.8 Media-Relative Colour Transforms",
+          257
+        ],
+        [
+          2,
+          "13.3 Cost",
+          257
+        ],
+        [
+          2,
+          "13.4 Subjective Preference",
+          258
+        ],
+        [
+          3,
+          "13.4.1 Test Data",
+          259
+        ],
+        [
+          3,
+          "13.4.2 Reporting Evaluation Results",
+          259
+        ],
+        [
+          4,
+          "13.4.2.1 Visualisation of Results",
+          260
+        ],
+        [
+          2,
+          "References",
+          261
+        ],
+        [
+          1,
+          "14 Appearance Beyond Colour: Gloss and Translucency Perception",
+          264
+        ],
+        [
+          2,
+          "14.1 Introduction",
+          264
+        ],
+        [
+          2,
+          "14.2 Gloss Perception",
+          265
+        ],
+        [
+          3,
+          "14.2.1 Perceptual Dimensions of Gloss",
+          266
+        ],
+        [
+          3,
+          "14.2.2 Image Cues and Partial Models",
+          266
+        ],
+        [
+          3,
+          "14.2.3 Factors Impacting Perceived Gloss",
+          267
+        ],
+        [
+          4,
+          "14.2.3.1 Shape",
+          267
+        ],
+        [
+          4,
+          "14.2.3.2 Illumination",
+          268
+        ],
+        [
+          4,
+          "14.2.3.3 Motion",
+          268
+        ],
+        [
+          4,
+          "14.2.3.4 Observer",
+          268
+        ],
+        [
+          3,
+          "14.2.4 Summary and Open Questions",
+          269
+        ],
+        [
+          2,
+          "14.3 Translucency Perception",
+          269
+        ],
+        [
+          3,
+          "14.3.1 Transparency and Translucency",
+          270
+        ],
+        [
+          3,
+          "14.3.2 Image Cues and Partial Models",
+          271
+        ],
+        [
+          3,
+          "14.3.3 Factors Impacting Perceived Translucency",
+          272
+        ],
+        [
+          3,
+          "14.3.4 Summary and Open Questions",
+          273
+        ],
+        [
+          2,
+          "14.4 Interaction among Appearance Attributes",
+          273
+        ],
+        [
+          3,
+          "14.4.1 Impact of Colour on Gloss and Translucency",
+          273
+        ],
+        [
+          3,
+          "14.4.2 Interaction between Gloss and Translucency",
+          274
+        ],
+        [
+          2,
+          "14.5 Impact on Colour Technologies",
+          275
+        ],
+        [
+          2,
+          "14.6 Conclusion",
+          277
+        ],
+        [
+          2,
+          "References",
+          278
+        ],
+        [
+          1,
+          "15 Colour Management of Material Appearance",
+          284
+        ],
+        [
+          2,
+          "15.1 Introduction",
+          284
+        ],
+        [
+          2,
+          "15.2 Material Appearance Modelling",
+          285
+        ],
+        [
+          3,
+          "15.2.1 Blinn‒Phong Model",
+          287
+        ],
+        [
+          3,
+          "15.2.2 Ward Model",
+          287
+        ],
+        [
+          3,
+          "15.2.3 Cook‒Torrance Model",
+          287
+        ],
+        [
+          2,
+          "15.3 Appearance Support in Colour Management",
+          288
+        ],
+        [
+          2,
+          "15.4 A Colour Management Workflow for Material Appearance",
+          289
+        ],
+        [
+          2,
+          "15.5 Conclusion",
+          294
+        ],
+        [
+          2,
+          "References",
+          295
+        ],
+        [
+          1,
+          "16 Color on the Web",
+          296
+        ],
+        [
+          2,
+          "16.1 Early History",
+          296
+        ],
+        [
+          2,
+          "16.2 Color on the Legacy Web",
+          297
+        ],
+        [
+          3,
+          "16.2.1 RGB Representations",
+          297
+        ],
+        [
+          3,
+          "16.2.2 Color Names",
+          298
+        ],
+        [
+          3,
+          "16.2.3 Color with Alpha",
+          299
+        ],
+        [
+          3,
+          "16.2.4 Hue-Wheel Systems",
+          299
+        ],
+        [
+          3,
+          "16.2.5 Gradients",
+          301
+        ],
+        [
+          2,
+          "16.3 Wide Color Gamut (WCG) Comes to the Web",
+          302
+        ],
+        [
+          3,
+          "16.3.1 The Importance of Display P3",
+          302
+        ],
+        [
+          3,
+          "16.3.2 WCG Raster Images, with ICC Profiles",
+          304
+        ],
+        [
+          3,
+          "16.3.3 Development of WCG Upgrades to Web Specifications",
+          304
+        ],
+        [
+          3,
+          "16.3.4 Limitations of CIELAB: Introducing OK Lab",
+          305
+        ],
+        [
+          2,
+          "16.4 Color on the Wide Gamut Web",
+          306
+        ],
+        [
+          3,
+          "16.4.1 Predefined RGB Color Spaces",
+          306
+        ],
+        [
+          3,
+          "16.4.2 Device-independent Color Spaces",
+          308
+        ],
+        [
+          3,
+          "16.4.3 WCG Gradients",
+          309
+        ],
+        [
+          3,
+          "16.4.4 Manipulating and Mixing Colors",
+          310
+        ],
+        [
+          2,
+          "16.5 HDR Comes to the Web",
+          311
+        ],
+        [
+          3,
+          "16.5.1 Introducing HDR",
+          311
+        ],
+        [
+          3,
+          "16.5.2 HDR in Canvas",
+          312
+        ],
+        [
+          3,
+          "16.5.3 HDR in WebGL and WebGPU",
+          312
+        ],
+        [
+          3,
+          "16.5.4 HDR in CSS",
+          312
+        ],
+        [
+          2,
+          "References",
+          312
+        ],
+        [
+          1,
+          "17 High Dynamic Range Imaging",
+          318
+        ],
+        [
+          2,
+          "17.1 Introduction and Background",
+          318
+        ],
+        [
+          3,
+          "17.1.1 The Human Visual System",
+          318
+        ],
+        [
+          3,
+          "17.1.2 Color Imaging",
+          319
+        ],
+        [
+          2,
+          "17.2 High Dynamic Range Imaging",
+          321
+        ],
+        [
+          3,
+          "17.2.1 HDR Acquisition",
+          321
+        ],
+        [
+          3,
+          "17.2.1.1 Single Exposure HDR Acquisition",
+          321
+        ],
+        [
+          3,
+          "17.2.1.3 HDR Image Synthesis",
+          324
+        ],
+        [
+          2,
+          "17.2.2 HDR Image Storage",
+          324
+        ],
+        [
+          2,
+          "17.2.2.1 HDR Image Formats and Encoding",
+          325
+        ],
+        [
+          2,
+          "17.2.3 HDR Rendering",
+          327
+        ],
+        [
+          2,
+          "17.2.3.1 Tone Mapping",
+          328
+        ],
+        [
+          3,
+          "17.2.3.2 Reverse Tone Mapping",
+          328
+        ],
+        [
+          2,
+          "17.3 Conclusion",
+          333
+        ],
+        [
+          2,
+          "References",
+          333
+        ],
+        [
+          1,
+          "18 HDR and Wide Color Gamut Display Technologies and Considerations",
+          336
+        ],
+        [
+          2,
+          "18.1 Introduction",
+          336
+        ],
+        [
+          2,
+          "18.2 Early HDR Display Systems",
+          337
+        ],
+        [
+          2,
+          "18.3 Transmissive Displays",
+          338
+        ],
+        [
+          3,
+          "18.3.1 Liquid Crystal Display Technology",
+          338
+        ],
+        [
+          3,
+          "18.3.2 Global Modulation",
+          339
+        ],
+        [
+          3,
+          "18.3.3 Dual Modulation",
+          339
+        ],
+        [
+          3,
+          "18.3.4 Dual LCD Displays",
+          341
+        ],
+        [
+          2,
+          "18.4 Emissive Displays",
+          342
+        ],
+        [
+          3,
+          "18.4.1 Organic Light Emitting Diodes",
+          342
+        ],
+        [
+          3,
+          "18.4.2 Direct LED Displays",
+          343
+        ],
+        [
+          2,
+          "18.5 Projection Systems",
+          344
+        ],
+        [
+          3,
+          "18.5.1 Projection-LCD Dual Modulation",
+          344
+        ],
+        [
+          3,
+          "18.5.2 Screen Projection",
+          345
+        ],
+        [
+          2,
+          "18.6 Reflective Displays",
+          345
+        ],
+        [
+          2,
+          "18.7 Achieving Wide Color Gamuts",
+          346
+        ],
+        [
+          3,
+          "18.7.1 Designing Narrow Primaries",
+          348
+        ],
+        [
+          3,
+          "18.7.2 Multi Spectral or Multi-Primary Displays",
+          350
+        ],
+        [
+          3,
+          "18.7.3 Metameric Error",
+          350
+        ],
+        [
+          2,
+          "18.8 Spatial Display Properties",
+          351
+        ],
+        [
+          2,
+          "18.9 Temporal Display Properties",
+          352
+        ],
+        [
+          2,
+          "18.10 Signaling",
+          353
+        ],
+        [
+          3,
+          "18.10.1 Signal, Display and Content Properties",
+          353
+        ],
+        [
+          3,
+          "18.10.2 Signal Reference vs. Display Preference Modes",
+          354
+        ],
+        [
+          3,
+          "18.10.3 Professional vs. Consumer Displays",
+          354
+        ],
+        [
+          2,
+          "18.11 Characterization and Calibration",
+          355
+        ],
+        [
+          2,
+          "18.12 Ambient Effects",
+          355
+        ],
+        [
+          2,
+          "18.13 Conclusion",
+          357
+        ],
+        [
+          2,
+          "References",
+          357
+        ],
+        [
+          1,
+          "19 Colour in AR and VR",
+          360
+        ],
+        [
+          2,
+          "19.1 Introduction",
+          360
+        ],
+        [
+          2,
+          "19.2 Colour Synthesis in AR and VR Displays",
+          362
+        ],
+        [
+          3,
+          "19.2.1 GOG Display Model",
+          362
+        ],
+        [
+          3,
+          "19.2.2 Idealized Display Models",
+          363
+        ],
+        [
+          3,
+          "19.2.3 Spatial and Temporal Independence",
+          363
+        ],
+        [
+          3,
+          "19.2.4 HMD Optics",
+          364
+        ],
+        [
+          3,
+          "19.2.5 Measuring AR and VR Displays",
+          364
+        ],
+        [
+          3,
+          "19.2.6 Example: Measuring and Characterizing an AR Display",
+          365
+        ],
+        [
+          2,
+          "19.3 Colour Appearance in AR and VR",
+          367
+        ],
+        [
+          3,
+          "19.3.1 Limitations of CAMs for AR and VR",
+          367
+        ],
+        [
+          3,
+          "19.3.2 Chromatic Adaptation",
+          368
+        ],
+        [
+          4,
+          "19.3.2.1 Chromatic Adaptation in VR",
+          368
+        ],
+        [
+          4,
+          "19.3.2.2 Chromatic Adaptation in AR",
+          369
+        ],
+        [
+          3,
+          "19.3.3 Scission and Transparency in AR",
+          369
+        ],
+        [
+          4,
+          "19.3.3.1 Experimental Evidence for Scission in OST-AR",
+          369
+        ],
+        [
+          4,
+          "19.3.3.2 Interpretation of Transparency and Related Visual Effects",
+          371
+        ],
+        [
+          3,
+          "19.3.4 Example: Modelling an OST-AR Display and Colour Matching Results",
+          372
+        ],
+        [
+          2,
+          "19.4 Colour Imaging and Graphics in AR and VR",
+          375
+        ],
+        [
+          3,
+          "19.4.1 Colour Reproduction",
+          375
+        ],
+        [
+          3,
+          "19.4.2 Virtual Colour Reproduction",
+          375
+        ],
+        [
+          2,
+          "19.5 Conclusion",
+          376
+        ],
+        [
+          3,
+          "19.5.1 Open Questions in AR and VR",
+          376
+        ],
+        [
+          2,
+          "Acknowledgements",
+          377
+        ],
+        [
+          2,
+          "References",
+          377
+        ],
+        [
+          1,
+          "20 Colour Engineering Toolbox and Other Open Source Tools",
+          380
+        ],
+        [
+          2,
+          "20.1 Colour Engineering Toolbox 2.0",
+          380
+        ],
+        [
+          2,
+          "20.1.1 Colorimetry",
+          382
+        ],
+        [
+          2,
+          "20.2 Polar Calculations",
+          382
+        ],
+        [
+          2,
+          "20.3 Media-Relative and PCS Scaling",
+          382
+        ],
+        [
+          2,
+          "20.3.1 Adaptation",
+          382
+        ],
+        [
+          2,
+          "20.3.2 Difference",
+          383
+        ],
+        [
+          2,
+          "20.3.3 Characterization",
+          383
+        ],
+        [
+          2,
+          "20.3.4 Gamut",
+          384
+        ],
+        [
+          2,
+          "20.3.5 Utility Functions",
+          384
+        ],
+        [
+          2,
+          "20.3.6 Psychophysics",
+          384
+        ],
+        [
+          2,
+          "20.3.7 Documentation",
+          385
+        ],
+        [
+          2,
+          "20.3.8 Licensing and Use",
+          385
+        ],
+        [
+          2,
+          "20.4 DemoIccMax",
+          385
+        ],
+        [
+          2,
+          "20.5 Color.js",
+          385
+        ],
+        [
+          2,
+          "20.6 Little CMS",
+          385
+        ],
+        [
+          2,
+          "20.7 Argyll",
+          386
+        ],
+        [
+          2,
+          "20.8 Colour",
+          386
+        ],
+        [
+          2,
+          "References",
+          386
+        ],
+        [
+          1,
+          "Index",
+          388
+        ],
+        [
+          1,
+          "EULA",
+          400
+        ]
+      ]
+    },
+    {
+      "id": "benchmark",
+      "title": "Camera Image Quality Benchmarking",
+      "authors": "Jonathan B. Phillips; Henrik Eliasson",
+      "publication": "Wiley, 2018",
+      "pdf_pages": 386,
+      "sha256": "46af24c802fe7f482282a06c56b222b519df7178e8b6ce0527a2000e53fc8d2e",
+      "page_rule": "1-based PDF viewer page. Printed folio cited separately when checked.",
+      "chapters": [
+        [
+          1,
+          "1 Introduction",
+          24
+        ],
+        [
+          1,
+          "2 Defining Image Quality",
+          50
+        ],
+        [
+          1,
+          "3 Image Quality Attributes",
+          57
+        ],
+        [
+          1,
+          "4 The Camera",
+          85
+        ],
+        [
+          1,
+          "5 Subjective Image Quality Assessment—Theory and Practice",
+          139
+        ],
+        [
+          1,
+          "6 Objective Image Quality Assessment—Theory and Practice",
+          189
+        ],
+        [
+          1,
+          "7 Perceptually Correlated Image Quality Metrics",
+          248
+        ],
+        [
+          1,
+          "8 Measurement Protocols—Building Up a Lab",
+          293
+        ],
+        [
+          1,
+          "9 The Camera Benchmarking Process",
+          328
+        ],
+        [
+          1,
+          "10 Summary and Conclusions",
+          372
+        ]
+      ]
+    }
+  ],
+  "supplementary": [
+    {
+      "title": "openISP",
+      "url": "https://github.com/cruxopen/openISP"
+    },
+    {
+      "title": "Imatest documentation",
+      "url": "https://docs.imatest.com/docs"
+    }
+  ]
+}
