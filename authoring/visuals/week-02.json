@@ -1,0 +1,348 @@
+[
+  {
+    "day": 8,
+    "excerpt": {
+      "en": "This section describes how to characterize the sensitivity, linearity, and temporal noise of an image sensor or camera",
+      "zh": "本节说明如何表征图像传感器或相机的灵敏度、线性度和时间噪声。",
+      "source": "emva",
+      "pdf_page": 5,
+      "chapter": "§2 Sensitivity, Linearity, and Noise",
+      "comment": "原句后附参考文献编号，本短摘保留其完整语义而省略编号。标准先建立信号和噪声模型，再由均值、方差测量辨认参数；空间非均匀性另在第4节处理。"
+    },
+    "figure": {
+      "path": "assets/figures/day-01.png",
+      "kind": "original_crop",
+      "title": "原图1：从光子到电子，再到数字码值",
+      "caption": "EMVA Standard 1288 Release3.1，PDF p.5，Figure1；仅截取原图，未复制整页。",
+      "source": "emva",
+      "pdf_page": 5,
+      "figure_number": "1",
+      "alt": "原图1：从光子到电子，再到数字码值；沿箭头区分光子、电子和DN三个数据域。η只负责光子到电子，K负责电子到DN；暗噪声与量化噪声注入的位置不同，不能把所有噪声都当成入射光子的涨落。",
+      "explanation": "沿箭头区分光子、电子和DN三个数据域。η只负责光子到电子，K负责电子到DN；暗噪声与量化噪声注入的位置不同，不能把所有噪声都当成入射光子的涨落。"
+    },
+    "key_formula": {
+      "tex": "\\sigma_y^2=K^2\\sigma_d^2+\\sigma_q^2+K(\\mu_y-\\mu_{y,\\mathrm{dark}})",
+      "label": "噪声方差与均值构成增益标尺",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 6,
+      "original_number": "9",
+      "variables": [
+        {
+          "symbol": "\\sigma_y^2",
+          "meaning": "输出时间噪声方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "\\sigma_d^2",
+          "meaning": "输入暗噪声方差",
+          "unit": "e⁻²"
+        },
+        {
+          "symbol": "\\sigma_q^2",
+          "meaning": "输出量化方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "K",
+          "meaning": "总体系统增益",
+          "unit": "DN/e⁻"
+        },
+        {
+          "symbol": "\\mu_y-\\mu_{y,\\mathrm{dark}}",
+          "meaning": "平均扣暗输出",
+          "unit": "DN"
+        }
+      ],
+      "meaning": "在线性泊松模型里，扣暗平均信号越大，散粒方差按斜率K增长。常数项和斜率承担不同物理意义，空间固定图样不能直接混入时间方差拟合。"
+    }
+  },
+  {
+    "day": 9,
+    "excerpt": {
+      "en": "Note that K(A/B) is simply found by measuring output statistics (i.e., mean and noise variance) without knowledge of the individual camera transfer functions.",
+      "zh": "注意，只需测量输出统计量（即均值与噪声方差），便可确定K(A/B)，而无须知道相机各级的传递函数。",
+      "source": "ptc",
+      "pdf_page": 42,
+      "chapter": "§4.1 Photon Transfer Relation",
+      "comment": "这里的K(A/B)是从输出回到输入的灵敏度，方向与EMVA所用K相反。原文的推导以输入满足散粒噪声统计为条件，因此使用总方差而不扣除其他噪声会造成误判。"
+    },
+    "figure": {
+      "path": "assets/figures/day-09.svg",
+      "kind": "redrawn",
+      "title": "自绘：PTC标准差图的三个典型斜率",
+      "caption": "依据Photon Transfer: DN → λ §5.2、PDF p.57噪声关系自绘；不是图5.3的复制，也不是实验曲线。",
+      "source": "ptc",
+      "pdf_page": 57,
+      "figure_number": "5.3",
+      "alt": "自绘：PTC标准差图的三个典型斜率；横轴与纵轴都采用对数表示，分别观察噪声与信号的幂指数。图中只是各分量的斜率示意，不给出转折点、具体器件参数或可拟合的实验样本。",
+      "explanation": "横轴与纵轴都采用对数表示，分别观察噪声与信号的幂指数。图中只是各分量的斜率示意，不给出转折点、具体器件参数或可拟合的实验样本。"
+    },
+    "key_formula": {
+      "tex": "G=\\frac{S_y}{\\sigma_{y,\\mathrm{shot}}^2}",
+      "label": "散粒区间把输出统计变成电子/DN标尺",
+      "kind": "source",
+      "source": "ptc",
+      "pdf_page": 42,
+      "original_number": "4.5",
+      "variables": [
+        {
+          "symbol": "G",
+          "meaning": "输入电子对输出DN的灵敏度；此处重命名原书K(A/B)",
+          "unit": "e⁻/DN"
+        },
+        {
+          "symbol": "S_y",
+          "meaning": "平均扣暗信号",
+          "unit": "DN"
+        },
+        {
+          "symbol": "\\sigma_{y,\\mathrm{shot}}^2",
+          "meaning": "只含光子散粒项的输出方差",
+          "unit": "DN²"
+        }
+      ],
+      "meaning": "此处用G避免与EMVA的K混淆，二者方向互为倒数。原式的特殊输入条件是泊松散粒统计；读噪声和固定图样不能未经处理地当作散粒方差。"
+    }
+  },
+  {
+    "day": 10,
+    "excerpt": {
+      "en": "For color camera systems that use a color filter pattern any pixel position in the repeated pattern should be analyzed separately.",
+      "zh": "对于采用彩色滤光图样的相机系统，重复图样中每一种像素位置都应分别分析。",
+      "source": "emva",
+      "pdf_page": 17,
+      "chapter": "§6.6 Photon Transfer Evaluation",
+      "comment": "这给均值–方差拟合增加了一个重要条件：不要把不同CFA位置随意混成同一组统计。拜耳阵列中的两个绿色位置也可能需要分开，才能避免把通道差异混入增益或非均匀性。"
+    },
+    "figure": {
+      "path": "assets/figures/day-10.png",
+      "kind": "original_crop",
+      "title": "原图6：均值–方差斜率标定系统增益",
+      "caption": "EMVA 1288 R3.1，PDF p.17，Figure6；标准的模拟示例，数据性质见PDF p.12。",
+      "source": "emva",
+      "pdf_page": 17,
+      "figure_number": "6",
+      "alt": "原图6：均值–方差斜率标定系统增益；横轴扣暗DN，纵轴扣暗方差DN²，两者的斜率单位为DN/e⁻。高信号处的弯折及下降提示裁剪或模型偏离，不应把饱和尾部纳入线性增益拟合。",
+      "explanation": "横轴扣暗DN，纵轴扣暗方差DN²，两者的斜率单位为DN/e⁻。高信号处的弯折及下降提示裁剪或模型偏离，不应把饱和尾部纳入线性增益拟合。"
+    },
+    "key_formula": {
+      "tex": "\\sigma_y^2-\\sigma_{y,\\mathrm{dark}}^2=K(\\mu_y-\\mu_{y,\\mathrm{dark}})",
+      "label": "均值–方差斜率就是 K",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 16,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\sigma_y^2-\\sigma_{y,\\mathrm{dark}}^2",
+          "meaning": "扣暗后的时间方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "\\mu_y-\\mu_{y,\\mathrm{dark}}",
+          "meaning": "扣暗平均灰度",
+          "unit": "DN"
+        },
+        {
+          "symbol": "K",
+          "meaning": "系统增益",
+          "unit": "DN/e⁻"
+        }
+      ],
+      "meaning": "这是§6.6对式(9)的扣暗重写，并不是新编号公式。均值轴与方差轴必须来自相同数据域；标准示例中用于回归的范围到约70%饱和。"
+    }
+  },
+  {
+    "day": 11,
+    "excerpt": {
+      "en": "The saturation capacity must not be confused with the full-well capacity.",
+      "zh": "饱和容量不得与满阱容量混淆。",
+      "source": "emva",
+      "pdf_page": 7,
+      "chapter": "§2.4 Signal Saturation and Absolute Sensitivity Threshold",
+      "comment": "这句虽然短，却直接关系到规格表口径：数字输出可能在物理势阱填满之前就被裁剪。应同时区分物理满阱、数字饱和与达到SNR=1的最低输入。"
+    },
+    "figure": {
+      "path": "assets/figures/day-05.png",
+      "kind": "original_crop",
+      "title": "原图7：实际模型、理想极限与空间非均匀性",
+      "caption": "EMVA 1288 R3.1，PDF p.18，Figure7；标准模拟示例，阈值数字仅属于该示例（见PDF p.12）。",
+      "source": "emva",
+      "pdf_page": 18,
+      "figure_number": "7",
+      "alt": "原图7：实际模型、理想极限与空间非均匀性；理想曲线提供无暗噪声、η为1的基准；低信号偏离主要反映噪声代价。Total SNR曲线额外加入DSNU/PRNU，高信号平台不应被误解为纯时间散粒噪声极限。",
+      "explanation": "理想曲线提供无暗噪声、η为1的基准；低信号偏离主要反映噪声代价。Total SNR曲线额外加入DSNU/PRNU，高信号平台不应被误解为纯时间散粒噪声极限。"
+    },
+    "key_formula": {
+      "tex": "\\mu_{e,\\mathrm{sat}}=\\eta\\mu_{p,\\mathrm{sat}}",
+      "label": "将饱和输入光子数转换为饱和电子容量",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 7,
+      "original_number": "14",
+      "variables": [
+        {
+          "symbol": "\\mu_{e,\\mathrm{sat}}",
+          "meaning": "饱和容量",
+          "unit": "e⁻/pixel"
+        },
+        {
+          "symbol": "\\mu_{p,\\mathrm{sat}}",
+          "meaning": "标准定义下的饱和辐照",
+          "unit": "photons/pixel"
+        },
+        {
+          "symbol": "\\eta",
+          "meaning": "量子效率",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "容量描述上端边界，灵敏度阈值描述下端边界。两端的定义以及实际ADC裁剪都会影响动态范围，不能仅凭位深或物理满阱作结论。"
+    }
+  },
+  {
+    "day": 12,
+    "excerpt": {
+      "en": "All quantities describing nonuniformities must be computed from mean gray values averaged over many images.",
+      "zh": "所有描述非均匀性的量，都必须从多幅图像平均后的灰度均值计算。",
+      "source": "emva",
+      "pdf_page": 21,
+      "chapter": "§8 Methods for Spatial Nonuniformity and Defect Pixels",
+      "comment": "原文强调先抑制时间扰动，再测量像素之间的稳定差异。有限帧平均仍保留σ²/L的时间方差，计算空间非均匀性时需对这一残余作校正。"
+    },
+    "figure": {
+      "path": "assets/figures/day-12.svg",
+      "kind": "redrawn",
+      "title": "自绘：暗偏置图样与光响应图样",
+      "caption": "依据EMVA1288 R3.1 §§4、8.1及式(45)–(48)自绘，PDF pp.8–9、21–22；色深为概念示意。",
+      "source": "emva",
+      "pdf_page": 22,
+      "figure_number": null,
+      "alt": "自绘：暗偏置图样与光响应图样；左图提示暗场像素偏置可能不同；右图提示照明后像素增益可能不同。两种图样都是空间结构，不能仅看单帧的颗粒感就把它们与时间噪声混为一谈。",
+      "explanation": "左图提示暗场像素偏置可能不同；右图提示照明后像素增益可能不同。两种图样都是空间结构，不能仅看单帧的颗粒感就把它们与时间噪声混为一谈。"
+    },
+    "key_formula": {
+      "tex": "\\mathrm{PRNU}=\\frac{\\sqrt{s_{y,50}^2-s_{y,\\mathrm{dark}}^2}}{\\mu_{y,50}-\\mu_{y,\\mathrm{dark}}}",
+      "label": "PRNU描述相对光响应散布",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 22,
+      "original_number": "46",
+      "variables": [
+        {
+          "symbol": "s_{y,50}^2,\\ s_{y,\\mathrm{dark}}^2",
+          "meaning": "已校正残余时间噪声的空间方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "\\mu_{y,50}-\\mu_{y,\\mathrm{dark}}",
+          "meaning": "50%饱和亮场的扣暗平均输出",
+          "unit": "DN"
+        },
+        {
+          "symbol": "\\mathrm{PRNU}",
+          "meaning": "相对响应标准差",
+          "unit": "无量纲；百分数数值为该比值×100"
+        }
+      ],
+      "meaning": "分子去除暗场空间偏差的方差贡献，分母用净光响应归一化。公式要求同一设置与规定的数据处理；坏点尾部和周期条纹仍需结合分布及谱图分析。"
+    }
+  },
+  {
+    "day": 13,
+    "excerpt": {
+      "en": "The green dots mark the 0 – 70% range of saturation that is used for the linear regression.",
+      "zh": "绿色点标出了用于线性回归的0–70%饱和区间。",
+      "source": "emva",
+      "pdf_page": 17,
+      "chapter": "§6.6，Figure6 caption",
+      "comment": "这是图注原文；图内图例的拟合点颜色与这句图注并不一致，所以实际阅读时应按图例和位置识别拟合区间。比颜色更关键的是：线性增益拟合不包含已经弯折或裁剪的尾部。"
+    },
+    "figure": {
+      "path": "assets/figures/day-10.png",
+      "kind": "original_crop",
+      "title": "原图6：均值–方差斜率标定系统增益",
+      "caption": "EMVA 1288 R3.1，PDF p.17，Figure6；标准的模拟示例，数据性质见PDF p.12。",
+      "source": "emva",
+      "pdf_page": 17,
+      "figure_number": "6",
+      "alt": "原图6：均值–方差斜率标定系统增益；横轴扣暗DN，纵轴扣暗方差DN²，两者的斜率单位为DN/e⁻。高信号处的弯折及下降提示裁剪或模型偏离，不应把饱和尾部纳入线性增益拟合。",
+      "explanation": "横轴扣暗DN，纵轴扣暗方差DN²，两者的斜率单位为DN/e⁻。高信号处的弯折及下降提示裁剪或模型偏离，不应把饱和尾部纳入线性增益拟合。"
+    },
+    "key_formula": {
+      "tex": "\\Delta\\sigma_y^2=K\\,\\Delta\\mu_y",
+      "label": "先辨认有效线性段，再读取斜率",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 6,
+      "original_number": "9",
+      "variables": [
+        {
+          "symbol": "\\Delta\\sigma_y^2",
+          "meaning": "扣除同工作点暗方差后的方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "\\Delta\\mu_y",
+          "meaning": "扣暗平均灰度",
+          "unit": "DN"
+        },
+        {
+          "symbol": "K",
+          "meaning": "有效线性区间的系统增益",
+          "unit": "DN/e⁻"
+        }
+      ],
+      "meaning": "该式是原式(9)的简记。高端方差下降可能来自数字裁剪；如果把尾部一起拟合，所得斜率便不再可靠代表线性区间的K。"
+    }
+  },
+  {
+    "day": 14,
+    "excerpt": {
+      "en": "A data sheet is only EMVA 1288 compliant if the results of all mandatory measurements from at least one camera are reported.",
+      "zh": "只有至少报告一台相机全部强制测量项目的结果，数据表才符合EMVA1288。",
+      "source": "emva",
+      "pdf_page": 12,
+      "chapter": "§5 Overview Measurement Setup and Methods",
+      "comment": "标准符合性是一套测量与报告要求，而不是某个单值排名。把响应度、增益、QE、噪声与容量放回同一工作点，并检查报告覆盖范围，才有可比较的器件结论。"
+    },
+    "figure": {
+      "path": "assets/figures/day-06.png",
+      "kind": "original_crop",
+      "title": "原图5：响应度曲线测到的是 R = Kη",
+      "caption": "EMVA 1288 R3.1，PDF p.16，Figure5；该标准示例来自模拟数据（见PDF p.12），不是某器件实验结果。",
+      "source": "emva",
+      "pdf_page": 16,
+      "figure_number": "5",
+      "alt": "原图5：响应度曲线测到的是 R = Kη；先看横轴：它是每像素入射光子数，而非DN。纵轴是扣暗后的平均DN，因此斜率是DN/photon的响应度R；只有再除以独立测得的K，才能得到QE。",
+      "explanation": "先看横轴：它是每像素入射光子数，而非DN。纵轴是扣暗后的平均DN，因此斜率是DN/photon的响应度R；只有再除以独立测得的K，才能得到QE。"
+    },
+    "key_formula": {
+      "tex": "R=K\\eta,\\qquad \\eta=\\frac{R}{K}",
+      "label": "标准评价的闭环：响应度与增益分开求",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 17,
+      "original_number": "30",
+      "variables": [
+        {
+          "symbol": "R",
+          "meaning": "由光子输入响应曲线得到的响应度",
+          "unit": "DN/photon"
+        },
+        {
+          "symbol": "K",
+          "meaning": "由时间方差–均值曲线得到的增益",
+          "unit": "DN/e⁻"
+        },
+        {
+          "symbol": "\\eta",
+          "meaning": "由两种标尺求出的量子效率",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "响应曲线、PTC和SNR曲线形成交叉核对，而不是三个独立漂亮数字。所有测量应保留波长、曝光、温度及工作点信息；最终仍需结合任务评价成像表现。"
+    }
+  }
+]

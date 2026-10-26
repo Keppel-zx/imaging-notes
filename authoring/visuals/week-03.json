@@ -1,0 +1,354 @@
+[
+  {
+    "day": 15,
+    "excerpt": {
+      "en": "This chapter provides an overview of the camera pipeline processing steps found in a typical ISP.",
+      "zh": "本章概述典型ISP中的相机流水线处理步骤。",
+      "source": "colour",
+      "pdf_page": 107,
+      "chapter": "§5.1",
+      "comment": "这里给出的是典型流水线的概览，而不是所有相机必须遵守的唯一顺序。图中的拜耳观测只是处理的起点；最终RGB还包含重建、颜色变换和渲染，不能把输出像素的三个值都当成直接测量。"
+    },
+    "figure": {
+      "path": "assets/figures/day-15.svg",
+      "kind": "redrawn",
+      "title": "拜耳采样与缺失颜色",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Fundamentals and Applications of Colour Engineering，PDF第107页，相关图/表5.1。",
+      "source": "colour",
+      "pdf_page": 107,
+      "figure_number": "5.1",
+      "alt": "拜耳采样与缺失颜色。逐位置滤色采样使一个位置只获得一个颜色通道；图中右侧另外两通道标为估计，避免把完整RGB误认为三次独立测量。",
+      "explanation": "逐位置滤色采样使一个位置只获得一个颜色通道；图中右侧另外两通道标为估计，避免把完整RGB误认为三次独立测量。"
+    },
+    "key_formula": {
+      "tex": "x(p)=m_R(p)R(p)+m_G(p)G(p)+m_B(p)B(p)+b(p)+n(p)",
+      "label": "拜耳位置的单通道观测",
+      "kind": "derived",
+      "source": "colour",
+      "pdf_page": 107,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "x(p)",
+          "meaning": "原始像素读数",
+          "unit": "DN"
+        },
+        {
+          "symbol": "m_R,m_G,m_B",
+          "meaning": "滤色掩膜，取0或1且和为1",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "R,G,B",
+          "meaning": "潜在三个颜色响应",
+          "unit": "DN"
+        },
+        {
+          "symbol": "b,n",
+          "meaning": "偏置与随机噪声",
+          "unit": "DN"
+        }
+      ],
+      "meaning": "这是解释原图5.1的离散测量模型：每个像素只有一个观测，缺失颜色需要额外信息；不是原书编号公式。"
+    }
+  },
+  {
+    "day": 16,
+    "excerpt": {
+      "en": "The black level is subtracted from the output of a captured frame, thus shifting the darkest value to 0.",
+      "zh": "从采集帧的输出中减去黑电平，使最暗值移到0。",
+      "source": "colour",
+      "pdf_page": 109,
+      "chapter": "§5.3.2",
+      "comment": "原文说的是偏置扣除，不是将随机暗噪声从单帧中消除。再乘阴影增益时，均值与噪声都会缩放，因此应把均匀性改善和信噪比改善分开评价。"
+    },
+    "figure": {
+      "path": "assets/figures/day-16.svg",
+      "kind": "redrawn",
+      "title": "均值均匀性与噪声放大",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Fundamentals and Applications of Colour Engineering，PDF第110页，相关图/表5.3。",
+      "source": "colour",
+      "pdf_page": 110,
+      "figure_number": "5.3",
+      "alt": "均值均匀性与噪声放大。从左到右比较响应衰减、补偿增益与校正均值。反比增益恢复平均亮度，并不改变边角收到的光子数量，噪声也会被同步放大。",
+      "explanation": "从左到右比较响应衰减、补偿增益与校正均值。反比增益恢复平均亮度，并不改变边角收到的光子数量，噪声也会被同步放大。"
+    },
+    "key_formula": {
+      "tex": "v(p,c)=g(p,c)\\frac{x(p,c)-b}{w-b}",
+      "label": "扣黑、归一化与阴影增益",
+      "kind": "derived",
+      "source": "colour",
+      "pdf_page": 109,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "x,b,w",
+          "meaning": "原始值、黑电平、白电平",
+          "unit": "DN"
+        },
+        {
+          "symbol": "g(p,c)",
+          "meaning": "位置与通道相关增益",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "v",
+          "meaning": "校正归一化输出",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "对原文处理步骤的数学整理，要求w>b且像素未饱和。固定增益同步放大信号和噪声。"
+    }
+  },
+  {
+    "day": 17,
+    "excerpt": {
+      "en": "Most ISPs use demosaicing approaches that leverage edge-aware averaging, such as schemes based on the bilateral filter [28].",
+      "zh": "多数ISP采用利用边缘感知平均的去马赛克方法，例如基于双边滤波的方案。",
+      "source": "colour",
+      "pdf_page": 113,
+      "chapter": "§5.3.6",
+      "comment": "这里强调的是根据局部结构选择权重，而不是无条件平均所有邻居。原图5.5先从同色蓝像素估计相似性，再用该相似性控制缺失绿色的插值；它是算法示例，不是唯一去马赛克标准。"
+    },
+    "figure": {
+      "path": "assets/figures/day-17.png",
+      "kind": "original_crop",
+      "title": "原图5.5：边缘感知去马赛克",
+      "caption": "原图局部：Fundamentals and Applications of Colour Engineering，PDF第113页，图5.5。仅截取所分析图及必要图注。 原图图注保留拜耳示例图的CC-BY-3.0与Cmglee/Anita Martinz来源说明。",
+      "source": "colour",
+      "pdf_page": 113,
+      "figure_number": "5.5",
+      "alt": "原图5.5：边缘感知去马赛克。沿原图从左到右追踪中心蓝像素P、绿色邻居和权重掩模。权重由附近蓝色像素的相似性获得，再用于绿色估计；不要把图中一次权重示例当作固定常数。",
+      "explanation": "沿原图从左到右追踪中心蓝像素P、绿色邻居和权重掩模。权重由附近蓝色像素的相似性获得，再用于绿色估计；不要把图中一次权重示例当作固定常数。",
+      "crop_pdf_points": [
+        54,
+        465,
+        520,
+        674
+      ]
+    },
+    "key_formula": {
+      "tex": "\\widehat G(P)=\\frac{\\sum_i w_iG_i}{\\sum_i w_i}",
+      "label": "用相似度权重估计缺失绿色",
+      "kind": "derived",
+      "source": "colour",
+      "pdf_page": 113,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "G_i",
+          "meaning": "邻域绿色实测值",
+          "unit": "DN或同一归一化单位"
+        },
+        {
+          "symbol": "w_i",
+          "meaning": "非负相似度权重",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "P",
+          "meaning": "中心蓝像素位置",
+          "unit": "像素位置"
+        }
+      ],
+      "meaning": "图5.5算法思想的数学化，不是原书编号公式；权重和必须非零，跨边缘混合可能产生偏差。"
+    }
+  },
+  {
+    "day": 18,
+    "excerpt": {
+      "en": "The white-balance procedure assumes the scene is illuminated by a single or dominant illumination.",
+      "zh": "白平衡过程假设场景由单一或占主导的光源照明。",
+      "source": "colour",
+      "pdf_page": 112,
+      "chapter": "§5.3.5.1",
+      "comment": "这条前提决定了一个全局对角增益能够发挥作用的边界。混合照明下，不同位置可能需要不同估计；让中性目标满足R=G=B，也不等于校正了全部材料颜色。"
+    },
+    "figure": {
+      "path": "assets/figures/day-18.svg",
+      "kind": "redrawn",
+      "title": "照明响应与白平衡通道增益",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Fundamentals and Applications of Colour Engineering，PDF第112页，相关图/表5.4。",
+      "source": "colour",
+      "pdf_page": 112,
+      "figure_number": "5.4",
+      "alt": "照明响应与白平衡通道增益。左边给出教学相对响应，右边应用对应倒数增益后等高。该示例只表达无彩目标的中性化，不声称任意有色反射谱都获得精确校正。",
+      "explanation": "左边给出教学相对响应，右边应用对应倒数增益后等高。该示例只表达无彩目标的中性化，不声称任意有色反射谱都获得精确校正。"
+    },
+    "key_formula": {
+      "tex": "\\mathbf r_{wb}=\\operatorname{diag}(1/\\ell_r,1/\\ell_g,1/\\ell_b)\\mathbf r",
+      "label": "白平衡的对角通道缩放",
+      "kind": "source",
+      "source": "colour",
+      "pdf_page": 112,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\mathbf r",
+          "meaning": "传感器RGB列向量",
+          "unit": "相同线性域单位"
+        },
+        {
+          "symbol": "\\ell_r,\\ell_g,\\ell_b",
+          "meaning": "照明的相对通道响应",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\mathbf r_{\\mathrm{wb}}",
+          "meaning": "白平衡后的RGB",
+          "unit": "同输入单位"
+        }
+      ],
+      "meaning": "对应原图5.4未编号矩阵。该缩放中性化无彩目标，前提是单一或主导照明。"
+    }
+  },
+  {
+    "day": 19,
+    "excerpt": {
+      "en": "A global tone map is applied to all pixels regardless of their position in the image.",
+      "zh": "全局色调映射作用于全部像素，不取决于像素在图像中的位置。",
+      "source": "colour",
+      "pdf_page": 116,
+      "chapter": "§5.3.9.2",
+      "comment": "因此同一输入值在全局映射下得到同一输出值，而局部映射还取决于邻域和位置。图中的幂律与S曲线是教学模型，用来比较编码与渲染的作用，不冒充相机实测曲线。"
+    },
+    "figure": {
+      "path": "assets/figures/day-19.svg",
+      "kind": "redrawn",
+      "title": "幂律编码与S形色调曲线",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Fundamentals and Applications of Colour Engineering，PDF第116页，相关图/表5.7。",
+      "source": "colour",
+      "pdf_page": 116,
+      "figure_number": "5.7",
+      "alt": "幂律编码与S形色调曲线。比较曲线斜率，而不只比较输出是否变亮。暗部斜率和中频对比都可能改变；图上两条明确给定的教学函数不是严格sRGB定义，也不是实测相机曲线。",
+      "explanation": "比较曲线斜率，而不只比较输出是否变亮。暗部斜率和中频对比都可能改变；图上两条明确给定的教学函数不是严格sRGB定义，也不是实测相机曲线。"
+    },
+    "key_formula": {
+      "tex": "y=x^{1/\\gamma}",
+      "label": "感知编码的简化幂律模型",
+      "kind": "derived",
+      "source": "colour",
+      "pdf_page": 117,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "x",
+          "meaning": "归一化线性输入",
+          "unit": "无量纲，0–1"
+        },
+        {
+          "symbol": "y",
+          "meaning": "编码输出",
+          "unit": "无量纲，0–1"
+        },
+        {
+          "symbol": "\\gamma",
+          "meaning": "幂律参数",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "教学近似，不是严格sRGB分段定义。编码改变数值间距，不能直接创造传感器动态范围。"
+    }
+  },
+  {
+    "day": 20,
+    "excerpt": {
+      "en": "Aggressive noise reduction often removes fine detail, resulting in an unrealistic-looking image. Too little denoising can leave unwanted noise in the final output image.",
+      "zh": "过强的降噪往往去掉精细细节，使图像显得不自然；降噪太弱又会使最终图像残留不希望出现的噪声。",
+      "source": "colour",
+      "pdf_page": 114,
+      "chapter": "§5.3.7",
+      "comment": "原文把调参问题表述为双向约束。频响示意进一步解释低通为什么同时抑制细节与噪声，锐化又为什么可能把二者一起放大；图中的响应不是某个产品的成绩。"
+    },
+    "figure": {
+      "path": "assets/figures/day-20.svg",
+      "kind": "redrawn",
+      "title": "低通与锐化的频率作用",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Fundamentals and Applications of Colour Engineering，PDF第116页相关讨论。",
+      "source": "colour",
+      "pdf_page": 116,
+      "figure_number": null,
+      "alt": "低通与锐化的频率作用。绿色低通教学响应压低高频，金色非锐化掩模响应增强相同频带。细节与噪声占据重叠频带，因此单独追求降噪数值或高频增益都可能牺牲另一项。",
+      "explanation": "绿色低通教学响应压低高频，金色非锐化掩模响应增强相同频带。细节与噪声占据重叠频带，因此单独追求降噪数值或高频增益都可能牺牲另一项。"
+    },
+    "key_formula": {
+      "tex": "H_s(f)=1+\\alpha[1-H_h(f)]",
+      "label": "锐化为什么同时增强高频细节与噪声",
+      "kind": "derived",
+      "source": "colour",
+      "pdf_page": 116,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "H_h(f)",
+          "meaning": "低通核频率响应",
+          "unit": "相对增益，无量纲"
+        },
+        {
+          "symbol": "H_s(f)",
+          "meaning": "锐化后的频率响应",
+          "unit": "相对增益，无量纲"
+        },
+        {
+          "symbol": "\\alpha",
+          "meaning": "锐化强度",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "f",
+          "meaning": "空间频率",
+          "unit": "应与采样尺度一致"
+        }
+      ],
+      "meaning": "来自本讲非锐化掩模教学模型。低通响应小的频带会获得更大增益，不代表真实细节被无损恢复。"
+    }
+  },
+  {
+    "day": 21,
+    "excerpt": {
+      "en": "The second stage on the ISP is the photo-finishing routines used to improve the visual quality of the image.",
+      "zh": "ISP的第二阶段是用于改善图像视觉质量的照片修饰处理。",
+      "source": "colour",
+      "pdf_page": 120,
+      "chapter": "§5.6",
+      "comment": "这里的阶段划分服务于理解：前段更接近场景测量，后段侧重观看效果。整个系统仍有误差传播与次序约束；不能仅凭模块名字就假设重排操作后输出等价。"
+    },
+    "figure": {
+      "path": "assets/figures/day-21.svg",
+      "kind": "redrawn",
+      "title": "扣黑与增益不能随意交换",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Fundamentals and Applications of Colour Engineering，PDF第109页相关讨论。",
+      "source": "colour",
+      "pdf_page": 109,
+      "figure_number": null,
+      "alt": "扣黑与增益不能随意交换。两条路径使用同一组明确的教学参数。先扣黑再增益与先增益再减原黑位相差10DN；若需要重排，标定参数也必须同步变换。",
+      "explanation": "两条路径使用同一组明确的教学参数。先扣黑再增益与先增益再减原黑位相差10DN；若需要重排，标定参数也必须同步变换。"
+    },
+    "key_formula": {
+      "tex": "\\Sigma_y\\simeq J\\Sigma_xJ^T",
+      "label": "流水线中的局部噪声传播",
+      "kind": "derived",
+      "source": "colour",
+      "pdf_page": 108,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "J",
+          "meaning": "全链路局部雅可比矩阵",
+          "unit": "输出单位/输入单位"
+        },
+        {
+          "symbol": "\\Sigma_x",
+          "meaning": "输入协方差",
+          "unit": "输入单位²"
+        },
+        {
+          "symbol": "\\Sigma_y",
+          "meaning": "输出协方差",
+          "unit": "输出单位²"
+        }
+      ],
+      "meaning": "本讲补充推导，要求小扰动与局部可微；饱和、强阈值和场景切换不宜直接套用。"
+    }
+  }
+]

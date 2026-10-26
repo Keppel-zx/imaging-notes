@@ -1,0 +1,41 @@
+{
+  "edition": "visual-2026-10-26",
+  "desktop": {
+    "pages": 56,
+    "viewport": 1363,
+    "page_overflow": 0,
+    "missing_cards": 0,
+    "merror": 0
+  },
+  "mobile": {
+    "pages": 56,
+    "iframe_width": 390,
+    "content_width": 375,
+    "page_overflow": 0,
+    "missing_cards": 0,
+    "merror": 0
+  },
+  "support_mobile": [
+    "index",
+    "references",
+    "sources",
+    "supplement"
+  ],
+  "search": {
+    "weighted average": 1,
+    "week8": 7
+  },
+  "image_zoom": "verified original PNG and SVG",
+  "pdf_binding": {
+    "file": "depth.pdf",
+    "persisted_after_reload": true,
+    "page_link": 139,
+    "native_pdf_pixels": "not reliably confirmed"
+  },
+  "source_review_notes_resolved": [
+    {
+      "day": 47,
+      "note": "combined 5.6–5.7 normalized relation reviewed against actual PDF178; see independent week07 report"
+    }
+  ]
+}

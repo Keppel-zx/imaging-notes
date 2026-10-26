@@ -1,0 +1,413 @@
+{
+  "scope": "Static links, 56 course bodies, Han count, citation page existence, formula conversion, navigation and responsive markup. Text label checks do not replace semantic/visual source review.",
+  "checks": [
+    {
+      "day": 1,
+      "han_count": 2204,
+      "math_elements": 21,
+      "links": 76,
+      "page_bytes": 25917
+    },
+    {
+      "day": 2,
+      "han_count": 2189,
+      "math_elements": 17,
+      "links": 77,
+      "page_bytes": 25403
+    },
+    {
+      "day": 3,
+      "han_count": 2035,
+      "math_elements": 22,
+      "links": 77,
+      "page_bytes": 29090
+    },
+    {
+      "day": 4,
+      "han_count": 2147,
+      "math_elements": 19,
+      "links": 79,
+      "page_bytes": 25975
+    },
+    {
+      "day": 5,
+      "han_count": 2076,
+      "math_elements": 24,
+      "links": 75,
+      "page_bytes": 26766
+    },
+    {
+      "day": 6,
+      "han_count": 2133,
+      "math_elements": 18,
+      "links": 79,
+      "page_bytes": 24605
+    },
+    {
+      "day": 7,
+      "han_count": 2183,
+      "math_elements": 17,
+      "links": 77,
+      "page_bytes": 24466
+    },
+    {
+      "day": 8,
+      "han_count": 2300,
+      "math_elements": 26,
+      "links": 72,
+      "page_bytes": 26944
+    },
+    {
+      "day": 9,
+      "han_count": 2134,
+      "math_elements": 16,
+      "links": 75,
+      "page_bytes": 25412
+    },
+    {
+      "day": 10,
+      "han_count": 2145,
+      "math_elements": 14,
+      "links": 76,
+      "page_bytes": 25560
+    },
+    {
+      "day": 11,
+      "han_count": 2293,
+      "math_elements": 19,
+      "links": 73,
+      "page_bytes": 26247
+    },
+    {
+      "day": 12,
+      "han_count": 2137,
+      "math_elements": 18,
+      "links": 74,
+      "page_bytes": 26144
+    },
+    {
+      "day": 13,
+      "han_count": 2133,
+      "math_elements": 16,
+      "links": 76,
+      "page_bytes": 24457
+    },
+    {
+      "day": 14,
+      "han_count": 2101,
+      "math_elements": 20,
+      "links": 72,
+      "page_bytes": 23534
+    },
+    {
+      "day": 15,
+      "han_count": 2090,
+      "math_elements": 7,
+      "links": 71,
+      "page_bytes": 22780
+    },
+    {
+      "day": 16,
+      "han_count": 2096,
+      "math_elements": 8,
+      "links": 70,
+      "page_bytes": 22094
+    },
+    {
+      "day": 17,
+      "han_count": 2121,
+      "math_elements": 7,
+      "links": 68,
+      "page_bytes": 21249
+    },
+    {
+      "day": 18,
+      "han_count": 2068,
+      "math_elements": 7,
+      "links": 72,
+      "page_bytes": 22196
+    },
+    {
+      "day": 19,
+      "han_count": 2067,
+      "math_elements": 7,
+      "links": 70,
+      "page_bytes": 20927
+    },
+    {
+      "day": 20,
+      "han_count": 2186,
+      "math_elements": 8,
+      "links": 71,
+      "page_bytes": 22343
+    },
+    {
+      "day": 21,
+      "han_count": 2153,
+      "math_elements": 8,
+      "links": 70,
+      "page_bytes": 21364
+    },
+    {
+      "day": 22,
+      "han_count": 2422,
+      "math_elements": 14,
+      "links": 72,
+      "page_bytes": 23146
+    },
+    {
+      "day": 23,
+      "han_count": 2256,
+      "math_elements": 19,
+      "links": 74,
+      "page_bytes": 26001
+    },
+    {
+      "day": 24,
+      "han_count": 2251,
+      "math_elements": 20,
+      "links": 75,
+      "page_bytes": 25061
+    },
+    {
+      "day": 25,
+      "han_count": 2182,
+      "math_elements": 14,
+      "links": 74,
+      "page_bytes": 25644
+    },
+    {
+      "day": 26,
+      "han_count": 2282,
+      "math_elements": 15,
+      "links": 74,
+      "page_bytes": 24693
+    },
+    {
+      "day": 27,
+      "han_count": 2355,
+      "math_elements": 14,
+      "links": 74,
+      "page_bytes": 23526
+    },
+    {
+      "day": 28,
+      "han_count": 2214,
+      "math_elements": 20,
+      "links": 75,
+      "page_bytes": 26501
+    },
+    {
+      "day": 29,
+      "han_count": 2137,
+      "math_elements": 11,
+      "links": 73,
+      "page_bytes": 22003
+    },
+    {
+      "day": 30,
+      "han_count": 2234,
+      "math_elements": 6,
+      "links": 74,
+      "page_bytes": 21201
+    },
+    {
+      "day": 31,
+      "han_count": 2080,
+      "math_elements": 8,
+      "links": 72,
+      "page_bytes": 21007
+    },
+    {
+      "day": 32,
+      "han_count": 2124,
+      "math_elements": 10,
+      "links": 74,
+      "page_bytes": 22998
+    },
+    {
+      "day": 33,
+      "han_count": 2119,
+      "math_elements": 9,
+      "links": 73,
+      "page_bytes": 21566
+    },
+    {
+      "day": 34,
+      "han_count": 2182,
+      "math_elements": 9,
+      "links": 74,
+      "page_bytes": 22960
+    },
+    {
+      "day": 35,
+      "han_count": 2203,
+      "math_elements": 8,
+      "links": 74,
+      "page_bytes": 22052
+    },
+    {
+      "day": 36,
+      "han_count": 2187,
+      "math_elements": 17,
+      "links": 74,
+      "page_bytes": 23220
+    },
+    {
+      "day": 37,
+      "han_count": 2073,
+      "math_elements": 23,
+      "links": 75,
+      "page_bytes": 26613
+    },
+    {
+      "day": 38,
+      "han_count": 2106,
+      "math_elements": 24,
+      "links": 75,
+      "page_bytes": 25443
+    },
+    {
+      "day": 39,
+      "han_count": 2078,
+      "math_elements": 19,
+      "links": 73,
+      "page_bytes": 24770
+    },
+    {
+      "day": 40,
+      "han_count": 2062,
+      "math_elements": 20,
+      "links": 75,
+      "page_bytes": 24821
+    },
+    {
+      "day": 41,
+      "han_count": 2158,
+      "math_elements": 29,
+      "links": 74,
+      "page_bytes": 26144
+    },
+    {
+      "day": 42,
+      "han_count": 2103,
+      "math_elements": 14,
+      "links": 72,
+      "page_bytes": 24123
+    },
+    {
+      "day": 43,
+      "han_count": 2173,
+      "math_elements": 21,
+      "links": 75,
+      "page_bytes": 24781
+    },
+    {
+      "day": 44,
+      "han_count": 2229,
+      "math_elements": 17,
+      "links": 74,
+      "page_bytes": 24798
+    },
+    {
+      "day": 45,
+      "han_count": 2142,
+      "math_elements": 23,
+      "links": 76,
+      "page_bytes": 26443
+    },
+    {
+      "day": 46,
+      "han_count": 2217,
+      "math_elements": 12,
+      "links": 72,
+      "page_bytes": 23323
+    },
+    {
+      "day": 47,
+      "han_count": 2263,
+      "math_elements": 13,
+      "links": 71,
+      "page_bytes": 24410
+    },
+    {
+      "day": 48,
+      "han_count": 2225,
+      "math_elements": 20,
+      "links": 72,
+      "page_bytes": 25554
+    },
+    {
+      "day": 49,
+      "han_count": 2229,
+      "math_elements": 18,
+      "links": 71,
+      "page_bytes": 24875
+    },
+    {
+      "day": 50,
+      "han_count": 2283,
+      "math_elements": 20,
+      "links": 73,
+      "page_bytes": 25022
+    },
+    {
+      "day": 51,
+      "han_count": 2220,
+      "math_elements": 19,
+      "links": 74,
+      "page_bytes": 24181
+    },
+    {
+      "day": 52,
+      "han_count": 2183,
+      "math_elements": 13,
+      "links": 73,
+      "page_bytes": 24748
+    },
+    {
+      "day": 53,
+      "han_count": 2173,
+      "math_elements": 14,
+      "links": 73,
+      "page_bytes": 23851
+    },
+    {
+      "day": 54,
+      "han_count": 2179,
+      "math_elements": 17,
+      "links": 74,
+      "page_bytes": 25875
+    },
+    {
+      "day": 55,
+      "han_count": 2209,
+      "math_elements": 14,
+      "links": 73,
+      "page_bytes": 24899
+    },
+    {
+      "day": 56,
+      "han_count": 2266,
+      "math_elements": 12,
+      "links": 72,
+      "page_bytes": 24508
+    }
+  ],
+  "errors": [],
+  "manual_review_notes": [
+    {
+      "day": 47,
+      "note": "equation number text not found, visual check",
+      "anchor": {
+        "label": "交叉双边深度插值的归一化形式",
+        "tex": "\\hat z_i=\\frac{\\sum_{l\\in W_i\\cap V}w_{il}z_l}{\\sum_{l\\in W_i\\cap V}w_{il}}",
+        "pdf_page": 178,
+        "original_number": "5.6（结合5.7归一化）",
+        "kind": "source"
+      }
+    }
+  ],
+  "citation_entries": 258,
+  "passed_automated": true
+}

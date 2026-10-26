@@ -1,0 +1,37 @@
+[
+  {
+    "day": 1,
+    "han_count": 2157,
+    "status": "review_ready"
+  },
+  {
+    "day": 2,
+    "han_count": 2145,
+    "status": "review_ready"
+  },
+  {
+    "day": 3,
+    "han_count": 2035,
+    "status": "review_ready"
+  },
+  {
+    "day": 4,
+    "han_count": 2105,
+    "status": "review_ready"
+  },
+  {
+    "day": 5,
+    "han_count": 2034,
+    "status": "review_ready"
+  },
+  {
+    "day": 6,
+    "han_count": 2088,
+    "status": "review_ready"
+  },
+  {
+    "day": 7,
+    "han_count": 2134,
+    "status": "review_ready"
+  }
+]

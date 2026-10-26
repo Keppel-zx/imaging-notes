@@ -1,0 +1,399 @@
+{
+  "checks": [
+    {
+      "day": 1,
+      "literal_excerpt_match": true,
+      "english_words": 30,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 2,
+      "literal_excerpt_match": true,
+      "english_words": 25,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 3,
+      "literal_excerpt_match": true,
+      "english_words": 29,
+      "figures": 3,
+      "variables": 3
+    },
+    {
+      "day": 4,
+      "literal_excerpt_match": true,
+      "english_words": 23,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 5,
+      "literal_excerpt_match": true,
+      "english_words": 26,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 6,
+      "literal_excerpt_match": true,
+      "english_words": 17,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 7,
+      "literal_excerpt_match": true,
+      "english_words": 16,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 8,
+      "literal_excerpt_match": true,
+      "english_words": 18,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 9,
+      "literal_excerpt_match": true,
+      "english_words": 23,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 10,
+      "literal_excerpt_match": true,
+      "english_words": 21,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 11,
+      "literal_excerpt_match": true,
+      "english_words": 11,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 12,
+      "literal_excerpt_match": true,
+      "english_words": 15,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 13,
+      "literal_excerpt_match": true,
+      "english_words": 18,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 14,
+      "literal_excerpt_match": true,
+      "english_words": 22,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 15,
+      "literal_excerpt_match": true,
+      "english_words": 16,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 16,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 17,
+      "literal_excerpt_match": true,
+      "english_words": 18,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 18,
+      "literal_excerpt_match": true,
+      "english_words": 14,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 19,
+      "literal_excerpt_match": true,
+      "english_words": 16,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 20,
+      "literal_excerpt_match": true,
+      "english_words": 24,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 21,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 22,
+      "literal_excerpt_match": true,
+      "english_words": 30,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 23,
+      "literal_excerpt_match": true,
+      "english_words": 24,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 24,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 25,
+      "literal_excerpt_match": true,
+      "english_words": 27,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 26,
+      "literal_excerpt_match": true,
+      "english_words": 25,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 27,
+      "literal_excerpt_match": true,
+      "english_words": 26,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 28,
+      "literal_excerpt_match": true,
+      "english_words": 20,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 29,
+      "literal_excerpt_match": true,
+      "english_words": 29,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 30,
+      "literal_excerpt_match": true,
+      "english_words": 18,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 31,
+      "literal_excerpt_match": true,
+      "english_words": 17,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 32,
+      "literal_excerpt_match": true,
+      "english_words": 16,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 33,
+      "literal_excerpt_match": true,
+      "english_words": 21,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 34,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 35,
+      "literal_excerpt_match": true,
+      "english_words": 16,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 36,
+      "literal_excerpt_match": true,
+      "english_words": 22,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 37,
+      "literal_excerpt_match": true,
+      "english_words": 22,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 38,
+      "literal_excerpt_match": true,
+      "english_words": 26,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 39,
+      "literal_excerpt_match": true,
+      "english_words": 21,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 40,
+      "literal_excerpt_match": true,
+      "english_words": 15,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 41,
+      "literal_excerpt_match": true,
+      "english_words": 17,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 42,
+      "literal_excerpt_match": true,
+      "english_words": 17,
+      "figures": 1,
+      "variables": 6
+    },
+    {
+      "day": 43,
+      "literal_excerpt_match": true,
+      "english_words": 21,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 44,
+      "literal_excerpt_match": true,
+      "english_words": 14,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 45,
+      "literal_excerpt_match": true,
+      "english_words": 26,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 46,
+      "literal_excerpt_match": true,
+      "english_words": 29,
+      "figures": 1,
+      "variables": 6
+    },
+    {
+      "day": 47,
+      "literal_excerpt_match": true,
+      "english_words": 26,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 48,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 49,
+      "literal_excerpt_match": true,
+      "english_words": 17,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 50,
+      "literal_excerpt_match": true,
+      "english_words": 29,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 51,
+      "literal_excerpt_match": true,
+      "english_words": 21,
+      "figures": 1,
+      "variables": 4
+    },
+    {
+      "day": 52,
+      "literal_excerpt_match": true,
+      "english_words": 16,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 53,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 54,
+      "literal_excerpt_match": true,
+      "english_words": 19,
+      "figures": 1,
+      "variables": 3
+    },
+    {
+      "day": 55,
+      "literal_excerpt_match": true,
+      "english_words": 26,
+      "figures": 1,
+      "variables": 5
+    },
+    {
+      "day": 56,
+      "literal_excerpt_match": true,
+      "english_words": 30,
+      "figures": 1,
+      "variables": 3
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "semantic_review": "reports/review-visual-week01.md through week08.md; independent actual-source and figure review"
+}

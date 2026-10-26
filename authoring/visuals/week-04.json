@@ -1,0 +1,381 @@
+[
+  {
+    "day": 22,
+    "excerpt": {
+      "en": "In order for image quality attributes to be useful for image quality assessment, they must be measurable, and it must be possible to relate the measurement results to human perception.",
+      "zh": "画质属性要能够用于画质评价，就必须可测量，而且测量结果必须能够与人的感知建立联系。",
+      "source": "benchmark",
+      "pdf_page": 53,
+      "chapter": "§2.2",
+      "comment": "因此“测得一个数”和“解释用户感受”是两个需要连接的步骤。下面的自绘图说明观看尺度会改变局部模糊的可察觉程度，而颜色整体变化仍然明显；它不提供相机评分。"
+    },
+    "figure": {
+      "path": "assets/figures/day-22.svg",
+      "kind": "redrawn",
+      "title": "观看大小与属性可察觉性",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Camera Image Quality Benchmarking，PDF第54页，相关图/表2.1。",
+      "source": "benchmark",
+      "pdf_page": 54,
+      "figure_number": "2.1",
+      "alt": "观看大小与属性可察觉性。三列是独立绘制的参考、低饱和与模糊图形。缩小时颜色差异仍保留，而细结构与模糊的可见差异减弱；这个比较解释为什么观看条件需要进入评价规范。",
+      "explanation": "三列是独立绘制的参考、低饱和与模糊图形。缩小时颜色差异仍保留，而细结构与模糊的可见差异减弱；这个比较解释为什么观看条件需要进入评价规范。"
+    },
+    "key_formula": {
+      "tex": "Q=F(I,V,U,O)",
+      "label": "画质评价必须写明条件",
+      "kind": "derived",
+      "source": "benchmark",
+      "pdf_page": 52,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "I",
+          "meaning": "待评图像",
+          "unit": "图像对象"
+        },
+        {
+          "symbol": "V",
+          "meaning": "观看条件",
+          "unit": "条件集合"
+        },
+        {
+          "symbol": "U",
+          "meaning": "任务用途",
+          "unit": "类别/任务"
+        },
+        {
+          "symbol": "O",
+          "meaning": "观察者群体",
+          "unit": "人群条件"
+        },
+        {
+          "symbol": "Q",
+          "meaning": "实验定义的评价尺度",
+          "unit": "由实验约定"
+        }
+      ],
+      "meaning": "这是概念记号，不是原书经验公式，也不是可直接代入的通用评分函数。它把观看、用途与人群作为比较前提。"
+    }
+  },
+  {
+    "day": 23,
+    "excerpt": {
+      "en": "Therefore, the MTF is the magnitude of a slice of the OTF along one axis, and is equal to 1 at zero spatial frequency.",
+      "zh": "因此，MTF是沿一个轴截取OTF所得切片的幅值，并且在零空间频率处等于1。",
+      "source": "benchmark",
+      "pdf_page": 212,
+      "chapter": "§6.7.1",
+      "comment": "幅值归一化给出了不同频率对比传递的共同基准。原图6.27展示从边缘采样到SFR的估计链条；曲线的完整形状比MTF50单点包含更多诊断信息。"
+    },
+    "figure": {
+      "path": "assets/figures/day-23.png",
+      "kind": "original_crop",
+      "title": "原图6.27：斜边SFR估计链路",
+      "caption": "原图局部：Camera Image Quality Benchmarking，PDF第221页，图6.27。仅截取所分析图及必要图注。",
+      "source": "benchmark",
+      "pdf_page": 221,
+      "figure_number": "6.27",
+      "alt": "原图6.27：斜边SFR估计链路。按a至f阅读：逐行采样、各行剖面、位移叠加、分箱、微分、傅里叶变换。亚像素叠加提高边缘函数的估计采样密度，不意味着相机凭空获得新的真实细节。",
+      "explanation": "按a至f阅读：逐行采样、各行剖面、位移叠加、分箱、微分、傅里叶变换。亚像素叠加提高边缘函数的估计采样密度，不意味着相机凭空获得新的真实细节。",
+      "crop_pdf_points": [
+        65,
+        70,
+        430,
+        476
+      ]
+    },
+    "key_formula": {
+      "tex": "m(\\nu)=\\left|\\int_{-\\infty}^{\\infty}\\ell(x)e^{-2\\pi i\\nu x}\\,dx\\right|",
+      "label": "线扩散函数的傅里叶幅值",
+      "kind": "source",
+      "source": "benchmark",
+      "pdf_page": 212,
+      "original_number": "6.32",
+      "variables": [
+        {
+          "symbol": "\\ell(x)",
+          "meaning": "归一化线扩散函数",
+          "unit": "坐标倒数"
+        },
+        {
+          "symbol": "x",
+          "meaning": "空间坐标",
+          "unit": "mm或pixel"
+        },
+        {
+          "symbol": "\\nu",
+          "meaning": "空间频率",
+          "unit": "cycles/mm或cycles/pixel"
+        },
+        {
+          "symbol": "m(\\nu)",
+          "meaning": "MTF",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "原书式6.32；要求相容坐标单位与归一化，积分ℓ(x)dx=1时零频值为1。"
+    }
+  },
+  {
+    "day": 24,
+    "excerpt": {
+      "en": "As can be seen, the slope of the OECF for a particular signal level will determine the noise amplitude.",
+      "zh": "可以看出，OECF在某一信号水平处的斜率决定噪声幅度。",
+      "source": "benchmark",
+      "pdf_page": 233,
+      "chapter": "§6.9.3",
+      "comment": "因此经过非线性处理的输出噪声不能直接与线性RAW噪声比较。另一层差异是空间相关性：即使标准差相同，细颗粒与成团噪声的外观也可能明显不同。"
+    },
+    "figure": {
+      "path": "assets/figures/day-24.svg",
+      "kind": "redrawn",
+      "title": "同方差噪声的空间结构差异",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Camera Image Quality Benchmarking，PDF第232页，相关图/表6.31。",
+      "source": "benchmark",
+      "pdf_page": 232,
+      "figure_number": "6.31",
+      "alt": "相同目标均值与方差、不同空间相关性的两幅自绘噪声示意；不是相机实验数据。",
+      "explanation": "两幅是独立生成并按相同目标均值128、标准差30归一化的教学噪声样本，右侧增加了空间相关。显示为整数灰度时有微小量化误差；它们不是教材图6.31的复制，也不是相机采集数据。"
+    },
+    "key_formula": {
+      "tex": "\\mathrm{SNR}=\\frac{L\\,g(L)}{\\sigma_y(L)}",
+      "label": "把非线性输出噪声折回场景输入",
+      "kind": "source",
+      "source": "benchmark",
+      "pdf_page": 233,
+      "original_number": "6.66",
+      "variables": [
+        {
+          "symbol": "L",
+          "meaning": "输入场景亮度",
+          "unit": "如cd/m²"
+        },
+        {
+          "symbol": "g(L)=dy/dL",
+          "meaning": "OECF局部斜率",
+          "unit": "DN/(cd/m²)"
+        },
+        {
+          "symbol": "\\sigma_y(L)",
+          "meaning": "该亮度下输出标准差",
+          "unit": "DN"
+        }
+      ],
+      "meaning": "局部斜率将输出噪声换算为输入等效噪声；接近剪切、斜率趋零时反推会不稳定。"
+    }
+  },
+  {
+    "day": 25,
+    "excerpt": {
+      "en": "If a colour space is perceptually uniform and its dimensions orthogonal, then the difference between two colours can be represented as the Euclidean distance between their coordinates.",
+      "zh": "若一个色彩空间在感知上均匀、各维相互正交，则两种颜色的差异可用其坐标间的欧氏距离表示。",
+      "source": "colour",
+      "pdf_page": 59,
+      "chapter": "§2.11",
+      "comment": "“若”是重要前提：CIELAB只近似均匀。原图的辨色椭圆在不同位置具有不同形状和大小，正是解释为什么等数值ΔE不总等于等感知差异的证据。"
+    },
+    "figure": {
+      "path": "assets/figures/day-25.png",
+      "kind": "original_crop",
+      "title": "原图2.2：CIELAB辨色椭圆",
+      "caption": "原图局部：Fundamentals and Applications of Colour Engineering，PDF第61页，图2.2。仅截取所分析图及必要图注。",
+      "source": "colour",
+      "pdf_page": 61,
+      "figure_number": "2.2",
+      "alt": "原图2.2：CIELAB辨色椭圆。观察不同位置椭圆的大小、方向和伸长程度。感知差异在Lab中并非处处表现为同半径圆，因此一个欧氏色差值不能脱离颜色区域和观看条件理解。",
+      "explanation": "观察不同位置椭圆的大小、方向和伸长程度。感知差异在Lab中并非处处表现为同半径圆，因此一个欧氏色差值不能脱离颜色区域和观看条件理解。",
+      "crop_pdf_points": [
+        55,
+        65,
+        516,
+        332
+      ]
+    },
+    "key_formula": {
+      "tex": "\\Delta E_{ab}^{*}=\\sqrt{(\\Delta L^{*})^2+(\\Delta a^{*})^2+(\\Delta b^{*})^2}",
+      "label": "CIELAB中的欧氏色差",
+      "kind": "source",
+      "source": "colour",
+      "pdf_page": 59,
+      "original_number": "2.13",
+      "variables": [
+        {
+          "symbol": "\\Delta L^*",
+          "meaning": "参考与样品明度差",
+          "unit": "Lab坐标单位，无物理量纲"
+        },
+        {
+          "symbol": "\\Delta a^*,\\Delta b^*",
+          "meaning": "两个色度轴的坐标差",
+          "unit": "Lab坐标单位，无物理量纲"
+        },
+        {
+          "symbol": "\\Delta E_{ab}^*",
+          "meaning": "三维距离",
+          "unit": "无物理量纲"
+        }
+      ],
+      "meaning": "原式2.13；只有参考白、色彩空间及观察条件一致时才有可比性。它不同于CIEDE2000。"
+    }
+  },
+  {
+    "day": 26,
+    "excerpt": {
+      "en": "For a dynamic range metric to be meaningful, it should refer to the scene content and therefore be defined in terms of the scene luminance.",
+      "zh": "动态范围指标要有意义，就应对应场景内容，因此应依据场景亮度来定义。",
+      "source": "benchmark",
+      "pdf_page": 193,
+      "chapter": "§6.2",
+      "comment": "这把评价对象放在可用输入跨度，而不是输出文件能容纳多少个代码。自绘曲线中的剪切区说明：已经丢失的输入差异不能仅靠增加输出位数恢复。"
+    },
+    "figure": {
+      "path": "assets/figures/day-26.svg",
+      "kind": "redrawn",
+      "title": "OECF、输入范围与剪切",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Camera Image Quality Benchmarking，PDF第192页，相关图/表6.1。",
+      "source": "benchmark",
+      "pdf_page": 192,
+      "figure_number": "6.1",
+      "alt": "OECF、输入范围与剪切。灰色区域表示教学模型中的低端及高端剪切。中间曲线局部斜率控制小信号变化与噪声的放大，而两端已经合并的输入差异不再由输出代码区分。",
+      "explanation": "灰色区域表示教学模型中的低端及高端剪切。中间曲线局部斜率控制小信号变化与噪声的放大，而两端已经合并的输入差异不再由输出代码区分。"
+    },
+    "key_formula": {
+      "tex": "D_{\\mathrm{stop}}=\\log_2\\left(\\frac{N_{\\max}}{\\sigma_e}\\right)",
+      "label": "把输入信号比值表示为曝光档数",
+      "kind": "derived",
+      "source": "benchmark",
+      "pdf_page": 193,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "N_{\\max}",
+          "meaning": "最大可用电子信号",
+          "unit": "电子计数"
+        },
+        {
+          "symbol": "\\sigma_e",
+          "meaning": "低端等效噪声标准差",
+          "unit": "电子计数"
+        },
+        {
+          "symbol": "D_{\\mathrm{stop}}",
+          "meaning": "以2为底的范围表示",
+          "unit": "stop，比例尺度"
+        }
+      ],
+      "meaning": "对原文动态范围比值的单位整理，非该页的编号公式。最低可用信号的SNR门限与测量条件仍须声明。 此电子计数比值是读噪声占优、低端采用SNR约1时的近似，不替代一般条件下的精确灵敏度阈值定义。"
+    }
+  },
+  {
+    "day": 27,
+    "excerpt": {
+      "en": "An ordinal scale indicates the relationship between stimuli as being greater or less than each other, though the exact spacing between the perceptual responses is ambiguous.",
+      "zh": "顺序量表说明刺激之间孰大孰小，但感知响应之间的确切间距并不明确。",
+      "source": "benchmark",
+      "pdf_page": 143,
+      "chapter": "§5.2",
+      "comment": "所以“A排第一”不代表A与B的距离等于B与C的距离。下面保持同一排序而改变视觉间距的自绘示意，帮助区分排序结果与经过模型标定的感知尺度。"
+    },
+    "figure": {
+      "path": "assets/figures/day-27.svg",
+      "kind": "redrawn",
+      "title": "顺序量表不规定感知间距",
+      "caption": "自绘教学示意，非原图、非实验数据；依据Camera Image Quality Benchmarking，PDF第143页，相关图/表Table 5.2。",
+      "source": "benchmark",
+      "pdf_page": 143,
+      "figure_number": "Table 5.2",
+      "alt": "顺序量表不规定感知间距。两条示意排列保持相同先后顺序，却具有不同间隔。顺序量表允许这样的变化；若要声称差多少，就需要额外的间隔尺度或心理物理模型。",
+      "explanation": "两条示意排列保持相同先后顺序，却具有不同间隔。顺序量表允许这样的变化；若要声称差多少，就需要额外的间隔尺度或心理物理模型。"
+    },
+    "key_formula": {
+      "tex": "\\Delta\\phi=K_w\\phi",
+      "label": "Weber定律：差别阈值随基线改变",
+      "kind": "source",
+      "source": "benchmark",
+      "pdf_page": 140,
+      "original_number": "5.1",
+      "variables": [
+        {
+          "symbol": "\\phi",
+          "meaning": "基线刺激",
+          "unit": "由实验选择的物理单位"
+        },
+        {
+          "symbol": "\\Delta\\phi",
+          "meaning": "可察觉的最小刺激变化",
+          "unit": "与φ相同单位"
+        },
+        {
+          "symbol": "K_w",
+          "meaning": "Weber比例系数",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "原书式5.1，不是固定DN阈值，也不是通用相机画质评分；系数取决于刺激类型和实验。"
+    }
+  },
+  {
+    "day": 28,
+    "excerpt": {
+      "en": "A well-established method to produce a number reflecting the visual impression of sharpness is the measure of acutance (Kriss, 1998).",
+      "zh": "一种成熟的、将锐度视觉印象归纳成数值的方法是锐度感指标acutance（Kriss，1998）。",
+      "source": "benchmark",
+      "pdf_page": 256,
+      "chapter": "§7.4.1.1",
+      "comment": "原书接着将相机SFR、人眼敏感度与输出设备MTF放入同一视角频率坐标中加权。原图7.6的显示条件是该例的组成部分，不能把图中的数值当作所有屏幕和观看距离下的常数。"
+    },
+    "figure": {
+      "path": "assets/figures/day-28.png",
+      "kind": "original_crop",
+      "title": "原图7.6：显示观看条件下的锐度感积分",
+      "caption": "原图局部：Camera Image Quality Benchmarking，PDF第257页，图7.6。仅截取所分析图及必要图注。",
+      "source": "benchmark",
+      "pdf_page": 257,
+      "figure_number": "7.6",
+      "alt": "原图7.6：显示观看条件下的锐度感积分。先确认横轴为周每度，再比较相机MTF、亮度CSF和显示MTF的重叠。虚线截止来自该例的观看与采样条件，不能作为任何屏幕通用的固定频率。",
+      "explanation": "先确认横轴为周每度，再比较相机MTF、亮度CSF和显示MTF的重叠。虚线截止来自该例的观看与采样条件，不能作为任何屏幕通用的固定频率。",
+      "crop_pdf_points": [
+        53,
+        70,
+        416,
+        305
+      ]
+    },
+    "key_formula": {
+      "tex": "Q_{\\mathrm{edge}}=\\frac{\\int_0^{\\nu_c}S(\\nu)C(\\nu)M(\\nu)\\,d\\nu}{\\int_0^{\\infty}C(\\nu)\\,d\\nu}",
+      "label": "把相机、视觉与输出设备放在同一频率坐标",
+      "kind": "source",
+      "source": "benchmark",
+      "pdf_page": 256,
+      "original_number": "7.8",
+      "variables": [
+        {
+          "symbol": "S(\\nu)",
+          "meaning": "相机SFR",
+          "unit": "无量纲相对响应"
+        },
+        {
+          "symbol": "C(\\nu)",
+          "meaning": "对比敏感度权重",
+          "unit": "相对权重"
+        },
+        {
+          "symbol": "M(\\nu)",
+          "meaning": "显示/打印MTF",
+          "unit": "无量纲相对响应"
+        },
+        {
+          "symbol": "\\nu,\\nu_c",
+          "meaning": "视角空间频率与截止",
+          "unit": "cycles/degree"
+        },
+        {
+          "symbol": "Q_{\\mathrm{edge}}",
+          "meaning": "边缘锐度感指标",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "原书式7.8，分母上限为无穷。先统一观看尺度，再由相机与输出设备较低的奈奎斯特频率确定ν_c。"
+    }
+  }
+]

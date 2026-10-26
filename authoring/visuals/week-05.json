@@ -1,0 +1,355 @@
+[
+  {
+    "day": 29,
+    "excerpt": {
+      "en": "Upon photon detection, the device generates a current pulse that is converted to a digital voltage level by means of a pulse shaping circuitry, also shown in the figure.",
+      "zh": "探测到光子时，器件产生电流脉冲；脉冲整形电路再把它转换为数字电压电平，图中也给出了这一电路。",
+      "source": "spad",
+      "pdf_page": 20,
+      "chapter": "SPAD-Based Sensors, §3",
+      "comment": "这里的数字电平表示一次事件，不是与本次光子能量成正比的幅值。它把后续问题转成事件的计数、计时和接收能力。"
+    },
+    "figure": {
+      "path": "assets/figures/day-29.png",
+      "kind": "original_crop",
+      "title": "TCSPC光路与同步参考",
+      "caption": "原图局部：TOF Range-Imaging Cameras，SPAD-Based Sensors，PDF21，图4；仅截取系统图。",
+      "source": "spad",
+      "pdf_page": 21,
+      "figure_number": "4",
+      "alt": "TCSPC光路与同步参考。先沿照明光路找到目标，再沿返回光路找到单光子传感器。计时单元还接收发射同步，空间成像与时间测量共同构成深度。",
+      "explanation": "先沿照明光路找到目标，再沿返回光路找到单光子传感器。计时单元还接收发射同步，空间成像与时间测量共同构成深度。",
+      "crop_pdf_coordinates": [
+        80,
+        460,
+        388,
+        570
+      ]
+    },
+    "key_formula": {
+      "tex": "\\mu_s=\\eta_{\\mathrm{eff}}\\Phi T",
+      "label": "有效信号计数预算",
+      "kind": "derived",
+      "source": "spad",
+      "pdf_page": 21,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\mu_s",
+          "meaning": "期望信号计数",
+          "unit": "事件"
+        },
+        {
+          "symbol": "\\eta_{\\mathrm{eff}}",
+          "meaning": "整链路有效接收效率",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\Phi",
+          "meaning": "参考面入射光通量",
+          "unit": "光子/s"
+        },
+        {
+          "symbol": "T",
+          "meaning": "有效接收时间",
+          "unit": "s"
+        }
+      ],
+      "meaning": "教学推导：仅在弱光、无明显死时间损失及读出丢失时成立。输出事件数与积分像素的电子数应分别比较。"
+    }
+  },
+  {
+    "day": 30,
+    "excerpt": {
+      "en": "The simplest such circuit is a resistor placed in series with the diode, also known as ballast resistor.",
+      "zh": "最简单的这类电路，是与二极管串联的一个电阻，也称镇流电阻。",
+      "source": "spad",
+      "pdf_page": 18,
+      "chapter": "SPAD-Based Sensors, §2",
+      "comment": "这句话解释被动淬灭的最简实现。实际恢复还受寄生电容和判定阈值影响，不能直接把一个RC时间常数等同于任何实现的死时间。"
+    },
+    "figure": {
+      "path": "assets/figures/day-30.svg",
+      "kind": "redrawn",
+      "title": "淬灭后重新进入可探测状态",
+      "caption": "自绘状态示意，依据SPAD-Based Sensors，PDF17–18，图1及相邻正文；非原图、非实验波形。",
+      "source": "spad",
+      "pdf_page": 18,
+      "figure_number": "1",
+      "alt": "淬灭后重新进入可探测状态。沿时间轴观察偏压从运行条件下降、淬灭，再恢复。阴影区域强调器件在一次事件之后存在不可用时间。",
+      "explanation": "沿时间轴观察偏压从运行条件下降、淬灭，再恢复。阴影区域强调器件在一次事件之后存在不可用时间。"
+    },
+    "key_formula": {
+      "tex": "V_E=V_{OP}-V_{BD}",
+      "label": "超额偏压的定义",
+      "kind": "derived",
+      "source": "spad",
+      "pdf_page": 18,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "V_E",
+          "meaning": "超额偏压",
+          "unit": "V"
+        },
+        {
+          "symbol": "V_{OP}",
+          "meaning": "工作偏压",
+          "unit": "V"
+        },
+        {
+          "symbol": "V_{BD}",
+          "meaning": "击穿电压",
+          "unit": "V"
+        }
+      ],
+      "meaning": "对原文偏压定义作代数整理，不是书中另一个编号公式。超额偏压是运行条件，其改变会同时影响探测概率、噪声和时序。"
+    }
+  },
+  {
+    "day": 31,
+    "excerpt": {
+      "en": "The probability that a single photon’s generated carriers are detected is called the photon detection probability (PDP).",
+      "zh": "由一个光子产生的载流子被探测到的概率，称为光子探测概率PDP。",
+      "source": "spad",
+      "pdf_page": 18,
+      "chapter": "SPAD-Based Sensors, §2",
+      "comment": "PDP讨论一次入射光子引发的载流子是否触发探测。整像素效率还必须说明填充因子与参考面积；原书PDF29脚注3明确给出两者关系。"
+    },
+    "figure": {
+      "path": "assets/figures/day-31.svg",
+      "kind": "redrawn",
+      "title": "整像素效率与本征触发概率",
+      "caption": "自绘定义示意，依据SPAD-Based Sensors，PDF18、29脚注3；不是原表重制，不使用原器件数值。",
+      "source": "spad",
+      "pdf_page": 29,
+      "figure_number": "Table 1, footnote 3",
+      "alt": "整像素效率与本征触发概率。左侧区分整像素面积与有效区。右侧进一步区分落入有效区和成功触发，这两个条件都要满足。",
+      "explanation": "左侧区分整像素面积与有效区。右侧进一步区分落入有效区和成功触发，这两个条件都要满足。"
+    },
+    "key_formula": {
+      "tex": "PDE=FF\\times PDP",
+      "label": "PDE的面积归一化",
+      "kind": "source",
+      "source": "spad",
+      "pdf_page": 29,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\mathrm{PDE}",
+          "meaning": "整像素光子探测效率",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\mathrm{FF}",
+          "meaning": "有效探测区占整像素面积比",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\mathrm{PDP}",
+          "meaning": "有效区内光子探测概率",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "原书脚注3定义的重写；这里不自动包括镜头损耗、门控和读出丢失。百分数代入前须统一为小数。"
+    }
+  },
+  {
+    "day": 32,
+    "excerpt": {
+      "en": "Afterpulsing prevents an instant recharge phase in SPADs, and places constraints on the minimum dead time.",
+      "zh": "后脉冲使SPAD不宜立即再充电，并对最短死时间施加限制。",
+      "source": "spad",
+      "pdf_page": 18,
+      "chapter": "SPAD-Based Sensors, §2",
+      "comment": "这里指为抑制陷阱相关的再次触发，恢复和保持间隔受到约束，并非电容在物理上不能快速充电。延长保持间隔可能抑制后脉冲，却会降低吞吐；这与时间抖动是不同性能维度。"
+    },
+    "figure": {
+      "path": "assets/figures/day-32.png",
+      "kind": "original_crop",
+      "title": "实测TCSPC主峰与长尾",
+      "caption": "原图局部：SPAD-Based Sensors，PDF24，图8的直方图；横轴为到达时间ns，纵轴为计数。",
+      "source": "spad",
+      "pdf_page": 24,
+      "figure_number": "8",
+      "alt": "实测TCSPC主峰与长尾。主峰附近的宽度描述一部分计时离散，右侧尾部说明单一高斯宽度并不总能描述完整响应。原文明确把抖动与SPAD时间不确定度、特征尾部相关联。",
+      "explanation": "主峰附近的宽度描述一部分计时离散，右侧尾部说明单一高斯宽度并不总能描述完整响应。原文明确把抖动与SPAD时间不确定度、特征尾部相关联。",
+      "crop_pdf_coordinates": [
+        215,
+        476,
+        388,
+        601
+      ]
+    },
+    "key_formula": {
+      "tex": "r_{\\mathrm{obs}}={r_{\\mathrm{in}}\\over1+r_{\\mathrm{in}}\\tau_d}",
+      "label": "死时间造成的计数损失",
+      "kind": "derived",
+      "source": "spad",
+      "pdf_page": 18,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "r_{\\mathrm{obs}}",
+          "meaning": "实际记录事件率",
+          "unit": "s⁻¹"
+        },
+        {
+          "symbol": "r_{\\mathrm{in}}",
+          "meaning": "候选输入事件率",
+          "unit": "s⁻¹"
+        },
+        {
+          "symbol": "\\tau_d",
+          "meaning": "每次接收后的固定死时间",
+          "unit": "s"
+        }
+      ],
+      "meaning": "教学非延长型死时间模型：失能期间到达的事件不延长恢复。它不是原书普遍计数方程，也不适用于所有门控或共享结构。"
+    }
+  },
+  {
+    "day": 33,
+    "excerpt": {
+      "en": "The integration of time-resolving electronics on a per-column or per-chip basis represents a trade-off between fill-factor, processing bandwidth and circuit area.",
+      "zh": "把时间分辨电子学集成在每列或整芯片级别，是填充因子、处理带宽与电路面积之间的一种权衡。",
+      "source": "spad",
+      "pdf_page": 24,
+      "chapter": "SPAD-Based Sensors, §4",
+      "comment": "共享时间测量资源能节省像素面积，但并不保证所有到达事件都有机会被处理。判断时间码位数之前，应先看事件是否成功进入转换器。"
+    },
+    "figure": {
+      "path": "assets/figures/day-33.svg",
+      "kind": "redrawn",
+      "title": "共享时间转换器与时间码",
+      "caption": "自绘教学结构，依据SPAD-Based Sensors，PDF23–24图7与正文；只说明4:1共享关系，不复制芯片图。",
+      "source": "spad",
+      "pdf_page": 23,
+      "figure_number": "7",
+      "alt": "共享时间转换器与时间码。四路像素事件先通过复用结构，再由共享TDC给出时间码。下方刻度说明码宽与事件接收吞吐是两个不同问题。",
+      "explanation": "四路像素事件先通过复用结构，再由共享TDC给出时间码。下方刻度说明码宽与事件接收吞吐是两个不同问题。"
+    },
+    "key_formula": {
+      "tex": "T_{\\mathrm{span}}=2^b\\Delta t",
+      "label": "均匀时间码覆盖范围",
+      "kind": "derived",
+      "source": "spad",
+      "pdf_page": 24,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "T_{\\mathrm{span}}",
+          "meaning": "按全部量化区间计算的理想覆盖窗口宽度",
+          "unit": "s"
+        },
+        {
+          "symbol": "b",
+          "meaning": "时间码位数",
+          "unit": "bit"
+        },
+        {
+          "symbol": "\\Delta t",
+          "meaning": "均匀量化码宽",
+          "unit": "s"
+        }
+      ],
+      "meaning": "教学均匀量化模型：按2^b个连续码区间计，窗口宽度为2^bΔt；首末码中心之差则是(2^b−1)Δt。实际可用窗口还可能受重复周期、门控和非线性限制，不等于最终无歧义距离。"
+    }
+  },
+  {
+    "day": 34,
+    "excerpt": {
+      "en": "Thus, averaging and multi-measurement techniques must be employed. A common choice is the use of time-correlated single-photon counting (TCSPC).",
+      "zh": "因此，需要采用平均与多次测量技术。一种常见选择是时间相关单光子计数TCSPC。",
+      "source": "spad",
+      "pdf_page": 16,
+      "chapter": "SPAD-Based Sensors, §1",
+      "comment": "原文将单次时间不确定度与多次统计联系起来，同段也讨论低事件率以减少堆积效应。增加重复次数与提高单周期占用不是同一操作。"
+    },
+    "figure": {
+      "path": "assets/figures/day-34.svg",
+      "kind": "redrawn",
+      "title": "首事件保存规则导致时间选择偏差",
+      "caption": "自绘泊松教学模型：每桶候选事件均值λk=0.5；不是教材实验曲线。背景讨论见SPAD-Based Sensors，PDF16、37。",
+      "source": "spad",
+      "pdf_page": 16,
+      "figure_number": null,
+      "alt": "首事件保存规则导致时间选择偏差。候选事件各桶相同，但只保留首事件后，越晚的桶越需要满足此前没有事件的条件。右图记录概率因此随桶序下降。",
+      "explanation": "候选事件各桶相同，但只保留首事件后，越晚的桶越需要满足此前没有事件的条件。右图记录概率因此随桶序下降。"
+    },
+    "key_formula": {
+      "tex": "P_k=e^{-\\sum_{j<k}\\lambda_j}\\left(1-e^{-\\lambda_k}\\right)",
+      "label": "首事件记录概率",
+      "kind": "derived",
+      "source": "spad",
+      "pdf_page": 16,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "P_k",
+          "meaning": "第k桶成为首个记录事件的概率",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\lambda_j",
+          "meaning": "第j桶候选泊松事件均值",
+          "unit": "事件/周期"
+        },
+        {
+          "symbol": "k",
+          "meaning": "时间桶序号",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "教学条件概率推导，假设各桶候选事件独立且每周期只保存首事件；不覆盖多事件保存或其他门控策略。"
+    }
+  },
+  {
+    "day": 35,
+    "excerpt": {
+      "en": "When implemented in an array, other performance measures become relevant to the quality of the imager.",
+      "zh": "当SPAD实现为阵列时，其他性能指标也会关系到整幅成像的质量。",
+      "source": "spad",
+      "pdf_page": 20,
+      "chapter": "SPAD-Based Sensors, §3",
+      "comment": "单像素PDP或抖动不足以代表阵列质量。均匀性、串扰、共享读出以及最终深度偏差与离散应分层报告。"
+    },
+    "figure": {
+      "path": "assets/figures/day-35.svg",
+      "kind": "redrawn",
+      "title": "偏差与重复散布是两种误差",
+      "caption": "自绘定性误差示意，依据SPAD-Based Sensors PDF32–33图18对平均误差和标准差的分列；非实验散点。",
+      "source": "spad",
+      "pdf_page": 33,
+      "figure_number": "18",
+      "alt": "偏差与重复散布是两种误差。左图点群紧密但偏离参考中心，右图均值接近中心而单次离散较大。两者都不能只用“精度高”概括。",
+      "explanation": "左图点群紧密但偏离参考中心，右图均值接近中心而单次离散较大。两者都不能只用“精度高”概括。"
+    },
+    "key_formula": {
+      "tex": "\\mathrm{RMSE}^2=b^2+\\sigma^2",
+      "label": "总体均方误差的分解",
+      "kind": "derived",
+      "source": "spad",
+      "pdf_page": 32,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\mathrm{RMSE}",
+          "meaning": "总体均方根误差",
+          "unit": "m"
+        },
+        {
+          "symbol": "b",
+          "meaning": "相对参考真值的平均偏差",
+          "unit": "m"
+        },
+        {
+          "symbol": "\\sigma",
+          "meaning": "零均值随机部分的标准差",
+          "unit": "m"
+        }
+      ],
+      "meaning": "教学总体误差分解。有限样本用无偏样本方差时还要注意N与N−1的因子，不能混用统计定义。"
+    }
+  }
+]

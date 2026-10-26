@@ -1,0 +1,338 @@
+[
+  {
+    "day": 1,
+    "week": 1,
+    "title": "相机成像链路：镜头到 RGB",
+    "url": "articles/day-01.html"
+  },
+  {
+    "day": 2,
+    "week": 1,
+    "title": "CMOS 核心参数：像素尺寸、QE、满阱",
+    "url": "articles/day-02.html"
+  },
+  {
+    "day": 3,
+    "week": 1,
+    "title": "从光子到 DN：信号转换",
+    "url": "articles/day-03.html"
+  },
+  {
+    "day": 4,
+    "week": 1,
+    "title": "散粒噪声、读出噪声与暗电流",
+    "url": "articles/day-04.html"
+  },
+  {
+    "day": 5,
+    "week": 1,
+    "title": "SNR、动态范围与曝光",
+    "url": "articles/day-05.html"
+  },
+  {
+    "day": 6,
+    "week": 1,
+    "title": "CMOS Datasheet 解读",
+    "url": "articles/day-06.html"
+  },
+  {
+    "day": 7,
+    "week": 1,
+    "title": "本周重点概念串讲",
+    "url": "articles/day-07.html"
+  },
+  {
+    "day": 8,
+    "week": 2,
+    "title": "EMVA 1288 信号模型",
+    "url": "articles/day-08.html"
+  },
+  {
+    "day": 9,
+    "week": 2,
+    "title": "PTC 的原理与曲线",
+    "url": "articles/day-09.html"
+  },
+  {
+    "day": 10,
+    "week": 2,
+    "title": "均值–方差关系与转换增益",
+    "url": "articles/day-10.html"
+  },
+  {
+    "day": 11,
+    "week": 2,
+    "title": "读出噪声、饱和容量和灵敏度",
+    "url": "articles/day-11.html"
+  },
+  {
+    "day": 12,
+    "week": 2,
+    "title": "PRNU、DSNU 与坏点",
+    "url": "articles/day-12.html"
+  },
+  {
+    "day": 13,
+    "week": 2,
+    "title": "PTC 曲线的实际解读",
+    "url": "articles/day-13.html"
+  },
+  {
+    "day": 14,
+    "week": 2,
+    "title": "CMOS 标准评价方法总结",
+    "url": "articles/day-14.html"
+  },
+  {
+    "day": 15,
+    "week": 3,
+    "title": "RAW、Bayer CFA 与 ISP Pipeline",
+    "url": "articles/day-15.html"
+  },
+  {
+    "day": 16,
+    "week": 3,
+    "title": "黑电平、坏点与镜头阴影校正",
+    "url": "articles/day-16.html"
+  },
+  {
+    "day": 17,
+    "week": 3,
+    "title": "Demosaicing 和伪影",
+    "url": "articles/day-17.html"
+  },
+  {
+    "day": 18,
+    "week": 3,
+    "title": "白平衡与 CCM",
+    "url": "articles/day-18.html"
+  },
+  {
+    "day": 19,
+    "week": 3,
+    "title": "Gamma、Tone Mapping 与 HDR",
+    "url": "articles/day-19.html"
+  },
+  {
+    "day": 20,
+    "week": 3,
+    "title": "降噪、锐化和纹理",
+    "url": "articles/day-20.html"
+  },
+  {
+    "day": 21,
+    "week": 3,
+    "title": "ISP 各模块影响梳理",
+    "url": "articles/day-21.html"
+  },
+  {
+    "day": 22,
+    "week": 4,
+    "title": "什么是 Image Quality",
+    "url": "articles/day-22.html"
+  },
+  {
+    "day": 23,
+    "week": 4,
+    "title": "MTF、SFR 与 MTF50",
+    "url": "articles/day-23.html"
+  },
+  {
+    "day": 24,
+    "week": 4,
+    "title": "噪声和低照度画质",
+    "url": "articles/day-24.html"
+  },
+  {
+    "day": 25,
+    "week": 4,
+    "title": "CIE Lab 与色差 ΔE",
+    "url": "articles/day-25.html"
+  },
+  {
+    "day": 26,
+    "week": 4,
+    "title": "动态范围和色调再现",
+    "url": "articles/day-26.html"
+  },
+  {
+    "day": 27,
+    "week": 4,
+    "title": "主观画质评价方法",
+    "url": "articles/day-27.html"
+  },
+  {
+    "day": 28,
+    "week": 4,
+    "title": "客观指标与视觉感知的联系",
+    "url": "articles/day-28.html"
+  },
+  {
+    "day": 29,
+    "week": 5,
+    "title": "SPAD 与 CMOS 像素的区别",
+    "url": "articles/day-29.html"
+  },
+  {
+    "day": 30,
+    "week": 5,
+    "title": "Geiger 模式与雪崩探测",
+    "url": "articles/day-30.html"
+  },
+  {
+    "day": 31,
+    "week": 5,
+    "title": "PDE、DCR 和光子计数",
+    "url": "articles/day-31.html"
+  },
+  {
+    "day": 32,
+    "week": 5,
+    "title": "Timing Jitter、Dead Time 和 Afterpulsing",
+    "url": "articles/day-32.html"
+  },
+  {
+    "day": 33,
+    "week": 5,
+    "title": "SPAD 阵列与 TDC",
+    "url": "articles/day-33.html"
+  },
+  {
+    "day": 34,
+    "week": 5,
+    "title": "背景光、pile-up 与动态范围",
+    "url": "articles/day-34.html"
+  },
+  {
+    "day": 35,
+    "week": 5,
+    "title": "SPAD 指标体系总结",
+    "url": "articles/day-35.html"
+  },
+  {
+    "day": 36,
+    "week": 6,
+    "title": "dToF 原理与系统架构",
+    "url": "articles/day-36.html"
+  },
+  {
+    "day": 37,
+    "week": 6,
+    "title": "iToF 相位测量",
+    "url": "articles/day-37.html"
+  },
+  {
+    "day": 38,
+    "week": 6,
+    "title": "dToF 与 iToF 的区别",
+    "url": "articles/day-38.html"
+  },
+  {
+    "day": 39,
+    "week": 6,
+    "title": "测距准确度、精密度与分辨率",
+    "url": "articles/day-39.html"
+  },
+  {
+    "day": 40,
+    "week": 6,
+    "title": "多径与混合像素",
+    "url": "articles/day-40.html"
+  },
+  {
+    "day": 41,
+    "week": 6,
+    "title": "环境光、串扰、反射率和温漂",
+    "url": "articles/day-41.html"
+  },
+  {
+    "day": 42,
+    "week": 6,
+    "title": "ToF 误差机制梳理",
+    "url": "articles/day-42.html"
+  },
+  {
+    "day": 43,
+    "week": 7,
+    "title": "RGB-D 技术路线比较",
+    "url": "articles/day-43.html"
+  },
+  {
+    "day": 44,
+    "week": 7,
+    "title": "结构光测距",
+    "url": "articles/day-44.html"
+  },
+  {
+    "day": 45,
+    "week": 7,
+    "title": "内参、外参与深度标定",
+    "url": "articles/day-45.html"
+  },
+  {
+    "day": 46,
+    "week": 7,
+    "title": "RGB 和深度配准",
+    "url": "articles/day-46.html"
+  },
+  {
+    "day": 47,
+    "week": 7,
+    "title": "深度噪声、空洞与飞点",
+    "url": "articles/day-47.html"
+  },
+  {
+    "day": 48,
+    "week": 7,
+    "title": "深度图与点云",
+    "url": "articles/day-48.html"
+  },
+  {
+    "day": 49,
+    "week": 7,
+    "title": "RGB-D 评价指标汇总",
+    "url": "articles/day-49.html"
+  },
+  {
+    "day": 50,
+    "week": 8,
+    "title": "CMOS 与 SPAD 参数比较",
+    "url": "articles/day-50.html"
+  },
+  {
+    "day": 51,
+    "week": 8,
+    "title": "RGB-D 方案性能比较",
+    "url": "articles/day-51.html"
+  },
+  {
+    "day": 52,
+    "week": 8,
+    "title": "画质指标与感知",
+    "url": "articles/day-52.html"
+  },
+  {
+    "day": 53,
+    "week": 8,
+    "title": "从需求出发选择 Sensor",
+    "url": "articles/day-53.html"
+  },
+  {
+    "day": 54,
+    "week": 8,
+    "title": "如何制定 RGB-D 评价规范",
+    "url": "articles/day-54.html"
+  },
+  {
+    "day": 55,
+    "week": 8,
+    "title": "系统瓶颈定位方法",
+    "url": "articles/day-55.html"
+  },
+  {
+    "day": 56,
+    "week": 8,
+    "title": "八周知识体系总结",
+    "url": "articles/day-56.html"
+  }
+]

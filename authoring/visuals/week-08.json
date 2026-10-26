@@ -1,0 +1,359 @@
+[
+  {
+    "day": 50,
+    "excerpt": {
+      "en": "Upon photon detection, the device generates a current pulse that is converted to a digital voltage level by means of a pulse shaping circuitry, also shown in the figure.",
+      "zh": "探测到光子后，器件产生电流脉冲，并由脉冲整形电路转换成数字电压电平，该电路也画在图中。",
+      "source": "spad",
+      "pdf_page": 20,
+      "chapter": "SPAD-Based Sensors，§3",
+      "comment": "这段话说明SPAD的输出是事件脉冲，不能把脉冲高度直接等同于积分相机的光电子电荷读数。计数、恢复时间及到达时刻共同决定后续可用信息。"
+    },
+    "figure": {
+      "path": "assets/figures/day-50.svg",
+      "kind": "redrawn",
+      "title": "积分信号与事件信号的输出差别",
+      "source": "spad",
+      "pdf_page": 20,
+      "figure_number": null,
+      "caption": "自绘测量链路示意；依据SPAD-Based Sensors PDF20及EMVA PDF5–6。不是实测脉冲或原书图。",
+      "alt": "积分信号与事件信号的输出差别。左侧累计电子数并通过增益转换为DN；右侧画出事件及事件间的恢复区间。右侧脉冲数值和位置仅为概念说明，不代表某器件实测计数率或时间抖动。",
+      "explanation": "左侧累计电子数并通过增益转换为DN；右侧画出事件及事件间的恢复区间。右侧脉冲数值和位置仅为概念说明，不代表某器件实测计数率或时间抖动。"
+    },
+    "key_formula": {
+      "tex": "\\mathrm{PDE}=F\\,\\mathrm{PDP}",
+      "label": "从有源区探测概率到整像素探测效率",
+      "kind": "source",
+      "source": "spad",
+      "pdf_page": 29,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\mathrm{PDE}",
+          "meaning": "本书定义的整像素光子探测效率",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "F",
+          "meaning": "填充因子",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\mathrm{PDP}",
+          "meaning": "有源区光子探测概率",
+          "unit": "无量纲"
+        }
+      ],
+      "meaning": "按PDF29脚注3的文字定义重写；比较不同文献或器件时须先核对PDP/PDE是否已经包含填充因子与微透镜效应。"
+    }
+  },
+  {
+    "day": 51,
+    "excerpt": {
+      "en": "Equation (2.6) shows that the depth resolution is quadratically dependent on the depth of the measured object (i.e., its z coordinate).",
+      "zh": "式(2.6)表明，深度分辨率与被测物体的深度（即其z坐标）成平方关系。",
+      "source": "depth",
+      "pdf_page": 63,
+      "chapter": "§2.2.1",
+      "comment": "该结论针对固定基线、焦距及视差刻度的三角测量模型。它不能直接推广为所有RGB-D路线的统一距离误差定律，也不是产品之间的实测性能排名。"
+    },
+    "figure": {
+      "path": "assets/figures/day-51.svg",
+      "kind": "redrawn",
+      "title": "将三条误差链分别换算为距离单位",
+      "source": "depth",
+      "pdf_page": 96,
+      "figure_number": null,
+      "caption": "自绘误差传递对照；依据PDF63式2.6、PDF96式3.14及SPAD书PDF9式1。非实验数据。",
+      "alt": "将三条误差链分别换算为距离单位。三角测量从视差扰动传播，iToF从相位扰动传播，dToF从时间扰动传播。输出都可以写成米，但输入误差的来源、统计和场景依赖并不相同。",
+      "explanation": "三角测量从视差扰动传播，iToF从相位扰动传播，dToF从时间扰动传播。输出都可以写成米，但输入误差的来源、统计和场景依赖并不相同。"
+    },
+    "key_formula": {
+      "tex": "\\sigma_\\rho=\\frac{c}{4\\pi f_m}\\sigma_\\phi",
+      "label": "iToF相位不确定度到距离标准差",
+      "kind": "derived",
+      "source": "depth",
+      "pdf_page": 96,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "\\sigma_\\rho",
+          "meaning": "距离标准差",
+          "unit": "m"
+        },
+        {
+          "symbol": "c",
+          "meaning": "传播速度",
+          "unit": "m/s"
+        },
+        {
+          "symbol": "f_m",
+          "meaning": "调制频率",
+          "unit": "Hz"
+        },
+        {
+          "symbol": "\\sigma_\\phi",
+          "meaning": "相位标准差",
+          "unit": "rad"
+        }
+      ],
+      "meaning": "由原书式3.14作一阶传播得到的补充推导；要求相位处于正确周期、局部变化小，不能把周期跳变或多径偏差当作小随机相位误差。"
+    }
+  },
+  {
+    "day": 52,
+    "excerpt": {
+      "en": "The PSNR is just a re-expression of the MSE, relative to the peak attainable signal power.",
+      "zh": "PSNR只是相对于可达到的峰值信号功率，对MSE所作的另一种表达。",
+      "source": "benchmark",
+      "pdf_page": 274,
+      "chapter": "§7.8.1",
+      "comment": "PSNR改变了误差的表示尺度，却没有自动增加视觉感知信息。下方原图局部让相同PSNR的不同失真直接并排，因此需要同时看误差的空间组织与观看条件。"
+    },
+    "figure": {
+      "path": "assets/figures/day-52.png",
+      "kind": "original_crop",
+      "title": "原图局部：相同PSNR，不同损伤外观",
+      "source": "benchmark",
+      "pdf_page": 278,
+      "figure_number": "7.11（a–d）",
+      "caption": "原图局部：Camera Image Quality Benchmarking，PDF278，Fig.7.11的(a)–(d)；未复制其余子图或整页。",
+      "alt": "原图局部：相同PSNR，不同损伤外观。(a)为未损伤图；(b)加入白噪声，(c)量化，(d)截断DCT。原图图注给出(b)–(d)的PSNR均为30dB，但噪点、层级和块状/模糊组织不同；这正是不能只按PSNR学习画质的原因。",
+      "explanation": "(a)为未损伤图；(b)加入白噪声，(c)量化，(d)截断DCT。原图图注给出(b)–(d)的PSNR均为30dB，但噪点、层级和块状/模糊组织不同；这正是不能只按PSNR学习画质的原因。",
+      "crop_pdf_coordinates": [
+        65,
+        75,
+        398,
+        303
+      ]
+    },
+    "key_formula": {
+      "tex": "\\mathrm{PSNR}=10\\log_{10}\\frac{255^2}{\\mathrm{MSE}}",
+      "label": "八位图像的PSNR",
+      "kind": "source",
+      "source": "benchmark",
+      "pdf_page": 274,
+      "original_number": "7.44",
+      "variables": [
+        {
+          "symbol": "\\mathrm{MSE}",
+          "meaning": "与对齐参考图之间的像素均方误差",
+          "unit": "码值²"
+        },
+        {
+          "symbol": "255",
+          "meaning": "八位编码的最大码值",
+          "unit": "码值"
+        },
+        {
+          "symbol": "\\mathrm{PSNR}",
+          "meaning": "峰值信噪比的对数表达",
+          "unit": "dB"
+        }
+      ],
+      "meaning": "此处严格采用原书八位情形；编码范围改变时需改用相应峰值。PSNR是数值保真指标，不是完整的感知质量判定。"
+    }
+  },
+  {
+    "day": 53,
+    "excerpt": {
+      "en": "This section describes the basic information which must be published for each camera and precedes the EMVA 1288 data.",
+      "zh": "本节描述每台相机必须公布的基本信息，这些信息应列在EMVA1288数据之前。",
+      "source": "emva",
+      "pdf_page": 31,
+      "chapter": "§10 Publishing the Results",
+      "comment": "原文把工作点、快门模式及数据性质作为报告的前提。需求选型也应使用同一工作点的一组完整指标，而不是把不同增益、曝光和模式的最佳值拼成一台不存在的相机。"
+    },
+    "figure": {
+      "path": "assets/figures/day-53.svg",
+      "kind": "redrawn",
+      "title": "目标SNR与饱和容量共同限定可用窗口",
+      "source": "emva",
+      "pdf_page": 7,
+      "figure_number": null,
+      "caption": "自绘工程判断示意；依据EMVA PDF7式11、15及本讲的电子数反演。窗口未给定任何产品数值，非实验数据。",
+      "alt": "目标SNR与饱和容量共同限定可用窗口。左边达不到任务要求的SNR，右边已经饱和或剪切，中间才是候选工作区。基于真实光子预算检查是否存在这个区间，再比较像素数、帧率或其他参数。",
+      "explanation": "左边达不到任务要求的SNR，右边已经饱和或剪切，中间才是候选工作区。基于真实光子预算检查是否存在这个区间，再比较像素数、帧率或其他参数。"
+    },
+    "key_formula": {
+      "tex": "N_{\\mathrm{req}}=\\frac{S_0^2+\\sqrt{S_0^4+4S_0^2B}}{2}",
+      "label": "从目标SNR反演所需光电子数",
+      "kind": "derived",
+      "source": "emva",
+      "pdf_page": 7,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "S_0",
+          "meaning": "目标信噪比",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "B",
+          "meaning": "输入等效非信号噪声方差",
+          "unit": "电子计数数值的平方"
+        },
+        {
+          "symbol": "N_{\\mathrm{req}}",
+          "meaning": "达到目标所需平均光电子数",
+          "unit": "e⁻计数"
+        }
+      ],
+      "meaning": "由本讲S=N/√(N+B)反演，等价于EMVA式11、15在电子计数数值域中的表达；需满足独立噪声和未饱和的线性信号模型。"
+    }
+  },
+  {
+    "day": 54,
+    "excerpt": {
+      "en": "If a set of measurements contains a systematic error, increasing the number of measurements does not improve the accuracy.",
+      "zh": "如果一组测量包含系统误差，增加测量次数并不会改善准确度。",
+      "source": "depth",
+      "pdf_page": 128,
+      "chapter": "§4.1.1",
+      "comment": "这是评价规范必须把偏差和重复离散分开报告的原因。重复多次并平均能够改善某些随机项，但不能代替针对距离、温度、反射率及多径的系统检查。"
+    },
+    "figure": {
+      "path": "assets/figures/day-54.svg",
+      "kind": "redrawn",
+      "title": "用工况矩阵组织RGB-D验收",
+      "source": "depth",
+      "pdf_page": 127,
+      "figure_number": null,
+      "caption": "自绘评价框架；依据PDF127–130关于测量误差与标定、PDF115–117关于多径和边缘的讨论。不是原书表格或产品评分。",
+      "alt": "用工况矩阵组织RGB-D验收。左侧提示平面、台阶与复杂光路提供不同挑战；右侧列出每个工况都应保留的指标。只有有效率和失效规则相同时，保留下来的像素误差才具有可比性。",
+      "explanation": "左侧提示平面、台阶与复杂光路提供不同挑战；右侧列出每个工况都应保留的指标。只有有效率和失效规则相同时，保留下来的像素误差才具有可比性。"
+    },
+    "key_formula": {
+      "tex": "V=\\frac{N_{\\mathrm{valid}}}{N_{\\mathrm{eligible}}}",
+      "label": "把有效覆盖率与误差同时报告",
+      "kind": "derived",
+      "source": "depth",
+      "pdf_page": 175,
+      "original_number": null,
+      "variables": [
+        {
+          "symbol": "N_{\\mathrm{valid}}",
+          "meaning": "按明确规则保留的有效像素数",
+          "unit": "个"
+        },
+        {
+          "symbol": "N_{\\mathrm{eligible}}",
+          "meaning": "测试范围内应接受评价的像素数",
+          "unit": "个"
+        },
+        {
+          "symbol": "V",
+          "meaning": "有效覆盖率",
+          "unit": "无量纲或%"
+        }
+      ],
+      "meaning": "本讲补充评价定义，非原书编号公式。应固定分母区域及拒绝规则；不能在大量拒绝像素后只展示剩余像素的小误差。"
+    }
+  },
+  {
+    "day": 55,
+    "excerpt": {
+      "en": "This means that the slope of the SNR curve changes from a linear increase at low irradiation to a slower square root increase at high irradiation.",
+      "zh": "这意味着SNR曲线由低辐照下的线性增长，转为高辐照下较缓慢的平方根增长。",
+      "source": "emva",
+      "pdf_page": 7,
+      "chapter": "§2.3",
+      "comment": "曲线斜率是判断主导噪声机制的线索，不是自动诊断结果。必须结合数据域、扣黑方式、空间或时间统计以及饱和范围，检验同一个模型是否能同时解释响应与噪声。"
+    },
+    "figure": {
+      "path": "assets/figures/day-55.svg",
+      "kind": "redrawn",
+      "title": "噪声区段与数据域定位",
+      "source": "benchmark",
+      "pdf_page": 107,
+      "figure_number": null,
+      "caption": "自绘定性教学图；依据Camera Image Quality Benchmarking PDF107图4.21与EMVA PDF6–7。示意，非实验数据；各线仅表示模型的对数斜率。",
+      "alt": "噪声区段与数据域定位。左图中恒定读出噪声、平方根散粒噪声和线性空间响应项具有不同对数斜率。右侧要求沿原始数据、标定统计、处理输出逐层定位，避免直接在最终图像上把所有异常都称为传感器噪声。",
+      "explanation": "左图中恒定读出噪声、平方根散粒噪声和线性空间响应项具有不同对数斜率。右侧要求沿原始数据、标定统计、处理输出逐层定位，避免直接在最终图像上把所有异常都称为传感器噪声。"
+    },
+    "key_formula": {
+      "tex": "\\sigma_y^2=K^2\\sigma_d^2+\\sigma_q^2+K(\\mu_y-\\mu_{y,\\mathrm{dark}})",
+      "label": "数字方差—扣暗信号的线性关系",
+      "kind": "source",
+      "source": "emva",
+      "pdf_page": 6,
+      "original_number": "9",
+      "variables": [
+        {
+          "symbol": "\\sigma_y^2",
+          "meaning": "输出时间方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "K",
+          "meaning": "系统增益",
+          "unit": "DN/e⁻"
+        },
+        {
+          "symbol": "\\sigma_d",
+          "meaning": "输入等效暗噪声标准差",
+          "unit": "e⁻"
+        },
+        {
+          "symbol": "\\sigma_q^2",
+          "meaning": "量化方差",
+          "unit": "DN²"
+        },
+        {
+          "symbol": "\\mu_y-\\mu_{y,\\mathrm{dark}}",
+          "meaning": "扣暗后的平均信号",
+          "unit": "DN"
+        }
+      ],
+      "meaning": "斜率K和截距噪声共同约束模型；式子不包含任意后处理产生的相关噪声，也不能把空间PRNU未经区分地混入时间方差。"
+    }
+  },
+  {
+    "day": 56,
+    "excerpt": {
+      "en": "Using this formalism, it is important that the individual metrics produce values with the same units, for example, JND, otherwise combination metrics like the above will not provide relevant results.",
+      "zh": "采用这一形式时，各项指标必须产生具有相同单位的数值，例如JND，否则上述组合指标不会给出有意义的结果。",
+      "source": "benchmark",
+      "pdf_page": 336,
+      "chapter": "§9.3",
+      "comment": "这是八周知识体系回到工程决策时的一条底线。不同数据域的DN、米、噪声标准差和质量损失不能直接放进同一个加权式；先明确被测量，再选择有依据的转换和用途。"
+    },
+    "figure": {
+      "path": "assets/figures/day-56.svg",
+      "kind": "redrawn",
+      "title": "先明确测量域，再回到任务验收",
+      "source": "benchmark",
+      "pdf_page": 336,
+      "figure_number": null,
+      "caption": "自绘知识结构；依据本课程使用的EMVA信号模型、SPAD事件模型、深度几何和Benchmarking §9.3。不是原书技术路线图。",
+      "alt": "先明确测量域，再回到任务验收。上方任务约束决定需要观察哪条测量链。下方的感知质量与测量可信度属于不同验收对象，既要保留联系，也要避免把各自单位和意义混合。",
+      "explanation": "上方任务约束决定需要观察哪条测量链。下方的感知质量与测量可信度属于不同验收对象，既要保留联系，也要避免把各自单位和意义混合。"
+    },
+    "key_formula": {
+      "tex": "\\Delta Q_m=\\left[\\sum_i(\\Delta Q_i)^{n_m}\\right]^{1/n_m}",
+      "label": "同一尺度质量损失的Minkowski组合",
+      "kind": "source",
+      "source": "benchmark",
+      "pdf_page": 336,
+      "original_number": "9.1",
+      "variables": [
+        {
+          "symbol": "\\Delta Q_i",
+          "meaning": "第i种属性的质量损失",
+          "unit": "同一JND尺度"
+        },
+        {
+          "symbol": "n_m",
+          "meaning": "组合指数",
+          "unit": "无量纲"
+        },
+        {
+          "symbol": "\\Delta Q_m",
+          "meaning": "组合质量损失",
+          "unit": "与输入一致的尺度"
+        }
+      ],
+      "meaning": "仅在各属性已转换到一致且有意义的质量损失尺度时讨论；这不是把任意相机规格或RGB-D误差直接相加的通用公式。"
+    }
+  }
+]

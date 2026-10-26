@@ -1,0 +1,341 @@
+{
+  "lessons": [
+    {
+      "day": 1,
+      "status": "review_ready",
+      "han_count": 2564,
+      "file": "lessons/week-01/day-01.html"
+    },
+    {
+      "day": 2,
+      "status": "review_ready",
+      "han_count": 2553,
+      "file": "lessons/week-01/day-02.html"
+    },
+    {
+      "day": 3,
+      "status": "review_ready",
+      "han_count": 2594,
+      "file": "lessons/week-01/day-03.html"
+    },
+    {
+      "day": 4,
+      "status": "review_ready",
+      "han_count": 2501,
+      "file": "lessons/week-01/day-04.html"
+    },
+    {
+      "day": 5,
+      "status": "review_ready",
+      "han_count": 2441,
+      "file": "lessons/week-01/day-05.html"
+    },
+    {
+      "day": 6,
+      "status": "review_ready",
+      "han_count": 2474,
+      "file": "lessons/week-01/day-06.html"
+    },
+    {
+      "day": 7,
+      "status": "review_ready",
+      "han_count": 2528,
+      "file": "lessons/week-01/day-07.html"
+    },
+    {
+      "day": 8,
+      "status": "review_ready",
+      "han_count": 2655,
+      "file": "lessons/week-02/day-08.html"
+    },
+    {
+      "day": 9,
+      "status": "review_ready",
+      "han_count": 2509,
+      "file": "lessons/week-02/day-09.html"
+    },
+    {
+      "day": 10,
+      "status": "review_ready",
+      "han_count": 2479,
+      "file": "lessons/week-02/day-10.html"
+    },
+    {
+      "day": 11,
+      "status": "review_ready",
+      "han_count": 2618,
+      "file": "lessons/week-02/day-11.html"
+    },
+    {
+      "day": 12,
+      "status": "review_ready",
+      "han_count": 2497,
+      "file": "lessons/week-02/day-12.html"
+    },
+    {
+      "day": 13,
+      "status": "review_ready",
+      "han_count": 2469,
+      "file": "lessons/week-02/day-13.html"
+    },
+    {
+      "day": 14,
+      "status": "review_ready",
+      "han_count": 2465,
+      "file": "lessons/week-02/day-14.html"
+    },
+    {
+      "day": 15,
+      "status": "review_ready",
+      "han_count": 2425,
+      "file": "lessons/week-03/day-15.html"
+    },
+    {
+      "day": 16,
+      "status": "review_ready",
+      "han_count": 2409,
+      "file": "lessons/week-03/day-16.html"
+    },
+    {
+      "day": 17,
+      "status": "review_ready",
+      "han_count": 2493,
+      "file": "lessons/week-03/day-17.html"
+    },
+    {
+      "day": 18,
+      "status": "review_ready",
+      "han_count": 2391,
+      "file": "lessons/week-03/day-18.html"
+    },
+    {
+      "day": 19,
+      "status": "review_ready",
+      "han_count": 2399,
+      "file": "lessons/week-03/day-19.html"
+    },
+    {
+      "day": 20,
+      "status": "review_ready",
+      "han_count": 2566,
+      "file": "lessons/week-03/day-20.html"
+    },
+    {
+      "day": 21,
+      "status": "review_ready",
+      "han_count": 2476,
+      "file": "lessons/week-03/day-21.html"
+    },
+    {
+      "day": 22,
+      "status": "review_ready",
+      "han_count": 2804,
+      "file": "lessons/week-04/day-22.html"
+    },
+    {
+      "day": 23,
+      "status": "review_ready",
+      "han_count": 2560,
+      "file": "lessons/week-04/day-23.html"
+    },
+    {
+      "day": 24,
+      "status": "review_ready",
+      "han_count": 2585,
+      "file": "lessons/week-04/day-24.html"
+    },
+    {
+      "day": 25,
+      "status": "review_ready",
+      "han_count": 2517,
+      "file": "lessons/week-04/day-25.html"
+    },
+    {
+      "day": 26,
+      "status": "review_ready",
+      "han_count": 2673,
+      "file": "lessons/week-04/day-26.html"
+    },
+    {
+      "day": 27,
+      "status": "review_ready",
+      "han_count": 2691,
+      "file": "lessons/week-04/day-27.html"
+    },
+    {
+      "day": 28,
+      "status": "review_ready",
+      "han_count": 2579,
+      "file": "lessons/week-04/day-28.html"
+    },
+    {
+      "day": 29,
+      "status": "review_ready",
+      "han_count": 2460,
+      "file": "lessons/week-05/day-29.html"
+    },
+    {
+      "day": 30,
+      "status": "review_ready",
+      "han_count": 2536,
+      "file": "lessons/week-05/day-30.html"
+    },
+    {
+      "day": 31,
+      "status": "review_ready",
+      "han_count": 2396,
+      "file": "lessons/week-05/day-31.html"
+    },
+    {
+      "day": 32,
+      "status": "review_ready",
+      "han_count": 2468,
+      "file": "lessons/week-05/day-32.html"
+    },
+    {
+      "day": 33,
+      "status": "review_ready",
+      "han_count": 2474,
+      "file": "lessons/week-05/day-33.html"
+    },
+    {
+      "day": 34,
+      "status": "review_ready",
+      "han_count": 2523,
+      "file": "lessons/week-05/day-34.html"
+    },
+    {
+      "day": 35,
+      "status": "review_ready",
+      "han_count": 2501,
+      "file": "lessons/week-05/day-35.html"
+    },
+    {
+      "day": 36,
+      "status": "review_ready",
+      "han_count": 2464,
+      "file": "lessons/week-06/day-36.html"
+    },
+    {
+      "day": 37,
+      "status": "review_ready",
+      "han_count": 2351,
+      "file": "lessons/week-06/day-37.html"
+    },
+    {
+      "day": 38,
+      "status": "review_ready",
+      "han_count": 2392,
+      "file": "lessons/week-06/day-38.html"
+    },
+    {
+      "day": 39,
+      "status": "review_ready",
+      "han_count": 2377,
+      "file": "lessons/week-06/day-39.html"
+    },
+    {
+      "day": 40,
+      "status": "review_ready",
+      "han_count": 2377,
+      "file": "lessons/week-06/day-40.html"
+    },
+    {
+      "day": 41,
+      "status": "review_ready",
+      "han_count": 2486,
+      "file": "lessons/week-06/day-41.html"
+    },
+    {
+      "day": 42,
+      "status": "review_ready",
+      "han_count": 2469,
+      "file": "lessons/week-06/day-42.html"
+    },
+    {
+      "day": 43,
+      "status": "review_ready",
+      "han_count": 2506,
+      "file": "lessons/week-07/day-43.html"
+    },
+    {
+      "day": 44,
+      "status": "review_ready",
+      "han_count": 2562,
+      "file": "lessons/week-07/day-44.html"
+    },
+    {
+      "day": 45,
+      "status": "review_ready",
+      "han_count": 2508,
+      "file": "lessons/week-07/day-45.html"
+    },
+    {
+      "day": 46,
+      "status": "review_ready",
+      "han_count": 2596,
+      "file": "lessons/week-07/day-46.html"
+    },
+    {
+      "day": 47,
+      "status": "review_ready",
+      "han_count": 2632,
+      "file": "lessons/week-07/day-47.html"
+    },
+    {
+      "day": 48,
+      "status": "review_ready",
+      "han_count": 2597,
+      "file": "lessons/week-07/day-48.html"
+    },
+    {
+      "day": 49,
+      "status": "review_ready",
+      "han_count": 2588,
+      "file": "lessons/week-07/day-49.html"
+    },
+    {
+      "day": 50,
+      "status": "review_ready",
+      "han_count": 2643,
+      "file": "lessons/week-08/day-50.html"
+    },
+    {
+      "day": 51,
+      "status": "review_ready",
+      "han_count": 2547,
+      "file": "lessons/week-08/day-51.html"
+    },
+    {
+      "day": 52,
+      "status": "review_ready",
+      "han_count": 2511,
+      "file": "lessons/week-08/day-52.html"
+    },
+    {
+      "day": 53,
+      "status": "review_ready",
+      "han_count": 2547,
+      "file": "lessons/week-08/day-53.html"
+    },
+    {
+      "day": 54,
+      "status": "review_ready",
+      "han_count": 2549,
+      "file": "lessons/week-08/day-54.html"
+    },
+    {
+      "day": 55,
+      "status": "review_ready",
+      "han_count": 2591,
+      "file": "lessons/week-08/day-55.html"
+    },
+    {
+      "day": 56,
+      "status": "review_ready",
+      "han_count": 2652,
+      "file": "lessons/week-08/day-56.html"
+    }
+  ],
+  "math_errors": []
+}

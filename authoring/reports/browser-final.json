@@ -1,0 +1,482 @@
+{
+  "timestamp": "2026-10-25T19:21:04.476358+08:00",
+  "browser": "Chromium cloud browser",
+  "desktop_css_viewport": 1363,
+  "desktop_document_width": 1348,
+  "mobile_method": "same-origin iframe CSS width390; actual content width375 after scrollbar; responsive CSS active; no physical-phone claim",
+  "per_lesson": [
+    {
+      "day": 1,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 16,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 2,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 11,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 3,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 18,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 4,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 5,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 18,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 6,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 7,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 11,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 8,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 20,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 9,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 12,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 10,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 10,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 11,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 15,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 12,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 13,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 12,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 14,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 16,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 15,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 2,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 16,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 4,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 17,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 3,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 18,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 3,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 19,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 3,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 20,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 3,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 21,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 4,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 22,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 8,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 23,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 24,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 16,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 25,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 10,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 26,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 11,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 27,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 10,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 28,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 29,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 6,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 30,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 2,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 31,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 4,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 32,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 6,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 33,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 5,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 34,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 5,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 35,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 4,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 36,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 13,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 37,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 18,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 38,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 20,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 39,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 40,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 15,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 41,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 23,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 42,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 7,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 43,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 16,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 44,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 12,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 45,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 18,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 46,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 5,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 47,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 7,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 48,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 15,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 49,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 13,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 50,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 16,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 51,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 14,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 52,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 9,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 53,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 10,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 54,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 13,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 55,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 8,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    },
+    {
+      "day": 56,
+      "desktop_overflow": false,
+      "mobile_overflow": false,
+      "math_elements": 8,
+      "math_errors": 0,
+      "mobile_toc_collapsed": true
+    }
+  ],
+  "formula_fix": "arg normalized to operatorname{arg} at build; days38,44,47 desktop+mobile targeted recheck passed",
+  "search_checks": {
+    "full_text_weighted_average": [
+      17
+    ],
+    "no_match_count": 0,
+    "module8_days": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "all_count": 56,
+    "citation_link": "references.html#benchmark"
+  },
+  "ancillary_mobile": {
+    "index.html": "PASS",
+    "references.html": "PASS",
+    "supplement.html": "PASS"
+  },
+  "visual_checks": "desktop reader/formulas and mobile reading/formula views inspected; every lesson layout measured in live browser",
+  "passed": true
+}
