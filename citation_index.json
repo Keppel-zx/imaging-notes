@@ -4322,5 +4322,3067 @@
       "pdf_page": 336
     },
     "verified": true
+  },
+  {
+    "day": 1,
+    "source": "emva",
+    "chapter": "§2.1 Linear Signal Model",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "As illustrated in Fig. 1, a digital image sensor essentially converts photons hitting the pixel area during the exposure time by a sequence of steps finally into a digital number.",
+      "translation": "如图1所示，数字图像传感器通过一系列步骤，将曝光期间落到像素面积上的光子最终转换成一个数字。",
+      "pdf_page": 5
+    }
+  },
+  {
+    "day": 1,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "扣暗后，数字信号由效率与增益共同决定",
+        "tex": "\\mu_y-\\mu_{y,\\mathrm{dark}}=K\\eta\\mu_p",
+        "pdf_page": 6,
+        "original_number": "6",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 1,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "kind": "original_crop",
+        "path": "assets/figures/day-01.png",
+        "label": "原图1：从光子到电子，再到数字码值"
+      }
+    ]
+  },
+  {
+    "day": 2,
+    "source": "emva",
+    "chapter": "§2.1 Linear Signal Model",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The total quantum efficiency as defined here refers to the total area occupied by a single sensor element (pixel) not only the light sensitive area.",
+      "translation": "这里定义的总量子效率以单个传感器单元（像素）占据的全部面积为基准，而不只是感光面积。",
+      "pdf_page": 5
+    }
+  },
+  {
+    "day": 2,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "把传感器面辐照度换成入射光子数",
+        "tex": "\\mu_p=\\frac{A E t_{\\mathrm{exp}}\\lambda}{h c}",
+        "pdf_page": 5,
+        "original_number": "2",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 2,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "kind": "redrawn",
+        "path": "assets/figures/day-02.svg",
+        "label": "自绘：QE按完整像素面积归一化"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "source": "emva",
+    "chapter": "§2.1 Linear Signal Model",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The whole process is assumed to be linear and can be described by a single quantity, the overall system gain K with units DN/e−, i. e., digits per electrons.",
+      "translation": "整个过程假定为线性，并可由单个量——总体系统增益K——来描述，其单位为DN/e⁻，即每电子对应的数字码值。",
+      "pdf_page": 6
+    }
+  },
+  {
+    "day": 3,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "从数字码值回到平均光生电子数",
+        "tex": "\\mu_e=\\frac{\\mu_y-\\mu_{y,\\mathrm{dark}}}{K}",
+        "pdf_page": 6,
+        "original_number": "5",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 3,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "kind": "original_crop",
+        "path": "assets/figures/day-01.png",
+        "label": "原图1：从光子到电子，再到数字码值"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5",
+        "pdf_page": 16,
+        "kind": "original_crop",
+        "path": "assets/figures/day-06.png",
+        "label": "原图5：响应度曲线测到的是 R = Kη"
+      }
+    ]
+  },
+  {
+    "day": 3,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "kind": "original_crop",
+        "path": "assets/figures/day-10.png",
+        "label": "原图6：均值–方差斜率标定系统增益"
+      }
+    ]
+  },
+  {
+    "day": 4,
+    "source": "emva",
+    "chapter": "§2.2 Noise Model",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "This noise, often referred to as shot noise is given by the basic laws of physics and equal for all types of cameras.",
+      "translation": "这种通常称为散粒噪声的噪声由基本物理规律决定，对各类相机遵循相同规律。",
+      "pdf_page": 6
+    }
+  },
+  {
+    "day": 4,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      8
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "暗电流为长曝光增加方差",
+        "tex": "\\sigma_d^2=\\sigma_{d,0}^2+\\mu_I t_{\\mathrm{exp}}",
+        "pdf_page": 8,
+        "original_number": "20",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 4,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      8
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 8,
+        "kind": "redrawn",
+        "path": "assets/figures/day-04.svg",
+        "label": "自绘：暗信号均值与方差随曝光变化"
+      }
+    ]
+  },
+  {
+    "day": 5,
+    "source": "emva",
+    "chapter": "§2.3 Signal-to-Noise Ratio",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "This means that the slope of the SNR curve changes from a linear increase at low irradiation to a slower square root increase at high irradiation.",
+      "translation": "这意味着SNR曲线从低辐照时的线性增长，转变为高辐照时较慢的平方根增长。",
+      "pdf_page": 7
+    }
+  },
+  {
+    "day": 5,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "把所有噪声放回同一输入域再比较",
+        "tex": "\\mathrm{SNR}(\\mu_p)=\\frac{\\eta\\mu_p}{\\sqrt{\\sigma_d^2+\\sigma_q^2/K^2+\\eta\\mu_p}}",
+        "pdf_page": 7,
+        "original_number": "11",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 5,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "7",
+        "pdf_page": 18,
+        "kind": "original_crop",
+        "path": "assets/figures/day-05.png",
+        "label": "原图7：实际模型、理想极限与空间非均匀性"
+      }
+    ]
+  },
+  {
+    "day": 6,
+    "source": "emva",
+    "chapter": "§5 Overview Measurement Setup and Methods",
+    "pdf_pages": [
+      12
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "All camera settings (besides the variation of exposure time where stated) must be identical for all measurements.",
+      "translation": "除明确允许改变曝光时间的情况外，所有测量中的相机设置都必须一致。",
+      "pdf_page": 12
+    }
+  },
+  {
+    "day": 6,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "通过两种斜率分离效率与数字刻度",
+        "tex": "\\eta=\\frac{R}{K}",
+        "pdf_page": 17,
+        "original_number": "30",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 6,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5",
+        "pdf_page": 16,
+        "kind": "original_crop",
+        "path": "assets/figures/day-06.png",
+        "label": "原图5：响应度曲线测到的是 R = Kη"
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "source": "emva",
+    "chapter": "§2.2 Noise Model",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "All other noise sources depend on the specific construction of the sensor and the camera electronics.",
+      "translation": "其余噪声源取决于传感器及相机电子学的具体构造。",
+      "pdf_page": 6
+    }
+  },
+  {
+    "day": 7,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      8
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "综合预算：比较方差项，判断限制来自哪里",
+        "tex": "\\mathrm{SNR}=\\frac{N}{\\sqrt{N+D t+\\sigma_r^2+1/(12K^2)}}",
+        "pdf_page": 8,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 7,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "kind": "original_crop",
+        "path": "assets/figures/day-01.png",
+        "label": "原图1：从光子到电子，再到数字码值"
+      }
+    ]
+  },
+  {
+    "day": 8,
+    "source": "emva",
+    "chapter": "§2 Sensitivity, Linearity, and Noise",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "This section describes how to characterize the sensitivity, linearity, and temporal noise of an image sensor or camera",
+      "translation": "本节说明如何表征图像传感器或相机的灵敏度、线性度和时间噪声。",
+      "pdf_page": 5
+    }
+  },
+  {
+    "day": 8,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "噪声方差与均值构成增益标尺",
+        "tex": "\\sigma_y^2=K^2\\sigma_d^2+\\sigma_q^2+K(\\mu_y-\\mu_{y,\\mathrm{dark}})",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 8,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      5
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "kind": "original_crop",
+        "path": "assets/figures/day-01.png",
+        "label": "原图1：从光子到电子，再到数字码值"
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "source": "ptc",
+    "chapter": "§4.1 Photon Transfer Relation",
+    "pdf_pages": [
+      42
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Note that K(A/B) is simply found by measuring output statistics (i.e., mean and noise variance) without knowledge of the individual camera transfer functions.",
+      "translation": "注意，只需测量输出统计量（即均值与噪声方差），便可确定K(A/B)，而无须知道相机各级的传递函数。",
+      "pdf_page": 42
+    }
+  },
+  {
+    "day": 9,
+    "source": "ptc",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      42
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "散粒区间把输出统计变成电子/DN标尺",
+        "tex": "G=\\frac{S_y}{\\sigma_{y,\\mathrm{shot}}^2}",
+        "pdf_page": 42,
+        "original_number": "4.5",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 9,
+    "source": "ptc",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      57
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.3",
+        "pdf_page": 57,
+        "kind": "redrawn",
+        "path": "assets/figures/day-09.svg",
+        "label": "自绘：PTC标准差图的三个典型斜率"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "source": "emva",
+    "chapter": "§6.6 Photon Transfer Evaluation",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "For color camera systems that use a color filter pattern any pixel position in the repeated pattern should be analyzed separately.",
+      "translation": "对于采用彩色滤光图样的相机系统，重复图样中每一种像素位置都应分别分析。",
+      "pdf_page": 17
+    }
+  },
+  {
+    "day": 10,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "均值–方差斜率就是 K",
+        "tex": "\\sigma_y^2-\\sigma_{y,\\mathrm{dark}}^2=K(\\mu_y-\\mu_{y,\\mathrm{dark}})",
+        "pdf_page": 16,
+        "original_number": null,
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 10,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "kind": "original_crop",
+        "path": "assets/figures/day-10.png",
+        "label": "原图6：均值–方差斜率标定系统增益"
+      }
+    ]
+  },
+  {
+    "day": 11,
+    "source": "emva",
+    "chapter": "§2.4 Signal Saturation and Absolute Sensitivity Threshold",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The saturation capacity must not be confused with the full-well capacity.",
+      "translation": "饱和容量不得与满阱容量混淆。",
+      "pdf_page": 7
+    }
+  },
+  {
+    "day": 11,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "将饱和输入光子数转换为饱和电子容量",
+        "tex": "\\mu_{e,\\mathrm{sat}}=\\eta\\mu_{p,\\mathrm{sat}}",
+        "pdf_page": 7,
+        "original_number": "14",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 11,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "7",
+        "pdf_page": 18,
+        "kind": "original_crop",
+        "path": "assets/figures/day-05.png",
+        "label": "原图7：实际模型、理想极限与空间非均匀性"
+      }
+    ]
+  },
+  {
+    "day": 12,
+    "source": "emva",
+    "chapter": "§8 Methods for Spatial Nonuniformity and Defect Pixels",
+    "pdf_pages": [
+      21
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "All quantities describing nonuniformities must be computed from mean gray values averaged over many images.",
+      "translation": "所有描述非均匀性的量，都必须从多幅图像平均后的灰度均值计算。",
+      "pdf_page": 21
+    }
+  },
+  {
+    "day": 12,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      22
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "PRNU描述相对光响应散布",
+        "tex": "\\mathrm{PRNU}=\\frac{\\sqrt{s_{y,50}^2-s_{y,\\mathrm{dark}}^2}}{\\mu_{y,50}-\\mu_{y,\\mathrm{dark}}}",
+        "pdf_page": 22,
+        "original_number": "46",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 12,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      22
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 22,
+        "kind": "redrawn",
+        "path": "assets/figures/day-12.svg",
+        "label": "自绘：暗偏置图样与光响应图样"
+      }
+    ]
+  },
+  {
+    "day": 13,
+    "source": "emva",
+    "chapter": "§6.6，Figure6 caption",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The green dots mark the 0 – 70% range of saturation that is used for the linear regression.",
+      "translation": "绿色点标出了用于线性回归的0–70%饱和区间。",
+      "pdf_page": 17
+    }
+  },
+  {
+    "day": 13,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "先辨认有效线性段，再读取斜率",
+        "tex": "\\Delta\\sigma_y^2=K\\,\\Delta\\mu_y",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 13,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "kind": "original_crop",
+        "path": "assets/figures/day-10.png",
+        "label": "原图6：均值–方差斜率标定系统增益"
+      }
+    ]
+  },
+  {
+    "day": 14,
+    "source": "emva",
+    "chapter": "§5 Overview Measurement Setup and Methods",
+    "pdf_pages": [
+      12
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "A data sheet is only EMVA 1288 compliant if the results of all mandatory measurements from at least one camera are reported.",
+      "translation": "只有至少报告一台相机全部强制测量项目的结果，数据表才符合EMVA1288。",
+      "pdf_page": 12
+    }
+  },
+  {
+    "day": 14,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      17
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "标准评价的闭环：响应度与增益分开求",
+        "tex": "R=K\\eta,\\qquad \\eta=\\frac{R}{K}",
+        "pdf_page": 17,
+        "original_number": "30",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 14,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5",
+        "pdf_page": 16,
+        "kind": "original_crop",
+        "path": "assets/figures/day-06.png",
+        "label": "原图5：响应度曲线测到的是 R = Kη"
+      }
+    ]
+  },
+  {
+    "day": 15,
+    "source": "colour",
+    "chapter": "§5.1",
+    "pdf_pages": [
+      107
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "This chapter provides an overview of the camera pipeline processing steps found in a typical ISP.",
+      "translation": "本章概述典型ISP中的相机流水线处理步骤。",
+      "pdf_page": 107
+    }
+  },
+  {
+    "day": 15,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      107
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "拜耳位置的单通道观测",
+        "tex": "x(p)=m_R(p)R(p)+m_G(p)G(p)+m_B(p)B(p)+b(p)+n(p)",
+        "pdf_page": 107,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 15,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      107
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.1",
+        "pdf_page": 107,
+        "kind": "redrawn",
+        "path": "assets/figures/day-15.svg",
+        "label": "拜耳采样与缺失颜色"
+      }
+    ]
+  },
+  {
+    "day": 16,
+    "source": "colour",
+    "chapter": "§5.3.2",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The black level is subtracted from the output of a captured frame, thus shifting the darkest value to 0.",
+      "translation": "从采集帧的输出中减去黑电平，使最暗值移到0。",
+      "pdf_page": 109
+    }
+  },
+  {
+    "day": 16,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "扣黑、归一化与阴影增益",
+        "tex": "v(p,c)=g(p,c)\\frac{x(p,c)-b}{w-b}",
+        "pdf_page": 109,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 16,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      110
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.3",
+        "pdf_page": 110,
+        "kind": "redrawn",
+        "path": "assets/figures/day-16.svg",
+        "label": "均值均匀性与噪声放大"
+      }
+    ]
+  },
+  {
+    "day": 17,
+    "source": "colour",
+    "chapter": "§5.3.6",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Most ISPs use demosaicing approaches that leverage edge-aware averaging, such as schemes based on the bilateral filter [28].",
+      "translation": "多数ISP采用利用边缘感知平均的去马赛克方法，例如基于双边滤波的方案。",
+      "pdf_page": 113
+    }
+  },
+  {
+    "day": 17,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "用相似度权重估计缺失绿色",
+        "tex": "\\widehat G(P)=\\frac{\\sum_i w_iG_i}{\\sum_i w_i}",
+        "pdf_page": 113,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 17,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.5",
+        "pdf_page": 113,
+        "kind": "original_crop",
+        "path": "assets/figures/day-17.png",
+        "label": "原图5.5：边缘感知去马赛克"
+      }
+    ]
+  },
+  {
+    "day": 18,
+    "source": "colour",
+    "chapter": "§5.3.5.1",
+    "pdf_pages": [
+      112
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The white-balance procedure assumes the scene is illuminated by a single or dominant illumination.",
+      "translation": "白平衡过程假设场景由单一或占主导的光源照明。",
+      "pdf_page": 112
+    }
+  },
+  {
+    "day": 18,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      112
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "白平衡的对角通道缩放",
+        "tex": "\\mathbf r_{wb}=\\operatorname{diag}(1/\\ell_r,1/\\ell_g,1/\\ell_b)\\mathbf r",
+        "pdf_page": 112,
+        "original_number": null,
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 18,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      112
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.4",
+        "pdf_page": 112,
+        "kind": "redrawn",
+        "path": "assets/figures/day-18.svg",
+        "label": "照明响应与白平衡通道增益"
+      }
+    ]
+  },
+  {
+    "day": 19,
+    "source": "colour",
+    "chapter": "§5.3.9.2",
+    "pdf_pages": [
+      116
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "A global tone map is applied to all pixels regardless of their position in the image.",
+      "translation": "全局色调映射作用于全部像素，不取决于像素在图像中的位置。",
+      "pdf_page": 116
+    }
+  },
+  {
+    "day": 19,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      117
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "感知编码的简化幂律模型",
+        "tex": "y=x^{1/\\gamma}",
+        "pdf_page": 117,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 19,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      116
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.7",
+        "pdf_page": 116,
+        "kind": "redrawn",
+        "path": "assets/figures/day-19.svg",
+        "label": "幂律编码与S形色调曲线"
+      }
+    ]
+  },
+  {
+    "day": 20,
+    "source": "colour",
+    "chapter": "§5.3.7",
+    "pdf_pages": [
+      114
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Aggressive noise reduction often removes fine detail, resulting in an unrealistic-looking image. Too little denoising can leave unwanted noise in the final output image.",
+      "translation": "过强的降噪往往去掉精细细节，使图像显得不自然；降噪太弱又会使最终图像残留不希望出现的噪声。",
+      "pdf_page": 114
+    }
+  },
+  {
+    "day": 20,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      116
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "锐化为什么同时增强高频细节与噪声",
+        "tex": "H_s(f)=1+\\alpha[1-H_h(f)]",
+        "pdf_page": 116,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 20,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      116
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 116,
+        "kind": "redrawn",
+        "path": "assets/figures/day-20.svg",
+        "label": "低通与锐化的频率作用"
+      }
+    ]
+  },
+  {
+    "day": 21,
+    "source": "colour",
+    "chapter": "§5.6",
+    "pdf_pages": [
+      120
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The second stage on the ISP is the photo-finishing routines used to improve the visual quality of the image.",
+      "translation": "ISP的第二阶段是用于改善图像视觉质量的照片修饰处理。",
+      "pdf_page": 120
+    }
+  },
+  {
+    "day": 21,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      108
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "流水线中的局部噪声传播",
+        "tex": "\\Sigma_y\\simeq J\\Sigma_xJ^T",
+        "pdf_page": 108,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 21,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 109,
+        "kind": "redrawn",
+        "path": "assets/figures/day-21.svg",
+        "label": "扣黑与增益不能随意交换"
+      }
+    ]
+  },
+  {
+    "day": 22,
+    "source": "benchmark",
+    "chapter": "§2.2",
+    "pdf_pages": [
+      53
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "In order for image quality attributes to be useful for image quality assessment, they must be measurable, and it must be possible to relate the measurement results to human perception.",
+      "translation": "画质属性要能够用于画质评价，就必须可测量，而且测量结果必须能够与人的感知建立联系。",
+      "pdf_page": 53
+    }
+  },
+  {
+    "day": 22,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      52
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "画质评价必须写明条件",
+        "tex": "Q=F(I,V,U,O)",
+        "pdf_page": 52,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 22,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      54
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "2.1",
+        "pdf_page": 54,
+        "kind": "redrawn",
+        "path": "assets/figures/day-22.svg",
+        "label": "观看大小与属性可察觉性"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "source": "benchmark",
+    "chapter": "§6.7.1",
+    "pdf_pages": [
+      212
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Therefore, the MTF is the magnitude of a slice of the OTF along one axis, and is equal to 1 at zero spatial frequency.",
+      "translation": "因此，MTF是沿一个轴截取OTF所得切片的幅值，并且在零空间频率处等于1。",
+      "pdf_page": 212
+    }
+  },
+  {
+    "day": 23,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      212
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "线扩散函数的傅里叶幅值",
+        "tex": "m(\\nu)=\\left|\\int_{-\\infty}^{\\infty}\\ell(x)e^{-2\\pi i\\nu x}\\,dx\\right|",
+        "pdf_page": 212,
+        "original_number": "6.32",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 23,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      221
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "6.27",
+        "pdf_page": 221,
+        "kind": "original_crop",
+        "path": "assets/figures/day-23.png",
+        "label": "原图6.27：斜边SFR估计链路"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "source": "benchmark",
+    "chapter": "§6.9.3",
+    "pdf_pages": [
+      233
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "As can be seen, the slope of the OECF for a particular signal level will determine the noise amplitude.",
+      "translation": "可以看出，OECF在某一信号水平处的斜率决定噪声幅度。",
+      "pdf_page": 233
+    }
+  },
+  {
+    "day": 24,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      233
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "把非线性输出噪声折回场景输入",
+        "tex": "\\mathrm{SNR}=\\frac{L\\,g(L)}{\\sigma_y(L)}",
+        "pdf_page": 233,
+        "original_number": "6.66",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 24,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      232
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "6.31",
+        "pdf_page": 232,
+        "kind": "redrawn",
+        "path": "assets/figures/day-24.svg",
+        "label": "同方差噪声的空间结构差异"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "source": "colour",
+    "chapter": "§2.11",
+    "pdf_pages": [
+      59
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "If a colour space is perceptually uniform and its dimensions orthogonal, then the difference between two colours can be represented as the Euclidean distance between their coordinates.",
+      "translation": "若一个色彩空间在感知上均匀、各维相互正交，则两种颜色的差异可用其坐标间的欧氏距离表示。",
+      "pdf_page": 59
+    }
+  },
+  {
+    "day": 25,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      59
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "CIELAB中的欧氏色差",
+        "tex": "\\Delta E_{ab}^{*}=\\sqrt{(\\Delta L^{*})^2+(\\Delta a^{*})^2+(\\Delta b^{*})^2}",
+        "pdf_page": 59,
+        "original_number": "2.13",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 25,
+    "source": "colour",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      61
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "2.2",
+        "pdf_page": 61,
+        "kind": "original_crop",
+        "path": "assets/figures/day-25.png",
+        "label": "原图2.2：CIELAB辨色椭圆"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "source": "benchmark",
+    "chapter": "§6.2",
+    "pdf_pages": [
+      193
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "For a dynamic range metric to be meaningful, it should refer to the scene content and therefore be defined in terms of the scene luminance.",
+      "translation": "动态范围指标要有意义，就应对应场景内容，因此应依据场景亮度来定义。",
+      "pdf_page": 193
+    }
+  },
+  {
+    "day": 26,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      193
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "把输入信号比值表示为曝光档数",
+        "tex": "D_{\\mathrm{stop}}=\\log_2\\left(\\frac{N_{\\max}}{\\sigma_e}\\right)",
+        "pdf_page": 193,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 26,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      192
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "6.1",
+        "pdf_page": 192,
+        "kind": "redrawn",
+        "path": "assets/figures/day-26.svg",
+        "label": "OECF、输入范围与剪切"
+      }
+    ]
+  },
+  {
+    "day": 27,
+    "source": "benchmark",
+    "chapter": "§5.2",
+    "pdf_pages": [
+      143
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "An ordinal scale indicates the relationship between stimuli as being greater or less than each other, though the exact spacing between the perceptual responses is ambiguous.",
+      "translation": "顺序量表说明刺激之间孰大孰小，但感知响应之间的确切间距并不明确。",
+      "pdf_page": 143
+    }
+  },
+  {
+    "day": 27,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      140
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "Weber定律：差别阈值随基线改变",
+        "tex": "\\Delta\\phi=K_w\\phi",
+        "pdf_page": 140,
+        "original_number": "5.1",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 27,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      143
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "Table 5.2",
+        "pdf_page": 143,
+        "kind": "redrawn",
+        "path": "assets/figures/day-27.svg",
+        "label": "顺序量表不规定感知间距"
+      }
+    ]
+  },
+  {
+    "day": 28,
+    "source": "benchmark",
+    "chapter": "§7.4.1.1",
+    "pdf_pages": [
+      256
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "A well-established method to produce a number reflecting the visual impression of sharpness is the measure of acutance (Kriss, 1998).",
+      "translation": "一种成熟的、将锐度视觉印象归纳成数值的方法是锐度感指标acutance（Kriss，1998）。",
+      "pdf_page": 256
+    }
+  },
+  {
+    "day": 28,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      256
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "把相机、视觉与输出设备放在同一频率坐标",
+        "tex": "Q_{\\mathrm{edge}}=\\frac{\\int_0^{\\nu_c}S(\\nu)C(\\nu)M(\\nu)\\,d\\nu}{\\int_0^{\\infty}C(\\nu)\\,d\\nu}",
+        "pdf_page": 256,
+        "original_number": "7.8",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 28,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      257
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "7.6",
+        "pdf_page": 257,
+        "kind": "original_crop",
+        "path": "assets/figures/day-28.png",
+        "label": "原图7.6：显示观看条件下的锐度感积分"
+      }
+    ]
+  },
+  {
+    "day": 29,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §3",
+    "pdf_pages": [
+      20
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Upon photon detection, the device generates a current pulse that is converted to a digital voltage level by means of a pulse shaping circuitry, also shown in the figure.",
+      "translation": "探测到光子时，器件产生电流脉冲；脉冲整形电路再把它转换为数字电压电平，图中也给出了这一电路。",
+      "pdf_page": 20
+    }
+  },
+  {
+    "day": 29,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      21
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "有效信号计数预算",
+        "tex": "\\mu_s=\\eta_{\\mathrm{eff}}\\Phi T",
+        "pdf_page": 21,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 29,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      21
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "4",
+        "pdf_page": 21,
+        "kind": "original_crop",
+        "path": "assets/figures/day-29.png",
+        "label": "TCSPC光路与同步参考"
+      }
+    ]
+  },
+  {
+    "day": 30,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §2",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The simplest such circuit is a resistor placed in series with the diode, also known as ballast resistor.",
+      "translation": "最简单的这类电路，是与二极管串联的一个电阻，也称镇流电阻。",
+      "pdf_page": 18
+    }
+  },
+  {
+    "day": 30,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "超额偏压的定义",
+        "tex": "V_E=V_{OP}-V_{BD}",
+        "pdf_page": 18,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 30,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 18,
+        "kind": "redrawn",
+        "path": "assets/figures/day-30.svg",
+        "label": "淬灭后重新进入可探测状态"
+      }
+    ]
+  },
+  {
+    "day": 31,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §2",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The probability that a single photon’s generated carriers are detected is called the photon detection probability (PDP).",
+      "translation": "由一个光子产生的载流子被探测到的概率，称为光子探测概率PDP。",
+      "pdf_page": 18
+    }
+  },
+  {
+    "day": 31,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      29
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "PDE的面积归一化",
+        "tex": "PDE=FF\\times PDP",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 31,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      29
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "Table 1, footnote 3",
+        "pdf_page": 29,
+        "kind": "redrawn",
+        "path": "assets/figures/day-31.svg",
+        "label": "整像素效率与本征触发概率"
+      }
+    ]
+  },
+  {
+    "day": 32,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §2",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Afterpulsing prevents an instant recharge phase in SPADs, and places constraints on the minimum dead time.",
+      "translation": "后脉冲使SPAD不宜立即再充电，并对最短死时间施加限制。",
+      "pdf_page": 18
+    }
+  },
+  {
+    "day": 32,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      18
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "死时间造成的计数损失",
+        "tex": "r_{\\mathrm{obs}}={r_{\\mathrm{in}}\\over1+r_{\\mathrm{in}}\\tau_d}",
+        "pdf_page": 18,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 32,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      24
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "8",
+        "pdf_page": 24,
+        "kind": "original_crop",
+        "path": "assets/figures/day-32.png",
+        "label": "实测TCSPC主峰与长尾"
+      }
+    ]
+  },
+  {
+    "day": 33,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §4",
+    "pdf_pages": [
+      24
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The integration of time-resolving electronics on a per-column or per-chip basis represents a trade-off between fill-factor, processing bandwidth and circuit area.",
+      "translation": "把时间分辨电子学集成在每列或整芯片级别，是填充因子、处理带宽与电路面积之间的一种权衡。",
+      "pdf_page": 24
+    }
+  },
+  {
+    "day": 33,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      24
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "均匀时间码覆盖范围",
+        "tex": "T_{\\mathrm{span}}=2^b\\Delta t",
+        "pdf_page": 24,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 33,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      23
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "7",
+        "pdf_page": 23,
+        "kind": "redrawn",
+        "path": "assets/figures/day-33.svg",
+        "label": "共享时间转换器与时间码"
+      }
+    ]
+  },
+  {
+    "day": 34,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §1",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Thus, averaging and multi-measurement techniques must be employed. A common choice is the use of time-correlated single-photon counting (TCSPC).",
+      "translation": "因此，需要采用平均与多次测量技术。一种常见选择是时间相关单光子计数TCSPC。",
+      "pdf_page": 16
+    }
+  },
+  {
+    "day": 34,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "首事件记录概率",
+        "tex": "P_k=e^{-\\sum_{j<k}\\lambda_j}\\left(1-e^{-\\lambda_k}\\right)",
+        "pdf_page": 16,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 34,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 16,
+        "kind": "redrawn",
+        "path": "assets/figures/day-34.svg",
+        "label": "首事件保存规则导致时间选择偏差"
+      }
+    ]
+  },
+  {
+    "day": 35,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §3",
+    "pdf_pages": [
+      20
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "When implemented in an array, other performance measures become relevant to the quality of the imager.",
+      "translation": "当SPAD实现为阵列时，其他性能指标也会关系到整幅成像的质量。",
+      "pdf_page": 20
+    }
+  },
+  {
+    "day": 35,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      32
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "总体均方误差的分解",
+        "tex": "\\mathrm{RMSE}^2=b^2+\\sigma^2",
+        "pdf_page": 32,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 35,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      33
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "18",
+        "pdf_page": 33,
+        "kind": "redrawn",
+        "path": "assets/figures/day-35.svg",
+        "label": "偏差与重复散布是两种误差"
+      }
+    ]
+  },
+  {
+    "day": 36,
+    "source": "depth",
+    "chapter": "§1.4.1–1.4.2",
+    "pdf_pages": [
+      41
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "In spite of the conceptual simplicity of relationship (1.51), its implementation presents tremendous technological challenges because it involves the speed of light.",
+      "translation": "尽管关系式1.51在概念上很简单，它的实现仍面临巨大的技术挑战，因为其中涉及光速。",
+      "pdf_page": 41
+    }
+  },
+  {
+    "day": 36,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      41
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "往返时间转为径向距离",
+        "tex": "\\rho={c\\tau\\over2}",
+        "pdf_page": 41,
+        "original_number": "1.51",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 36,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      41
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1.14",
+        "pdf_page": 41,
+        "kind": "original_crop",
+        "path": "assets/figures/day-36.png",
+        "label": "ToF的往返路径与因子二"
+      }
+    ]
+  },
+  {
+    "day": 37,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §1",
+    "pdf_pages": [
+      15
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "In indirect techniques (I-TOF), a continuous sinusoidal light wave is emitted and the phase difference between outgoing and incoming signals is measured.",
+      "translation": "在间接飞行时间技术中，系统发射连续正弦光波，并测量发出信号与返回信号之间的相位差。",
+      "pdf_page": 15
+    }
+  },
+  {
+    "day": 37,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "相位转为径向距离",
+        "tex": "\\rho={c\\phi\\over4\\pi f_m}",
+        "pdf_page": 96,
+        "original_number": "3.14",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 37,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 96,
+        "kind": "redrawn",
+        "path": "assets/figures/day-37.svg",
+        "label": "四个样本怎样形成相位"
+      }
+    ]
+  },
+  {
+    "day": 38,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors, §1",
+    "pdf_pages": [
+      15
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "In direct techniques (D-TOF), the time difference between a START pulse, synchronized with the light source, and a STOP signal generated by the detector is evaluated.",
+      "translation": "在直接飞行时间技术中，需要求出与光源同步的START脉冲和探测器生成的STOP信号之间的时间差。",
+      "pdf_page": 15
+    }
+  },
+  {
+    "day": 38,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "时间延迟与相位差的联系",
+        "tex": "\\phi=2\\pi f_m\\tau",
+        "pdf_page": 96,
+        "original_number": "3.13",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 38,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 96,
+        "kind": "redrawn",
+        "path": "assets/figures/day-38.svg",
+        "label": "同一延迟的脉冲编码与相位编码"
+      }
+    ]
+  },
+  {
+    "day": 39,
+    "source": "depth",
+    "chapter": "§3.3.3 Photon-Shot Noise",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Standard deviation (3.47) determines the precision, or repeatability, of the distance measurement and is directly related to fm, A and B.",
+      "translation": "式3.47的标准差决定距离测量的精密度或重复性，并直接与fm、A和B有关。",
+      "pdf_page": 113
+    }
+  },
+  {
+    "day": 39,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "径向距离转换为光轴深度",
+        "tex": "z={r\\over\\lVert K^{-1}p\\rVert_2}",
+        "pdf_page": 109,
+        "original_number": "3.45",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 39,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 109,
+        "kind": "redrawn",
+        "path": "assets/figures/day-39.svg",
+        "label": "径向距离与光轴深度"
+      }
+    ]
+  },
+  {
+    "day": 40,
+    "source": "depth",
+    "chapter": "§3.3.5 Multipath",
+    "pdf_pages": [
+      115
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The coefficients of such a combination depend on the optical amplitude of the respective rays.",
+      "translation": "这种组合的系数取决于各条光线的光学幅度。",
+      "pdf_page": 115
+    }
+  },
+  {
+    "day": 40,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      103
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "多路径相关量先作复数相加",
+        "tex": "Z=\\sum_k a_k e^{j\\phi_k}",
+        "pdf_page": 103,
+        "original_number": "14",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 40,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      115
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "3.16",
+        "pdf_page": 115,
+        "kind": "redrawn",
+        "path": "assets/figures/day-40.svg",
+        "label": "场景间接路径与复相量合成"
+      }
+    ]
+  },
+  {
+    "day": 41,
+    "source": "depth",
+    "chapter": "§3.3.3 Photon-Shot Noise",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Equation (3.47) also indicates that as the interference intensity B of the received signal increases, precision worsens.",
+      "translation": "式3.47还表明，随着接收信号中干扰强度B的增加，精密度会变差。",
+      "pdf_page": 113
+    }
+  },
+  {
+    "day": 41,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "四桶电子计数模型的距离噪声",
+        "tex": "\\sigma_r\\simeq{c\\over4\\pi f_m}{\\sqrt b\\over\\sqrt2\\,a}",
+        "pdf_page": 113,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 41,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 113,
+        "kind": "redrawn",
+        "path": "assets/figures/day-41.svg",
+        "label": "背景均值相减不等于去除噪声"
+      }
+    ]
+  },
+  {
+    "day": 42,
+    "source": "depth",
+    "chapter": "§3.3.4 Saturation and Motion Blur",
+    "pdf_pages": [
+      113
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Saturation occurs when the received quantity of photons exceeds the maximum quantity that the receiver can collect.",
+      "translation": "当接收到的光子数量超过接收器所能收集的最大数量时，就会发生饱和。",
+      "pdf_page": 113
+    }
+  },
+  {
+    "day": 42,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "相位零点误差与频率标度误差",
+        "tex": "\\delta r\\simeq{c\\over4\\pi f_m}\\delta\\phi-{c\\phi\\over4\\pi f_m^2}\\delta f_m",
+        "pdf_page": 96,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 42,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      112
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "3.14",
+        "pdf_page": 112,
+        "kind": "original_crop",
+        "path": "assets/figures/day-42.png",
+        "label": "波形偏差校正前后的原始示例"
+      }
+    ]
+  },
+  {
+    "day": 43,
+    "source": "depth",
+    "chapter": "§1.3",
+    "pdf_pages": [
+      39
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The characteristics of the projected patterns are fundamental for the solution of the correspondence problem and for the overall system performance.",
+      "translation": "投影图案的特征对于解决对应问题及整个系统的性能至关重要。",
+      "pdf_page": 39
+    }
+  },
+  {
+    "day": 43,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      25
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "校正三角测量的深度关系",
+        "tex": "z=\\frac{bf}{d}",
+        "pdf_page": 25,
+        "original_number": "1.26",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 43,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      41
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 41,
+        "kind": "redrawn",
+        "path": "assets/figures/day-43.svg",
+        "label": "几何对应与传播计时的两种测量链路"
+      }
+    ]
+  },
+  {
+    "day": 44,
+    "source": "depth",
+    "chapter": "§1.3，Fig.1.12图注",
+    "pdf_pages": [
+      37
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "A correspondence estimation algorithm estimates the conjugate points upon which triangulation can be instantiated",
+      "translation": "对应关系估计算法寻找共轭点，随后才能据此进行三角测量。",
+      "pdf_page": 37
+    }
+  },
+  {
+    "day": 44,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      39
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "结构光的校正三角深度",
+        "tex": "z=\\frac{b|f|}{d}",
+        "pdf_page": 39,
+        "original_number": "1.50",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 44,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      37
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "1.12",
+        "pdf_page": 37,
+        "kind": "original_crop",
+        "path": "assets/figures/day-44.png",
+        "label": "原图：结构光图案如何建立对应点"
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "source": "depth",
+    "chapter": "§4.2.1",
+    "pdf_pages": [
+      139
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "A calibration procedure for a single camera aims at providing a set of quantities that allow one to associate each camera pixel to the corresponding ray.",
+      "translation": "单相机标定旨在求出一组量，使每个相机像素能够与相应的空间射线关联。",
+      "pdf_page": 139
+    }
+  },
+  {
+    "day": 45,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      139
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "由标定像素恢复射线方向",
+        "tex": "q=K^{-1}\\tilde p=\\left(\\frac{x}{z},\\frac{y}{z},1\\right)^{\\mathsf T}",
+        "pdf_page": 139,
+        "original_number": "4.9",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 45,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      139
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 139,
+        "kind": "redrawn",
+        "path": "assets/figures/day-45.svg",
+        "label": "多姿态标定与重投影残差"
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "source": "depth",
+    "chapter": "§5.1.1",
+    "pdf_pages": [
+      174
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "While images and depth maps are typically more suited to 3D video applications, 3D textured meshes or colored point clouds are more suited to 3D scene reconstruction or navigation.",
+      "translation": "图像与深度图通常更适合三维视频应用，而带纹理的三维网格或彩色点云更适合三维场景重建或导航。",
+      "pdf_page": 174
+    }
+  },
+  {
+    "day": 46,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      174
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "从深度相机到彩色相机的重投影",
+        "tex": "\\tilde p_C=\\frac{1}{z_C}K_C(RP_D+t)",
+        "pdf_page": 174,
+        "original_number": "5.1（等价写法）",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 46,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      174
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 174,
+        "kind": "redrawn",
+        "path": "assets/figures/day-46.svg",
+        "label": "深度像素到RGB网格的三维重投影"
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "source": "depth",
+    "chapter": "§3.3.6",
+    "pdf_pages": [
+      117
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The presence of flying pixels leads to severe depth estimation artifacts, as shown by the example of Fig. 3.18, where foreground and background are blended together.",
+      "translation": "飞点会造成严重的深度估计伪影；图3.18所示的例子中，前景与背景混在了一起。",
+      "pdf_page": 117
+    }
+  },
+  {
+    "day": 47,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      178
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "交叉双边深度插值的归一化形式",
+        "tex": "\\hat z_i=\\frac{\\sum_{l\\in W_i\\cap V}w_{il}z_l}{\\sum_{l\\in W_i\\cap V}w_{il}}",
+        "pdf_page": 178,
+        "original_number": "5.6（结合5.7归一化）",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 47,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      117
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 117,
+        "kind": "redrawn",
+        "path": "assets/figures/day-47.svg",
+        "label": "有限像素面片跨过深度台阶"
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "source": "depth",
+    "chapter": "§1.1前的引入段",
+    "pdf_pages": [
+      16
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Data made by a depth map together with the corresponding color image are also referred to as RGB-D data.",
+      "translation": "由深度图和对应彩色图像共同组成的数据，也称为RGB-D数据。",
+      "pdf_page": 16
+    }
+  },
+  {
+    "day": 48,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "由径向距离恢复轴向深度与三维点",
+        "tex": "P=zK^{-1}\\tilde p,\\qquad z=\\frac{r}{\\|K^{-1}\\tilde p\\|_2}",
+        "pdf_page": 109,
+        "original_number": "3.45–3.46（合并表示）",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 48,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      109
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 109,
+        "kind": "redrawn",
+        "path": "assets/figures/day-48.svg",
+        "label": "径向距离、轴向深度与点云射线"
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "source": "depth",
+    "chapter": "§4.1.1",
+    "pdf_pages": [
+      127
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "A measurement’s precision is usually expressed numerically by way of standard deviation or percentages of coefficient variations.",
+      "translation": "测量精密度通常用标准差或变异系数百分比作数值表征。",
+      "pdf_page": 127
+    }
+  },
+  {
+    "day": 49,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      127
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "有限样本RMSE的偏差—方差分解",
+        "tex": "\\mathrm{RMSE}^2=b^2+\\frac{N-1}{N}s^2",
+        "pdf_page": 127,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 49,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      127
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "4.1",
+        "pdf_page": 127,
+        "kind": "original_crop",
+        "path": "assets/figures/day-49.png",
+        "label": "原图：分布偏移与重复离散"
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors，§3",
+    "pdf_pages": [
+      20
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Upon photon detection, the device generates a current pulse that is converted to a digital voltage level by means of a pulse shaping circuitry, also shown in the figure.",
+      "translation": "探测到光子后，器件产生电流脉冲，并由脉冲整形电路转换成数字电压电平，该电路也画在图中。",
+      "pdf_page": 20
+    }
+  },
+  {
+    "day": 50,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      29
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "从有源区探测概率到整像素探测效率",
+        "tex": "\\mathrm{PDE}=F\\,\\mathrm{PDP}",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 50,
+    "source": "spad",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      20
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 20,
+        "kind": "redrawn",
+        "path": "assets/figures/day-50.svg",
+        "label": "积分信号与事件信号的输出差别"
+      }
+    ]
+  },
+  {
+    "day": 51,
+    "source": "depth",
+    "chapter": "§2.2.1",
+    "pdf_pages": [
+      63
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Equation (2.6) shows that the depth resolution is quadratically dependent on the depth of the measured object (i.e., its z coordinate).",
+      "translation": "式(2.6)表明，深度分辨率与被测物体的深度（即其z坐标）成平方关系。",
+      "pdf_page": 63
+    }
+  },
+  {
+    "day": 51,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "iToF相位不确定度到距离标准差",
+        "tex": "\\sigma_\\rho=\\frac{c}{4\\pi f_m}\\sigma_\\phi",
+        "pdf_page": 96,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 51,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      96
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 96,
+        "kind": "redrawn",
+        "path": "assets/figures/day-51.svg",
+        "label": "将三条误差链分别换算为距离单位"
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "source": "benchmark",
+    "chapter": "§7.8.1",
+    "pdf_pages": [
+      274
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "The PSNR is just a re-expression of the MSE, relative to the peak attainable signal power.",
+      "translation": "PSNR只是相对于可达到的峰值信号功率，对MSE所作的另一种表达。",
+      "pdf_page": 274
+    }
+  },
+  {
+    "day": 52,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      274
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "八位图像的PSNR",
+        "tex": "\\mathrm{PSNR}=10\\log_{10}\\frac{255^2}{\\mathrm{MSE}}",
+        "pdf_page": 274,
+        "original_number": "7.44",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 52,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      278
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": "7.11（a–d）",
+        "pdf_page": 278,
+        "kind": "original_crop",
+        "path": "assets/figures/day-52.png",
+        "label": "原图局部：相同PSNR，不同损伤外观"
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "source": "emva",
+    "chapter": "§10 Publishing the Results",
+    "pdf_pages": [
+      31
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "This section describes the basic information which must be published for each camera and precedes the EMVA 1288 data.",
+      "translation": "本节描述每台相机必须公布的基本信息，这些信息应列在EMVA1288数据之前。",
+      "pdf_page": 31
+    }
+  },
+  {
+    "day": 53,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "从目标SNR反演所需光电子数",
+        "tex": "N_{\\mathrm{req}}=\\frac{S_0^2+\\sqrt{S_0^4+4S_0^2B}}{2}",
+        "pdf_page": 7,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 53,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 7,
+        "kind": "redrawn",
+        "path": "assets/figures/day-53.svg",
+        "label": "目标SNR与饱和容量共同限定可用窗口"
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "source": "depth",
+    "chapter": "§4.1.1",
+    "pdf_pages": [
+      128
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "If a set of measurements contains a systematic error, increasing the number of measurements does not improve the accuracy.",
+      "translation": "如果一组测量包含系统误差，增加测量次数并不会改善准确度。",
+      "pdf_page": 128
+    }
+  },
+  {
+    "day": 54,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      175
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "把有效覆盖率与误差同时报告",
+        "tex": "V=\\frac{N_{\\mathrm{valid}}}{N_{\\mathrm{eligible}}}",
+        "pdf_page": 175,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 54,
+    "source": "depth",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      127
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 127,
+        "kind": "redrawn",
+        "path": "assets/figures/day-54.svg",
+        "label": "用工况矩阵组织RGB-D验收"
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "source": "emva",
+    "chapter": "§2.3",
+    "pdf_pages": [
+      7
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "This means that the slope of the SNR curve changes from a linear increase at low irradiation to a slower square root increase at high irradiation.",
+      "translation": "这意味着SNR曲线由低辐照下的线性增长，转为高辐照下较缓慢的平方根增长。",
+      "pdf_page": 7
+    }
+  },
+  {
+    "day": 55,
+    "source": "emva",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      6
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "数字方差—扣暗信号的线性关系",
+        "tex": "\\sigma_y^2=K^2\\sigma_d^2+\\sigma_q^2+K(\\mu_y-\\mu_{y,\\mathrm{dark}})",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 55,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      107
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 107,
+        "kind": "redrawn",
+        "path": "assets/figures/day-55.svg",
+        "label": "噪声区段与数据域定位"
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "source": "benchmark",
+    "chapter": "§9.3",
+    "pdf_pages": [
+      336
+    ],
+    "record_type": "visual_excerpt",
+    "formulas": [],
+    "figures": [],
+    "quote": {
+      "text": "Using this formalism, it is important that the individual metrics produce values with the same units, for example, JND, otherwise combination metrics like the above will not provide relevant results.",
+      "translation": "采用这一形式时，各项指标必须产生具有相同单位的数值，例如JND，否则上述组合指标不会给出有意义的结果。",
+      "pdf_page": 336
+    }
+  },
+  {
+    "day": 56,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      336
+    ],
+    "record_type": "visual_formula",
+    "formulas": [
+      {
+        "label": "同一尺度质量损失的Minkowski组合",
+        "tex": "\\Delta Q_m=\\left[\\sum_i(\\Delta Q_i)^{n_m}\\right]^{1/n_m}",
+        "pdf_page": 336,
+        "original_number": "9.1",
+        "kind": "source"
+      }
+    ],
+    "figures": []
+  },
+  {
+    "day": 56,
+    "source": "benchmark",
+    "chapter": "图文阅读卡片；具体依据见条目",
+    "pdf_pages": [
+      336
+    ],
+    "record_type": "visual_figure",
+    "formulas": [],
+    "figures": [
+      {
+        "number": null,
+        "pdf_page": 336,
+        "kind": "redrawn",
+        "path": "assets/figures/day-56.svg",
+        "label": "先明确测量域，再回到任务验收"
+      }
+    ]
   }
 ]

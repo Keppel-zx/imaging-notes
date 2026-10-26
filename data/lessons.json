@@ -382,7 +382,8 @@
     "title": "iToF 相位测量",
     "url": "articles/day-37.html",
     "citation_sources": [
-      "depth"
+      "depth",
+      "spad"
     ],
     "citation_index": "../citation_index.json"
   },
