@@ -1,0 +1,466 @@
+[
+  {
+    "day": 29,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      15,
+      16,
+      17,
+      18,
+      21,
+      24,
+      29
+    ],
+    "printed_pages": [
+      11,
+      12,
+      13,
+      14,
+      17,
+      20,
+      25
+    ],
+    "formulas": [
+      {
+        "label": "d≈cτTOF/2",
+        "pdf_page": 21,
+        "original_number": "2",
+        "kind": "source"
+      },
+      {
+        "label": "signal-event mean ηeff ΦT",
+        "pdf_page": 21,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "Poisson SNR≈√μs",
+        "pdf_page": 21,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "4",
+        "pdf_page": 21,
+        "analysis": "同步光源、空间成像与事件时间处理共同决定三维测量"
+      }
+    ],
+    "quote": {
+      "text": "individual photons",
+      "pdf_page": 15
+    },
+    "verified": true,
+    "han_characters": 2097,
+    "status": "review_ready"
+  },
+  {
+    "day": 30,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "printed_pages": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "formulas": [
+      {
+        "label": "excess bias VE=VOP−VBD",
+        "pdf_page": 18,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "passive recovery RC time constant",
+        "pdf_page": 18,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 17,
+        "analysis": "盖革工作区与无源淬灭整形电路对应事件的触发、停止和恢复"
+      }
+    ],
+    "quote": {
+      "text": "Geiger mode",
+      "pdf_page": 17
+    },
+    "verified": true,
+    "han_characters": 2193,
+    "status": "review_ready"
+  },
+  {
+    "day": 31,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      18,
+      20,
+      29
+    ],
+    "printed_pages": [
+      14,
+      16,
+      25
+    ],
+    "formulas": [
+      {
+        "label": "PDE=FF×PDP footnote definition",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "source"
+      },
+      {
+        "label": "Poisson signal/background count SNR",
+        "pdf_page": 20,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "variance after independent equal-exposure background subtraction",
+        "pdf_page": 20,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "Table 1",
+        "pdf_page": 29,
+        "analysis": "计时步长、非线性、抖动及功耗分列，不能替代效率与暗计数比较"
+      }
+    ],
+    "quote": {
+      "text": "fill factor",
+      "pdf_page": 29
+    },
+    "verified": true,
+    "han_characters": 2080,
+    "status": "review_ready"
+  },
+  {
+    "day": 32,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      18,
+      19,
+      20,
+      21,
+      24,
+      25,
+      29
+    ],
+    "printed_pages": [
+      14,
+      15,
+      16,
+      17,
+      20,
+      21,
+      25
+    ],
+    "formulas": [
+      {
+        "label": "independent timing-variance budget and Gaussian FWHM conversion",
+        "pdf_page": 19,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "direct ToF distance",
+        "pdf_page": 21,
+        "original_number": "2",
+        "kind": "source"
+      },
+      {
+        "label": "distance and sample-mean uncertainty propagation",
+        "pdf_page": 21,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "nonparalyzable dead-time rate model",
+        "pdf_page": 18,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "8",
+        "pdf_page": 24,
+        "analysis": "对数计数轴区分主峰宽度与指数尾部；质心和峰值受影响不同"
+      },
+      {
+        "number": "9",
+        "pdf_page": 25,
+        "analysis": "距离响应、平均误差和标准差分别表示线性、偏差和重复性"
+      }
+    ],
+    "quote": {
+      "text": "dead time",
+      "pdf_page": 18
+    },
+    "verified": true,
+    "han_characters": 2082,
+    "status": "review_ready"
+  },
+  {
+    "day": 33,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "printed_pages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "formulas": [
+      {
+        "label": "uniform TDC code-span estimate",
+        "pdf_page": 26,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "uniform quantization standard deviation",
+        "pdf_page": 26,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "raw event interface bandwidth",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "7",
+        "pdf_page": 23,
+        "analysis": "列并行TDC与事件驱动复用，区分并行性和共享竞争"
+      },
+      {
+        "number": "11",
+        "pdf_page": 26,
+        "analysis": "外部与内部时钟像素TDC参考和功耗行为的差异"
+      },
+      {
+        "number": "Table 1",
+        "pdf_page": 29,
+        "analysis": "名义步长、DNL、INL、抖动及功耗是不同指标"
+      }
+    ],
+    "quote": {
+      "text": "time resolution",
+      "pdf_page": 24
+    },
+    "verified": true,
+    "han_characters": 2070,
+    "status": "review_ready"
+  },
+  {
+    "day": 34,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      16,
+      20,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "printed_pages": [
+      12,
+      16,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "formulas": [
+      {
+        "label": "phase-to-distance standard deviation",
+        "pdf_page": 32,
+        "original_number": "6",
+        "kind": "source"
+      },
+      {
+        "label": "SPSD statistical distance error",
+        "pdf_page": 33,
+        "original_number": "8",
+        "kind": "source"
+      },
+      {
+        "label": "unambiguous distance RD=c/(2f0)",
+        "pdf_page": 33,
+        "original_number": "7",
+        "kind": "source"
+      },
+      {
+        "label": "first-event bin acceptance model",
+        "pdf_page": 16,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "15",
+        "pdf_page": 31,
+        "analysis": "重复光子事件按相位分桶重建波形，非单周期模拟采样"
+      },
+      {
+        "number": "18",
+        "pdf_page": 33,
+        "analysis": "线性距离响应不能替代平均偏差与随机标准差评价"
+      }
+    ],
+    "quote": {
+      "text": "ambient light",
+      "pdf_page": 32
+    },
+    "verified": true,
+    "han_characters": 2047,
+    "status": "review_ready"
+  },
+  {
+    "day": 35,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors",
+    "pdf_pages": [
+      20,
+      21,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "printed_pages": [
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "formulas": [
+      {
+        "label": "event budget including receiver acceptance",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "RMSE bias-variance decomposition",
+        "pdf_page": 25,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "direct ToF distance",
+        "pdf_page": 21,
+        "original_number": "2",
+        "kind": "source"
+      },
+      {
+        "label": "phase-to-distance standard deviation",
+        "pdf_page": 32,
+        "original_number": "6",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "Table 1",
+        "pdf_page": 29,
+        "analysis": "统一运行条件后才能比较局部计时指标与系统性能"
+      },
+      {
+        "number": "18",
+        "pdf_page": 33,
+        "analysis": "偏差和重复性分别报告"
+      },
+      {
+        "number": "19",
+        "pdf_page": 34,
+        "analysis": "积分与三维图质量的关系"
+      },
+      {
+        "number": "20",
+        "pdf_page": 34,
+        "analysis": "不同积分时间下深度图视觉质量不能单独证明准确度"
+      }
+    ],
+    "quote": {
+      "text": "performance measures",
+      "pdf_page": 20
+    },
+    "verified": true,
+    "han_characters": 2158,
+    "status": "review_ready"
+  }
+]

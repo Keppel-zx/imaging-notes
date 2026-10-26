@@ -1,0 +1,670 @@
+[
+  {
+    "day": 50,
+    "source": "emva",
+    "chapter": "§2.1–2.4",
+    "pdf_pages": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "formulas": [
+      {
+        "label": "扣暗数字响应 S_y=μ_y−μ_y.dark=Kημ_p",
+        "pdf_page": 6,
+        "original_number": "5–6",
+        "kind": "source"
+      },
+      {
+        "label": "光电子泊松方差",
+        "pdf_page": 6,
+        "original_number": "7",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "analysis": "积分相机的光子、电子、数字量链路及噪声注入域"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 50,
+    "source": "spad",
+    "chapter": "State-of-the-Art of TOF Range-Imaging Sensors §2.2; SPAD-Based Sensors §2–3, per-pixel arrays",
+    "pdf_pages": [
+      9,
+      16,
+      18,
+      20,
+      29
+    ],
+    "formulas": [
+      {
+        "label": "往返计时与距离",
+        "pdf_page": 9,
+        "original_number": "1",
+        "kind": "source"
+      },
+      {
+        "label": "PDE=fill factor×PDP（脚注文字定义重写）",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "source"
+      },
+      {
+        "label": "低通量事件均值、暗事件与计数SNR",
+        "pdf_page": 20,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "时间到距离标准差传播",
+        "pdf_page": 9,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "Table 1",
+        "pdf_page": 29,
+        "analysis": "分开时间LSB、INL/DNL、抖动、均匀性和功耗；历史阵列数据不当作当前产品规格"
+      }
+    ],
+    "quote": {
+      "text": "dead time",
+      "pdf_page": 18
+    },
+    "verified": true
+  },
+  {
+    "day": 51,
+    "source": "depth",
+    "chapter": "§2.2.1; §3.1.1; §3.3; §4.1.1",
+    "pdf_pages": [
+      63,
+      95,
+      96,
+      111,
+      113,
+      114,
+      115,
+      116,
+      127,
+      128
+    ],
+    "formulas": [
+      {
+        "label": "三角测量深度分辨",
+        "pdf_page": 63,
+        "original_number": "2.6",
+        "kind": "source"
+      },
+      {
+        "label": "相位与径向距离",
+        "pdf_page": 96,
+        "original_number": "3.14",
+        "kind": "source"
+      },
+      {
+        "label": "相位误差到距离标准差",
+        "pdf_page": 96,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "单频无歧义范围",
+        "pdf_page": 111,
+        "original_number": null,
+        "kind": "source"
+      },
+      {
+        "label": "视差、相位、时间不确定性统一比较",
+        "pdf_page": 96,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "2.8",
+        "pdf_page": 63,
+        "analysis": "固定基线与焦距下深度分辨随距离平方增长，不是跨产品实测排名"
+      },
+      {
+        "number": "3.2",
+        "pdf_page": 95,
+        "analysis": "分离有用调制幅度与背景相关偏置及相位延迟"
+      },
+      {
+        "number": "4.1",
+        "pdf_page": 127,
+        "analysis": "均值偏离真值与重复离散分别表达准确度和精密度"
+      }
+    ],
+    "quote": {
+      "text": "Accuracy and precision",
+      "pdf_page": 127
+    },
+    "verified": true
+  },
+  {
+    "day": 51,
+    "source": "spad",
+    "chapter": "State-of-the-Art of TOF Range-Imaging Sensors §2.2",
+    "pdf_pages": [
+      9
+    ],
+    "formulas": [
+      {
+        "label": "dToF往返计时",
+        "pdf_page": 9,
+        "original_number": "1",
+        "kind": "source"
+      },
+      {
+        "label": "计时误差的一阶传播",
+        "pdf_page": 9,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 52,
+    "source": "benchmark",
+    "chapter": "§7.4.1.1; §7.8.1–7.8.2; §9.3",
+    "pdf_pages": [
+      255,
+      256,
+      274,
+      275,
+      276,
+      277,
+      278,
+      279,
+      335,
+      336
+    ],
+    "formulas": [
+      {
+        "label": "误差图、MSE与八位PSNR",
+        "pdf_page": 274,
+        "original_number": "7.42–7.44",
+        "kind": "source"
+      },
+      {
+        "label": "误差幅度加倍引起PSNR变化",
+        "pdf_page": 274,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "边缘锐度感的相机/显示/CSF加权积分",
+        "pdf_page": 256,
+        "original_number": "7.8",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "7.11",
+        "pdf_page": 278,
+        "analysis": "相近PSNR的白噪声、量化与DCT截断具有不同损伤外观和空间组织"
+      }
+    ],
+    "quote": {
+      "text": "viewing conditions",
+      "pdf_page": 255
+    },
+    "verified": true
+  },
+  {
+    "day": 53,
+    "source": "emva",
+    "chapter": "§2; §10",
+    "pdf_pages": [
+      5,
+      6,
+      7,
+      8,
+      31,
+      32
+    ],
+    "formulas": [
+      {
+        "label": "输入光电子数与目标SNR",
+        "pdf_page": 7,
+        "original_number": "11",
+        "kind": "source"
+      },
+      {
+        "label": "所需信号反演",
+        "pdf_page": 7,
+        "original_number": "15",
+        "kind": "source"
+      },
+      {
+        "label": "满足SNR的电子数二次根（等价反演）",
+        "pdf_page": 7,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "Table 2",
+        "pdf_page": 32,
+        "analysis": "每工作点需报告输入/输出单位、完整PTC和SNR等资料，不应拼接不同模式最佳值"
+      }
+    ],
+    "quote": {
+      "text": "Operation point(s)",
+      "pdf_page": 31
+    },
+    "verified": true
+  },
+  {
+    "day": 53,
+    "source": "spad",
+    "chapter": "SPAD-Based Sensors §3, per-pixel arrays",
+    "pdf_pages": [
+      9,
+      20,
+      29
+    ],
+    "formulas": [
+      {
+        "label": "计时标准差映射到距离（往返关系）",
+        "pdf_page": 9,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "Table 1",
+        "pdf_page": 29,
+        "analysis": "时间性能分为码宽、线性、随机抖动和功耗"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 53,
+    "source": "benchmark",
+    "chapter": "§9.6",
+    "pdf_pages": [
+      367
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 54,
+    "source": "depth",
+    "chapter": "§2.2.1; §3.1.1, §3.3; §4.1.1–4.1.3",
+    "pdf_pages": [
+      63,
+      96,
+      111,
+      113,
+      114,
+      115,
+      116,
+      117,
+      127,
+      128,
+      129,
+      130
+    ],
+    "formulas": [
+      {
+        "label": "三角测量深度分辨",
+        "pdf_page": 63,
+        "original_number": "2.6",
+        "kind": "source"
+      },
+      {
+        "label": "相位与距离及补充标准差传播",
+        "pdf_page": 96,
+        "original_number": "3.14",
+        "kind": "source"
+      },
+      {
+        "label": "均值、偏差、样本标准差、RMSE分解与有效率定义",
+        "pdf_page": 127,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "4.1",
+        "pdf_page": 127,
+        "analysis": "相对真值的分布位置和宽度支持分开报告偏差与精密度"
+      },
+      {
+        "number": "4.2",
+        "pdf_page": 130,
+        "analysis": "三维/二维/一维标定物提供不同几何约束"
+      },
+      {
+        "number": "3.16",
+        "pdf_page": 115,
+        "analysis": "经表面A到B的间接路径要求测试多径场景"
+      },
+      {
+        "number": "3.17",
+        "pdf_page": 117,
+        "analysis": "有限像素对应场景小面片，边界混合不能一般化为几何距离平均"
+      }
+    ],
+    "quote": {
+      "text": "true value",
+      "pdf_page": 127
+    },
+    "verified": true
+  },
+  {
+    "day": 54,
+    "source": "benchmark",
+    "chapter": "§9.3; §9.6",
+    "pdf_pages": [
+      335,
+      336,
+      367
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 55,
+    "source": "emva",
+    "chapter": "§2–3; §6.6",
+    "pdf_pages": [
+      5,
+      6,
+      7,
+      8,
+      16,
+      17,
+      18
+    ],
+    "formulas": [
+      {
+        "label": "数字方差与扣暗信号的线性关系",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      },
+      {
+        "label": "输入方差预算、噪声占比与去掉单项的SNR上限",
+        "pdf_page": 6,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "独立重复平均方差降低",
+        "pdf_page": 6,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "analysis": "用方差均值关系核对转换增益"
+      },
+      {
+        "number": "7",
+        "pdf_page": 18,
+        "analysis": "响应模型与SNR曲线应相互一致"
+      }
+    ],
+    "quote": {
+      "text": "shot noise",
+      "pdf_page": 6
+    },
+    "verified": true
+  },
+  {
+    "day": 55,
+    "source": "benchmark",
+    "chapter": "§4.3.4–4.4.1",
+    "pdf_pages": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115
+    ],
+    "formulas": [],
+    "figures": [
+      {
+        "number": "4.21",
+        "pdf_page": 107,
+        "analysis": "恒定、平方根、线性区段提示候选噪声机制，不能脱离数据域自动诊断"
+      },
+      {
+        "number": "4.23",
+        "pdf_page": 114,
+        "analysis": "未扣黑电平造成颜色偏差，应在最早异常数据阶段修复"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 55,
+    "source": "depth",
+    "chapter": "§3.1.1; §3.3; §4.1.1",
+    "pdf_pages": [
+      96,
+      111,
+      113,
+      114,
+      115,
+      116,
+      127,
+      128
+    ],
+    "formulas": [
+      {
+        "label": "相位到距离",
+        "pdf_page": 96,
+        "original_number": "3.14",
+        "kind": "source"
+      },
+      {
+        "label": "相位随机误差传播",
+        "pdf_page": 96,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "3.16",
+        "pdf_page": 115,
+        "analysis": "场景多径可以造成稳定偏差"
+      },
+      {
+        "number": "4.1",
+        "pdf_page": 127,
+        "analysis": "重复性改善与均值接近真值是不同结论"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 56,
+    "source": "emva",
+    "chapter": "§2; §10",
+    "pdf_pages": [
+      5,
+      6,
+      7,
+      8,
+      31,
+      32
+    ],
+    "formulas": [
+      {
+        "label": "光子—电子—DN转换链",
+        "pdf_page": 5,
+        "original_number": "1",
+        "kind": "source"
+      },
+      {
+        "label": "数字响应",
+        "pdf_page": 6,
+        "original_number": "5–6",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "analysis": "统一知识链起点是明确被测输入与数据域"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 56,
+    "source": "spad",
+    "chapter": "State-of-the-Art of TOF Range-Imaging Sensors §2.2; SPAD-Based Sensors §2–3, per-pixel arrays",
+    "pdf_pages": [
+      9,
+      18,
+      20,
+      29
+    ],
+    "formulas": [
+      {
+        "label": "往返时间与距离",
+        "pdf_page": 9,
+        "original_number": "1",
+        "kind": "source"
+      },
+      {
+        "label": "低通量SPAD事件预算",
+        "pdf_page": 29,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "计时到距离一阶传播",
+        "pdf_page": 9,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "Table 1",
+        "pdf_page": 29,
+        "analysis": "计时刻度、线性和随机抖动必须区分"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 56,
+    "source": "depth",
+    "chapter": "§2.2.1; §3.1.1; §3.3.1; §4.1",
+    "pdf_pages": [
+      63,
+      96,
+      111,
+      127,
+      128,
+      129,
+      130
+    ],
+    "formulas": [
+      {
+        "label": "三角测量深度分辨",
+        "pdf_page": 63,
+        "original_number": "2.6",
+        "kind": "source"
+      },
+      {
+        "label": "相位距离及一阶传播",
+        "pdf_page": 96,
+        "original_number": "3.14",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "4.1",
+        "pdf_page": 127,
+        "analysis": "误差体系分开偏差和重复离散"
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 56,
+    "source": "benchmark",
+    "chapter": "§4.4.1; §7.4.1.1; §7.8; §9.3; §9.6",
+    "pdf_pages": [
+      113,
+      114,
+      115,
+      256,
+      278,
+      335,
+      336,
+      367
+    ],
+    "formulas": [
+      {
+        "label": "同一JND尺度上的Minkowski属性损失组合",
+        "pdf_page": 336,
+        "original_number": "9.1",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "7.11",
+        "pdf_page": 278,
+        "analysis": "数值误差相近不保证感知损伤相同"
+      }
+    ],
+    "quote": {
+      "text": "quality loss",
+      "pdf_page": 336
+    },
+    "verified": true
+  }
+]

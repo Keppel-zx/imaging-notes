@@ -1,0 +1,380 @@
+{
+  "scope": "week-04 relevant verified anchors, not a complete-book index",
+  "page_convention": "PDF one-based",
+  "sources": [
+    {
+      "source": "benchmark",
+      "chapters": [
+        "2 Defining Image Quality, §§2.1–2.3; 6.9 Noise",
+        "5 Subjective Image Quality Assessment, §§5.1–5.5",
+        "6.1 Exposure and Tone; 6.2 Dynamic Range; 6.9.3 Nonlinear Systems",
+        "6.3 Color",
+        "6.7 Sharpness and Resolution, §§6.7.1,6.7.6–6.7.7",
+        "6.9 Noise, §§6.9.1–6.9.3",
+        "7.4 Spatial Image Quality Metrics, §§7.4.1–7.4.3"
+      ],
+      "pdf_pages": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        140,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        150,
+        151,
+        190,
+        191,
+        192,
+        193,
+        208,
+        209,
+        210,
+        211,
+        212,
+        220,
+        221,
+        229,
+        230,
+        231,
+        232,
+        233,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264
+      ],
+      "formulas": [
+        {
+          "label": "均值信噪比 μ/σ",
+          "pdf_page": 229,
+          "original_number": "6.59",
+          "kind": "source",
+          "day": 22
+        },
+        {
+          "label": "依赖图像、观看、用途与人群的概念函数及属性线性汇总，非原书公式",
+          "pdf_page": 52,
+          "original_number": null,
+          "kind": "derived",
+          "day": 22
+        },
+        {
+          "label": "点扩散函数二维卷积",
+          "pdf_page": 209,
+          "original_number": "6.21",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "点扩散函数的傅里叶变换定义OTF",
+          "pdf_page": 209,
+          "original_number": "6.22",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "沿y积分获得线扩散函数",
+          "pdf_page": 211,
+          "original_number": "6.27",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "正弦调制度的幅度与均值之比",
+          "pdf_page": 211,
+          "original_number": "6.30",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "输出与输入调制度之比",
+          "pdf_page": 212,
+          "original_number": "6.31",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "线扩散函数傅里叶变换的模定义MTF",
+          "pdf_page": 212,
+          "original_number": "6.32",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "归一化零频MTF等于一",
+          "pdf_page": 212,
+          "original_number": "6.33",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "MTF为OTF方向切片幅值",
+          "pdf_page": 212,
+          "original_number": "6.34",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "边缘扩散函数的导数为LSF",
+          "pdf_page": 220,
+          "original_number": "6.46",
+          "kind": "source",
+          "day": 23
+        },
+        {
+          "label": "MTF50定义与周每毫米到周每像素换算",
+          "pdf_page": 212,
+          "original_number": null,
+          "kind": "derived",
+          "day": 23
+        },
+        {
+          "label": "均值与标准差比值SNR",
+          "pdf_page": 229,
+          "original_number": "6.59",
+          "kind": "source",
+          "day": 24
+        },
+        {
+          "label": "白平衡和颜色矩阵下协方差传播",
+          "pdf_page": 230,
+          "original_number": "6.63",
+          "kind": "source",
+          "day": 24
+        },
+        {
+          "label": "噪声样本傅里叶变换幅值平方的功率谱",
+          "pdf_page": 231,
+          "original_number": "6.65",
+          "kind": "source",
+          "day": 24
+        },
+        {
+          "label": "非线性OECF局部增益与场景输入等效SNR",
+          "pdf_page": 233,
+          "original_number": "6.66",
+          "kind": "source",
+          "day": 24
+        },
+        {
+          "label": "SNR幅度分贝和列向量协方差传播",
+          "pdf_page": 230,
+          "original_number": null,
+          "kind": "derived",
+          "day": 24
+        },
+        {
+          "label": "局部增量增益与输入等效信噪比",
+          "pdf_page": 233,
+          "original_number": "6.66",
+          "kind": "source",
+          "day": 26
+        },
+        {
+          "label": "满阱噪声比值的档数和幅度分贝换算",
+          "pdf_page": 193,
+          "original_number": null,
+          "kind": "derived",
+          "day": 26
+        },
+        {
+          "label": "Weber差别阈值与基线刺激比例关系",
+          "pdf_page": 140,
+          "original_number": "5.1",
+          "kind": "source",
+          "day": 27
+        },
+        {
+          "label": "单位感知变化与相对刺激变化",
+          "pdf_page": 140,
+          "original_number": "5.2",
+          "kind": "source",
+          "day": 27
+        },
+        {
+          "label": "Fechner对数响应及积分常数",
+          "pdf_page": 140,
+          "original_number": "5.3",
+          "kind": "source",
+          "day": 27
+        },
+        {
+          "label": "参考刺激比值的无量纲对数推导和二选一比例",
+          "pdf_page": 140,
+          "original_number": null,
+          "kind": "derived",
+          "day": 27
+        },
+        {
+          "label": "相机SFR、人眼CSF及输出MTF加权的边缘锐度积分",
+          "pdf_page": 256,
+          "original_number": "7.8",
+          "kind": "source",
+          "day": 28
+        },
+        {
+          "label": "亮度CSF的频率数值形式",
+          "pdf_page": 256,
+          "original_number": "7.9",
+          "kind": "source",
+          "day": 28
+        },
+        {
+          "label": "小角近似下周每毫米到周每度换算",
+          "pdf_page": 257,
+          "original_number": null,
+          "kind": "derived",
+          "day": 28
+        }
+      ],
+      "figures": [
+        {
+          "number": "2.1",
+          "pdf_page": 54,
+          "analysis": "不同显示尺寸下饱和度与模糊的可见差异，解释全局与局部属性",
+          "day": 22
+        },
+        {
+          "number": "6.16",
+          "pdf_page": 209,
+          "analysis": "高细节分辨能力与整体锐利感并不总是一致",
+          "day": 23
+        },
+        {
+          "number": "6.27",
+          "pdf_page": 221,
+          "analysis": "逐行采样、位移、分箱、微分和傅里叶变换的斜边SFR测量过程",
+          "day": 23
+        },
+        {
+          "number": "6.30",
+          "pdf_page": 231,
+          "analysis": "颜色矩阵改变噪声幅度和颜色",
+          "day": 24
+        },
+        {
+          "number": "6.31",
+          "pdf_page": 232,
+          "analysis": "相同方差却具有不同功率谱和空间关联的噪声",
+          "day": 24
+        },
+        {
+          "number": "6.32",
+          "pdf_page": 233,
+          "analysis": "OECF局部斜率改变输出噪声幅度",
+          "day": 24
+        },
+        {
+          "number": "6.1",
+          "pdf_page": 192,
+          "analysis": "归一化输入曝光与输出码值的OECF并对照sRGB曲线",
+          "day": 26
+        },
+        {
+          "number": "6.32",
+          "pdf_page": 233,
+          "analysis": "曲线局部斜率与噪声幅度，剪切后反推失效",
+          "day": 26
+        },
+        {
+          "number": "5.1",
+          "pdf_page": 150,
+          "analysis": "音高与灰块明度跨模态演示及重复刺激检验，不作为相机性能数据",
+          "day": 27
+        },
+        {
+          "number": "Table 5.2",
+          "pdf_page": 143,
+          "analysis": "名义、顺序、间隔和比率尺度区别，只解释不复制表格",
+          "day": 27
+        },
+        {
+          "number": "7.6",
+          "pdf_page": 257,
+          "analysis": "屏幕观看条件下相机、视觉与显示频率响应重叠",
+          "day": 28
+        },
+        {
+          "number": "7.7",
+          "pdf_page": 257,
+          "analysis": "打印条件改变共同视角频率与锐度积分",
+          "day": 28
+        },
+        {
+          "number": "7.8",
+          "pdf_page": 259,
+          "analysis": "边缘锐度与SQS JND映射的非绝对性及高端趋平",
+          "day": 28
+        }
+      ]
+    },
+    {
+      "source": "colour",
+      "chapters": [
+        "2 Colorimetry and Colour Difference, §§2.8–2.19"
+      ],
+      "pdf_pages": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "formulas": [
+        {
+          "label": "XYZ相对参考白的CIELAB分段变换",
+          "pdf_page": 57,
+          "original_number": "2.6",
+          "kind": "source",
+          "day": 25
+        },
+        {
+          "label": "CIELAB三维欧氏色差",
+          "pdf_page": 59,
+          "original_number": "2.13",
+          "kind": "source",
+          "day": 25
+        },
+        {
+          "label": "CIEDE2000加权结构及色相彩度交互项，仅作结构定位未完整复现",
+          "pdf_page": 64,
+          "original_number": "2.20",
+          "kind": "source",
+          "day": 25
+        },
+        {
+          "label": "分段接点连续性与导数衔接",
+          "pdf_page": 57,
+          "original_number": null,
+          "kind": "derived",
+          "day": 25
+        }
+      ],
+      "figures": [
+        {
+          "number": "2.2",
+          "pdf_page": 61,
+          "analysis": "颜色辨别椭圆揭示CIELAB不同颜色区域感知非均匀性",
+          "day": 25
+        }
+      ]
+    }
+  ]
+}

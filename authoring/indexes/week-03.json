@@ -1,0 +1,93 @@
+{
+  "source": "colour",
+  "title": "Fundamentals and Applications of Colour Engineering",
+  "pdf_page_offset": 25,
+  "chapters": [
+    {
+      "name": "5 Color Processing for Digital Cameras",
+      "pdf_pages": [
+        106,
+        120
+      ]
+    },
+    {
+      "name": "3.3.1.1 First Order Model",
+      "pdf_pages": [
+        83
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "number": "3.3–3.8",
+      "pdf_page": 83,
+      "subject": "least-squares first-order device characterization"
+    }
+  ],
+  "figures": [
+    {
+      "number": "5.1",
+      "pdf_page": 107,
+      "subject": "sensor/CFA/spectral responses"
+    },
+    {
+      "number": "5.2",
+      "pdf_page": 108,
+      "subject": "typical camera pipeline"
+    },
+    {
+      "number": "5.3",
+      "pdf_page": 110,
+      "subject": "lens shading correction"
+    },
+    {
+      "number": "5.4",
+      "pdf_page": 112,
+      "subject": "white balance"
+    },
+    {
+      "number": "5.5",
+      "pdf_page": 113,
+      "subject": "edge-aware demosaicing"
+    },
+    {
+      "number": "5.6",
+      "pdf_page": 114,
+      "subject": "device-independent colour mapping"
+    },
+    {
+      "number": "5.7",
+      "pdf_page": 116,
+      "subject": "photo-finishing"
+    },
+    {
+      "number": "5.8",
+      "pdf_page": 119,
+      "subject": "multi-frame fusion locations"
+    }
+  ],
+  "actual_pages_read": [
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    83,
+    84
+  ],
+  "visual_pages_checked": [
+    108,
+    112,
+    113
+  ]
+}

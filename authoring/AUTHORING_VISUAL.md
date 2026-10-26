@@ -1,1 +1,17 @@
+# Visual reading upgrade contract
 
+Create actual reusable assets and metadata for every assigned lecture. Existing 56 prose bodies remain unchanged; root integrates blocks near the relevant original sections. Read actual PDFs/extracts before choosing any sentence, formula or figure. Do not return only a layout proposal.
+
+Own only assigned project/visuals/week-NN.json, project/site/assets/figures/day-NN.svg|png and reports/visual-weekNN.md. No edits to global frontend or existing lesson HTML. For original crops, inspect rendered PDF pages first; crop only the exact numbered figure and necessary caption, never a full page. At most FOUR distinct original figure crops per 14-lecture work package to avoid bulk reproduction; use clearly labeled original teaching SVGs for other lectures, or reuse a cropped source figure only if directly pertinent. Original SVGs must visualize the specific physical/engineering concept, not decorative icons or generic repeated flow diagrams. No generated fake scientific data. Qualitative curves must say 示意，非实验数据; formula-driven curves must state model and units. Use cream #fbfaf6, teal #146e6e, ink #182e35, muted #5e7478, gold #c28a35, simple readable labels; viewBox 0 0 900 400 or 900 500, font system-ui/PingFang/Microsoft YaHei. Avoid dense diagram prose. Exact educational diagrams use SVG, not raster generation.
+
+Each week metadata JSON is array of 7 records:
+{
+ "day":N,
+ "excerpt":{"en":"one actually observed meaningful sentence, usually 15–35 English words, not a 2-word term","zh":"faithful Chinese translation","source":"emva|ptc|benchmark|colour|isp|spad|depth","pdf_page":5,"chapter":"actual section","comment":"2–3 Chinese sentences explaining what original asserts, assumptions, relation to course; no new unsupported source claim"},
+ "figure":{"path":"assets/figures/day-NN.svg","kind":"redrawn|original_crop","title":"concept title","caption":"precise provenance, distinguish self-drawn from original","source":"...","pdf_page":5,"figure_number":"1 or null if not tied to original","alt":"meaningful description","explanation":"2–3 Chinese sentences explaining how to read this particular visual"},
+ "key_formula":{"tex":"exact valid TeX, based on existing lesson relation","label":"meaningful heading","kind":"source|derived","source":"...","pdf_page":6,"original_number":"5 or null","variables":[{"symbol":"K","meaning":"系统增益","unit":"DN/e⁻"}],"meaning":"short Chinese physical explanation and applicability. Clearly mark any teaching derivation."}
+}
+
+Preserve typography-only ligatures when transcribing or normalize to normal characters; exact quote checked NFKC+whitespace normalization against evidence/SOURCE/NNNN.txt. Never splice unrelated sentences silently. No fake original figure number; for self-drawn figure_number can identify the motivating original with caption explicit not a reproduction. Read source figure before referencing its interpretation. Key formula should be one central existing relation with units, not fabricated to fill a slot. For subjective lessons use the actual mathematical scaling or metric already explained and mark derived accurately.
+
+Reports: each day source excerpt literal check; original-crop region (PDF coordinates) if any; all figure/formula provenance; non-experimental status for self-drawn plots. Do not claim final browser acceptance. Root will check source text, parse SVG/MathML, layout, links and package. Entire56 need visual integration, not just examples.

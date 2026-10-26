@@ -1,0 +1,227 @@
+{
+  "source": "spad",
+  "title": "TOF Range-Imaging Cameras",
+  "chapter": "SPAD-Based Sensors",
+  "authors": [
+    "Edoardo Charbon",
+    "Matt Fishburn",
+    "Richard Walker",
+    "Robert K. Henderson",
+    "Cristiano Niclass"
+  ],
+  "pdf_pages": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+  ],
+  "printed_page_offset": -4,
+  "anchors": [
+    {
+      "pdf_page": 17,
+      "section": "2 The Physics of SPADs",
+      "figures": [
+        "1"
+      ],
+      "equations": [
+        "1"
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "section": "2 The Physics of SPADs",
+      "topics": [
+        "PDP",
+        "afterpulsing",
+        "dead time"
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "section": "3 CMOS SPAD Design",
+      "figures": [
+        "3"
+      ],
+      "topics": [
+        "DCR",
+        "uniformity",
+        "crosstalk"
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "section": "4 TCSPC Based TOF Camera Systems",
+      "figures": [
+        "4"
+      ],
+      "equations": [
+        "2"
+      ]
+    },
+    {
+      "pdf_page": 23,
+      "section": "4",
+      "figures": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "pdf_page": 24,
+      "section": "4",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "section": "4",
+      "figures": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "pdf_page": 26,
+      "section": "4",
+      "figures": [
+        "11"
+      ]
+    },
+    {
+      "pdf_page": 29,
+      "section": "4",
+      "tables": [
+        "1"
+      ],
+      "topics": [
+        "PDE = fill factor × PDP (footnote 3)"
+      ]
+    },
+    {
+      "pdf_page": 30,
+      "section": "5 Single-Photon Synchronous Detection",
+      "figures": [
+        "14"
+      ],
+      "equations": [
+        "3"
+      ]
+    },
+    {
+      "pdf_page": 31,
+      "section": "5",
+      "figures": [
+        "15"
+      ],
+      "equations": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "pdf_page": 32,
+      "section": "5",
+      "figures": [
+        "16",
+        "17"
+      ],
+      "equations": [
+        "6"
+      ]
+    },
+    {
+      "pdf_page": 33,
+      "section": "5",
+      "figures": [
+        "18"
+      ],
+      "equations": [
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "pdf_page": 34,
+      "section": "5",
+      "figures": [
+        "19",
+        "20"
+      ]
+    },
+    {
+      "pdf_page": 35,
+      "section": "6 Phase-Domain Delta-Sigma TOF Imaging",
+      "figures": [
+        "21"
+      ]
+    },
+    {
+      "pdf_page": 36,
+      "section": "6",
+      "figures": [
+        "22"
+      ],
+      "equations": [
+        "10"
+      ]
+    },
+    {
+      "pdf_page": 37,
+      "section": "6",
+      "figures": [
+        "23"
+      ],
+      "topics": [
+        "pileup accuracy limit"
+      ]
+    },
+    {
+      "pdf_page": 38,
+      "section": "7 Perspectives and Outlook",
+      "figures": [
+        "24",
+        "25"
+      ]
+    },
+    {
+      "pdf_page": 39,
+      "section": "7",
+      "figures": [
+        "26"
+      ]
+    }
+  ],
+  "visual_inspection_pages": [
+    17,
+    21,
+    24,
+    29,
+    33
+  ]
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "day": 43,
+    "source": "depth",
+    "chapter": "1 Introduction, §§1.1–1.4; §2.2.1; §3.2; §5.1.1",
+    "pdf_pages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      63,
+      96,
+      109,
+      171,
+      172,
+      173
+    ],
+    "formulas": [
+      {
+        "label": "校正双目三角深度",
+        "pdf_page": 25,
+        "original_number": "1.26",
+        "kind": "source"
+      },
+      {
+        "label": "结构光三角深度",
+        "pdf_page": 39,
+        "original_number": "1.50",
+        "kind": "source"
+      },
+      {
+        "label": "视差分辨率到深度刻度",
+        "pdf_page": 63,
+        "original_number": "2.6",
+        "kind": "source"
+      },
+      {
+        "label": "往返传播时间与距离",
+        "pdf_page": 41,
+        "original_number": "1.51",
+        "kind": "source"
+      },
+      {
+        "label": "调制相位与距离",
+        "pdf_page": 43,
+        "original_number": "1.55",
+        "kind": "source"
+      },
+      {
+        "label": "误差传播的计时与相位敏感度",
+        "pdf_page": 96,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "径向距离转轴向深度",
+        "pdf_page": 109,
+        "original_number": "3.45",
+        "kind": "source"
+      },
+      {
+        "label": "基线焦距视差的相对误差预算",
+        "pdf_page": 25,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1.1",
+        "pdf_page": 15,
+        "analysis": "主动与被动测距分类不等于产品性能排名"
+      },
+      {
+        "number": "1.12",
+        "pdf_page": 37,
+        "analysis": "投影编码提供场景对应关系"
+      },
+      {
+        "number": "1.14",
+        "pdf_page": 41,
+        "analysis": "同址往返路径确定飞行时间因子二"
+      },
+      {
+        "number": "2.8",
+        "pdf_page": 63,
+        "analysis": "固定几何及亚像素步长下的深度刻度曲线"
+      },
+      {
+        "number": "5.2",
+        "pdf_page": 172,
+        "analysis": "多传感器视点布局改变遮挡与配准覆盖"
+      }
+    ],
+    "quote": {
+      "text": "depth maps",
+      "pdf_page": 16
+    },
+    "verified": true
+  },
+  {
+    "day": 44,
+    "source": "depth",
+    "chapter": "1 Introduction, §1.3; 2 Operating Principles of Structured Light Depth Cameras, §§2.2–2.3.1",
+    "pdf_pages": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      62,
+      63,
+      64,
+      65
+    ],
+    "formulas": [
+      {
+        "label": "相机投影器射线反投影",
+        "pdf_page": 37,
+        "original_number": "1.43",
+        "kind": "source"
+      },
+      {
+        "label": "两参考系刚体变换",
+        "pdf_page": 37,
+        "original_number": "1.44",
+        "kind": "source"
+      },
+      {
+        "label": "射线交会关系",
+        "pdf_page": 37,
+        "original_number": "1.45",
+        "kind": "source"
+      },
+      {
+        "label": "校正结构光三角深度",
+        "pdf_page": 39,
+        "original_number": "1.50",
+        "kind": "source"
+      },
+      {
+        "label": "视差敏感度",
+        "pdf_page": 63,
+        "original_number": "2.6",
+        "kind": "source"
+      },
+      {
+        "label": "绝对差和匹配代价",
+        "pdf_page": 65,
+        "original_number": "2.7",
+        "kind": "source"
+      },
+      {
+        "label": "匹配代价的视差参数化",
+        "pdf_page": 65,
+        "original_number": "2.8",
+        "kind": "source"
+      },
+      {
+        "label": "视差小扰动传播",
+        "pdf_page": 63,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1.11",
+        "pdf_page": 36,
+        "analysis": "相机投影器三角几何"
+      },
+      {
+        "number": "1.12",
+        "pdf_page": 37,
+        "analysis": "投影码字经反射后由相机识别"
+      },
+      {
+        "number": "2.7",
+        "pdf_page": 62,
+        "analysis": "接收图像经视差映射到深度"
+      },
+      {
+        "number": "2.8",
+        "pdf_page": 63,
+        "analysis": "几何刻度改善不等同实际误差同步改善"
+      }
+    ],
+    "quote": {
+      "text": "code word",
+      "pdf_page": 62
+    },
+    "verified": true
+  },
+  {
+    "day": 45,
+    "source": "depth",
+    "chapter": "1 Introduction, §§1.1.2–1.1.3; 4 Calibration, §§4.2.1,4.3.1–4.3.2",
+    "pdf_pages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      139,
+      140,
+      141,
+      142,
+      143,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ],
+    "formulas": [
+      {
+        "label": "内参矩阵与像素投影",
+        "pdf_page": 19,
+        "original_number": "1.5",
+        "kind": "source"
+      },
+      {
+        "label": "世界到相机外参",
+        "pdf_page": 19,
+        "original_number": "1.6",
+        "kind": "source"
+      },
+      {
+        "label": "标定像素到射线",
+        "pdf_page": 139,
+        "original_number": "4.9",
+        "kind": "source"
+      },
+      {
+        "label": "多姿态平方重投影残差",
+        "pdf_page": 142,
+        "original_number": "4.10",
+        "kind": "source"
+      },
+      {
+        "label": "特定设备原始视差码的倒数校正",
+        "pdf_page": 154,
+        "original_number": "4.14",
+        "kind": "source"
+      },
+      {
+        "label": "逐像素深度偏移校正",
+        "pdf_page": 155,
+        "original_number": "4.15",
+        "kind": "source"
+      },
+      {
+        "label": "外参逆变换及裁切缩放内参更新",
+        "pdf_page": 19,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "4.8",
+        "pdf_page": 140,
+        "analysis": "多姿态棋盘覆盖工作空间"
+      },
+      {
+        "number": "4.10",
+        "pdf_page": 142,
+        "analysis": "径向与切向畸变的像素位移"
+      },
+      {
+        "number": "4.18",
+        "pdf_page": 157,
+        "analysis": "幅度角点与平面深度属于不同约束"
+      },
+      {
+        "number": "4.19",
+        "pdf_page": 159,
+        "analysis": "同平面黑白格出现强度相关深度伪影"
+      }
+    ],
+    "quote": {
+      "text": "feature points",
+      "pdf_page": 139
+    },
+    "verified": true
+  },
+  {
+    "day": 46,
+    "source": "depth",
+    "chapter": "3 Operating Principles of Time-of-Flight Depth Cameras, §3.2; 4 Calibration, §4.4.1; 5 Data Fusion from Depth and Standard Cameras, §5.1.1",
+    "pdf_pages": [
+      109,
+      160,
+      161,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176
+    ],
+    "formulas": [
+      {
+        "label": "径向距离转轴向深度",
+        "pdf_page": 109,
+        "original_number": "3.45",
+        "kind": "source"
+      },
+      {
+        "label": "深度到彩色的三维重投影",
+        "pdf_page": 174,
+        "original_number": "5.1",
+        "kind": "source"
+      },
+      {
+        "label": "平移误差的局部像素敏感度",
+        "pdf_page": 174,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "彩色采样插值与点云着色",
+        "pdf_page": 176,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "4.20",
+        "pdf_page": 161,
+        "analysis": "棋盘角点在幅度图可见但不构成深度台阶"
+      },
+      {
+        "number": "5.4",
+        "pdf_page": 174,
+        "analysis": "彩色深度幅度置信度通道职责"
+      },
+      {
+        "number": "5.5",
+        "pdf_page": 175,
+        "analysis": "投影后的深度样本在高分辨率网格仍稀疏"
+      },
+      {
+        "number": "5.6",
+        "pdf_page": 175,
+        "analysis": "两个视点具有不同可见区域"
+      }
+    ],
+    "quote": {
+      "text": "colored 3D point cloud",
+      "pdf_page": 174
+    },
+    "verified": true
+  },
+  {
+    "day": 47,
+    "source": "depth",
+    "chapter": "3 Operating Principles of Time-of-Flight Depth Cameras, §§3.3.3–3.3.7; 5 Data Fusion from Depth and Standard Cameras, §§5.1.1,5.2.1",
+    "pdf_pages": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    "formulas": [
+      {
+        "label": "基于彩色范围权重的交叉双边深度插值",
+        "pdf_page": 178,
+        "original_number": "5.6",
+        "kind": "source"
+      },
+      {
+        "label": "交叉双边归一化因子",
+        "pdf_page": 179,
+        "original_number": "5.7",
+        "kind": "source"
+      },
+      {
+        "label": "固定权重独立噪声的方差传播",
+        "pdf_page": 178,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "多返回相位的复相量叠加",
+        "pdf_page": 117,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "3.17",
+        "pdf_page": 117,
+        "analysis": "像素关联有限场景区域导致边缘混合"
+      },
+      {
+        "number": "3.18",
+        "pdf_page": 117,
+        "analysis": "前后景深度边缘处飞点示例"
+      },
+      {
+        "number": "5.6",
+        "pdf_page": 175,
+        "analysis": "视点遮挡造成缺失区域"
+      },
+      {
+        "number": "5.7",
+        "pdf_page": 179,
+        "analysis": "彩色引导上采样改善外观但需独立几何验收"
+      }
+    ],
+    "quote": {
+      "text": "flying pixels",
+      "pdf_page": 117
+    },
+    "verified": true
+  },
+  {
+    "day": 48,
+    "source": "depth",
+    "chapter": "1 Introduction, §§1.1–1.2.1; 3 Operating Principles of Time-of-Flight Depth Cameras, §3.2; 5 Data Fusion from Depth and Standard Cameras, §5.1.1",
+    "pdf_pages": [
+      16,
+      17,
+      18,
+      19,
+      25,
+      109,
+      174,
+      175,
+      176
+    ],
+    "formulas": [
+      {
+        "label": "像素投影",
+        "pdf_page": 18,
+        "original_number": "1.4",
+        "kind": "source"
+      },
+      {
+        "label": "像素单位内参",
+        "pdf_page": 19,
+        "original_number": "1.5",
+        "kind": "source"
+      },
+      {
+        "label": "世界与相机坐标变换",
+        "pdf_page": 19,
+        "original_number": "1.6",
+        "kind": "source"
+      },
+      {
+        "label": "轴向深度反投影",
+        "pdf_page": 25,
+        "original_number": "1.25",
+        "kind": "source"
+      },
+      {
+        "label": "径向距离转轴向深度",
+        "pdf_page": 109,
+        "original_number": "3.45",
+        "kind": "source"
+      },
+      {
+        "label": "三维点坐标恢复",
+        "pdf_page": 109,
+        "original_number": "3.46",
+        "kind": "source"
+      },
+      {
+        "label": "固定射线与完整参数协方差传播",
+        "pdf_page": 109,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "刚体逆变换",
+        "pdf_page": 19,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1.3",
+        "pdf_page": 19,
+        "analysis": "物理传感器坐标与单位像素格点"
+      },
+      {
+        "number": "5.4",
+        "pdf_page": 174,
+        "analysis": "点云属性来自不同数据通道"
+      },
+      {
+        "number": "5.5",
+        "pdf_page": 175,
+        "analysis": "变换视点不增加独立三维测量样本"
+      }
+    ],
+    "quote": {
+      "text": "Camera Coordinates System",
+      "pdf_page": 16
+    },
+    "verified": true
+  },
+  {
+    "day": 49,
+    "source": "depth",
+    "chapter": "2 Operating Principles of Structured Light Depth Cameras, §2.2.1; 3 Operating Principles of Time-of-Flight Depth Cameras, §3.3; 4 Calibration, §4.1.1; 5 Data Fusion from Depth and Standard Cameras, §§5.1.1–5.2.1",
+    "pdf_pages": [
+      63,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      127,
+      128,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
+    "formulas": [
+      {
+        "label": "偏差、样本标准差及RMSE的工程统计定义",
+        "pdf_page": 127,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "有限样本RMSE平方分解",
+        "pdf_page": 127,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "有效覆盖率定义",
+        "pdf_page": 175,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "视差步长与深度刻度",
+        "pdf_page": 63,
+        "original_number": "2.6",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "4.1",
+        "pdf_page": 127,
+        "analysis": "分布偏移与宽度对应不同误差概念"
+      },
+      {
+        "number": "2.8",
+        "pdf_page": 63,
+        "analysis": "距离增长导致几何刻度改变"
+      },
+      {
+        "number": "3.18",
+        "pdf_page": 117,
+        "analysis": "平面噪声不足以评价边缘飞点"
+      },
+      {
+        "number": "5.6",
+        "pdf_page": 175,
+        "analysis": "融合遮挡失效应纳入覆盖评价"
+      }
+    ],
+    "quote": {
+      "text": "systematic errors",
+      "pdf_page": 127
+    },
+    "verified": true
+  }
+]

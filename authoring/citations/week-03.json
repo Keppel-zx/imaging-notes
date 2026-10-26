@@ -1,0 +1,394 @@
+[
+  {
+    "day": 15,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章 Color Processing for Digital Cameras，§5.1–5.3，PDF 106–108（印刷81–83页）；§5.3.12，PDF117–118。图5.1、5.2；辅读 ICCV 2023 教程 PDF125、177。",
+    "pdf_pages": [
+      106,
+      107,
+      108,
+      109,
+      111,
+      117,
+      118
+    ],
+    "printed_pages": [
+      81,
+      82,
+      83,
+      84,
+      86,
+      92,
+      93
+    ],
+    "formulas": [
+      {
+        "label": "拜耳测量模型与线性相对曝光模型",
+        "pdf_page": 107,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.1",
+        "pdf_page": 107,
+        "analysis": "滤色采样、微光学与光谱灵敏度共同定义器件相关RGB"
+      },
+      {
+        "number": "5.2",
+        "pdf_page": 108,
+        "analysis": "典型流水线包含图像处理与采集控制反馈，顺序不是通用强制规范"
+      }
+    ],
+    "quote": {
+      "text": "camera pipeline",
+      "pdf_page": 107
+    },
+    "verified": true
+  },
+  {
+    "day": 15,
+    "source": "isp",
+    "chapter": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+    "pdf_pages": [
+      125,
+      177
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 16,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章§5.3.1–5.3.3，PDF108–110（印刷83–85页），图5.3；辅读 ICCV 2023 教程 PDF119。",
+    "pdf_pages": [
+      108,
+      109,
+      110
+    ],
+    "printed_pages": [
+      83,
+      84,
+      85
+    ],
+    "formulas": [
+      {
+        "label": "扣黑归一化、阴影增益与误差传播",
+        "pdf_page": 109,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.3",
+        "pdf_page": 110,
+        "analysis": "逐位置逐通道增益校正均值阴影，不保证噪声均匀"
+      }
+    ],
+    "quote": {
+      "text": "black level",
+      "pdf_page": 109
+    },
+    "verified": true
+  },
+  {
+    "day": 16,
+    "source": "isp",
+    "chapter": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+    "pdf_pages": [
+      119
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 17,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章§5.3.6，PDF113–114（印刷88–89页），图5.5；辅读 ICCV 2023 教程 PDF125、129、205。",
+    "pdf_pages": [
+      113,
+      114
+    ],
+    "printed_pages": [
+      88,
+      89
+    ],
+    "formulas": [
+      {
+        "label": "图5.5加权插值的数学化及条件噪声传播",
+        "pdf_page": 113,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.5",
+        "pdf_page": 113,
+        "analysis": "利用相邻蓝色相似性控制权重，重建蓝像素处缺失绿色"
+      }
+    ],
+    "quote": {
+      "text": "weighted average",
+      "pdf_page": 114
+    },
+    "verified": true
+  },
+  {
+    "day": 17,
+    "source": "isp",
+    "chapter": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+    "pdf_pages": [
+      125,
+      129,
+      205
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 18,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章§5.3.5、§5.3.8，PDF112–115（印刷87–90页），图5.4、5.6；矩阵拟合参见第3章§3.3.1.1，PDF83，式3.3–3.8；辅读 ICCV 2023 教程 PDF137–139、144–145、150。",
+    "pdf_pages": [
+      83,
+      112,
+      113,
+      114,
+      115
+    ],
+    "printed_pages": [
+      58,
+      87,
+      88,
+      89,
+      90
+    ],
+    "formulas": [
+      {
+        "label": "图5.4白平衡对角矩阵",
+        "pdf_page": 112,
+        "original_number": null,
+        "kind": "source"
+      },
+      {
+        "label": "最小二乘颜色变换，行向量等价表达",
+        "pdf_page": 83,
+        "original_number": "3.3,3.5–3.8",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.4",
+        "pdf_page": 112,
+        "analysis": "对角通道缩放使中性物体响应对齐，不能完成任意光谱校正"
+      },
+      {
+        "number": "5.6",
+        "pdf_page": 114,
+        "analysis": "不同传感器灵敏度需映射至设备无关颜色；原图年份笔误在正文区分"
+      }
+    ],
+    "quote": {
+      "text": "white balance",
+      "pdf_page": 112
+    },
+    "verified": true
+  },
+  {
+    "day": 18,
+    "source": "isp",
+    "chapter": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+    "pdf_pages": [
+      137,
+      138,
+      139,
+      144,
+      145,
+      150
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 19,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章§5.3.9.2、§5.3.10、§5.4.1，PDF115–119（印刷90–94页）；图5.7、5.8；辅读 ICCV 2023 教程 PDF85、170。",
+    "pdf_pages": [
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "printed_pages": [
+      90,
+      91,
+      92,
+      93,
+      94
+    ],
+    "formulas": [
+      {
+        "label": "幂律编码、一阶曲线传播与曝光融合",
+        "pdf_page": 117,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.7",
+        "pdf_page": 116,
+        "analysis": "全局、选择性颜色与色调渲染共同改变外观，不宜单因归因"
+      },
+      {
+        "number": "5.8",
+        "pdf_page": 119,
+        "analysis": "渲染前后多帧融合改变线性与噪声模型的适用条件"
+      }
+    ],
+    "quote": {
+      "text": "tone map",
+      "pdf_page": 115
+    },
+    "verified": true
+  },
+  {
+    "day": 19,
+    "source": "isp",
+    "chapter": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+    "pdf_pages": [
+      85,
+      170
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 20,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章§5.3.7、§5.3.9.3、§5.4.2，PDF114、116、119；图5.7、5.8；辅读第5章§5.5–5.6，PDF119–120。",
+    "pdf_pages": [
+      114,
+      116,
+      119,
+      120
+    ],
+    "printed_pages": [
+      89,
+      91,
+      94,
+      95
+    ],
+    "formulas": [
+      {
+        "label": "滤波、锐化频响与理想多帧平均",
+        "pdf_page": 114,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.7",
+        "pdf_page": 116,
+        "analysis": "全局、选择性颜色与色调渲染共同改变外观，不宜单因归因"
+      },
+      {
+        "number": "5.8",
+        "pdf_page": 119,
+        "analysis": "渲染前后多帧融合改变线性与噪声模型的适用条件"
+      }
+    ],
+    "quote": {
+      "text": "Noise Reduction",
+      "pdf_page": 114
+    },
+    "verified": true
+  },
+  {
+    "day": 21,
+    "source": "colour",
+    "chapter": "主读 Fundamentals and Applications of Colour Engineering，第5章§5.3–5.6，PDF108–120（印刷83–95页），重点图5.2与图5.8；辅读 ICCV 2023 教程 PDF177、182–184、220–221。",
+    "pdf_pages": [
+      108,
+      109,
+      112,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "printed_pages": [
+      83,
+      84,
+      87,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "formulas": [
+      {
+        "label": "流水线函数合成、偏置顺序与协方差传播",
+        "pdf_page": 108,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.2",
+        "pdf_page": 108,
+        "analysis": "典型流水线包含图像处理与采集控制反馈，顺序不是通用强制规范"
+      },
+      {
+        "number": "5.8",
+        "pdf_page": 119,
+        "analysis": "渲染前后多帧融合改变线性与噪声模型的适用条件"
+      }
+    ],
+    "quote": {
+      "text": "Bayer processing",
+      "pdf_page": 120
+    },
+    "verified": true
+  },
+  {
+    "day": 21,
+    "source": "isp",
+    "chapter": "Understanding the in-camera rendering pipeline & the role of AI and deep learning",
+    "pdf_pages": [
+      177,
+      182,
+      183,
+      184,
+      220,
+      221
+    ],
+    "formulas": [],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  }
+]

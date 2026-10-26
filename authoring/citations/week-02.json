@@ -1,0 +1,652 @@
+[
+  {
+    "day": 8,
+    "source": "emva",
+    "chapter": "§1 Introduction and Scope; §2.1 Linear Signal Model; §2.2 Noise Model; §2.3 Signal-to-Noise Ratio",
+    "pdf_pages": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "formulas": [
+      {
+        "label": "Quantum efficiency",
+        "pdf_page": 5,
+        "original_number": "1",
+        "kind": "source"
+      },
+      {
+        "label": "Photon number from irradiance",
+        "pdf_page": 5,
+        "original_number": "2",
+        "kind": "source"
+      },
+      {
+        "label": "Linear photo-induced mean signal",
+        "pdf_page": 6,
+        "original_number": "6",
+        "kind": "source"
+      },
+      {
+        "label": "Poisson electron variance",
+        "pdf_page": 6,
+        "original_number": "7",
+        "kind": "source"
+      },
+      {
+        "label": "Temporal noise variance propagation",
+        "pdf_page": 6,
+        "original_number": "8",
+        "kind": "source"
+      },
+      {
+        "label": "Mean–variance gain relation",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      },
+      {
+        "label": "Input-domain SNR",
+        "pdf_page": 7,
+        "original_number": "11",
+        "kind": "source"
+      },
+      {
+        "label": "Gain cancellation from SNR by division",
+        "pdf_page": 7,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "1",
+        "pdf_page": 5,
+        "analysis": "Distinguishes photon-to-electron efficiency from electron-to-DN gain and noise injection locations."
+      }
+    ],
+    "quote": {
+      "text": "Linear Signal Model",
+      "pdf_page": 5
+    },
+    "verified": true
+  },
+  {
+    "day": 9,
+    "source": "ptc",
+    "chapter": "§4.1 Photon Transfer Relation; §5.1 PTC Setup and Generation; §5.2 PTC Family; §5.5 Variance PTC",
+    "pdf_pages": [
+      42,
+      56,
+      57,
+      75
+    ],
+    "formulas": [
+      {
+        "label": "Mean signal input/output sensitivity transfer",
+        "pdf_page": 42,
+        "original_number": "4.3",
+        "kind": "source"
+      },
+      {
+        "label": "Noise standard deviation sensitivity transfer",
+        "pdf_page": 42,
+        "original_number": "4.4",
+        "kind": "source"
+      },
+      {
+        "label": "Photon transfer relation",
+        "pdf_page": 42,
+        "original_number": "4.5",
+        "kind": "source"
+      },
+      {
+        "label": "Total noise from spatial deviations",
+        "pdf_page": 56,
+        "original_number": "5.4",
+        "kind": "source"
+      },
+      {
+        "label": "Back-to-back frame difference standard deviation",
+        "pdf_page": 57,
+        "original_number": "5.5",
+        "kind": "source"
+      },
+      {
+        "label": "Difference noise divided by square root of two",
+        "pdf_page": 57,
+        "original_number": "5.6",
+        "kind": "source"
+      },
+      {
+        "label": "Shot noise in DN",
+        "pdf_page": 57,
+        "original_number": "5.7",
+        "kind": "source"
+      },
+      {
+        "label": "Fixed-pattern noise proportional to signal",
+        "pdf_page": 57,
+        "original_number": "5.8",
+        "kind": "source"
+      },
+      {
+        "label": "Quadrature total noise model",
+        "pdf_page": 57,
+        "original_number": "5.9",
+        "kind": "source"
+      },
+      {
+        "label": "Log-log slopes of standard deviation and variance",
+        "pdf_page": 57,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5.3",
+        "pdf_page": 57,
+        "analysis": "Frame differencing cancels stable FPN but requires random-noise scaling."
+      },
+      {
+        "number": "5.26",
+        "pdf_page": 75,
+        "analysis": "Read-noise floors obscure the shot-noise segment in standard-deviation coordinates."
+      },
+      {
+        "number": "5.27",
+        "pdf_page": 75,
+        "analysis": "Variance coordinates expose the gain slope for the same modeled noise conditions."
+      }
+    ],
+    "quote": {
+      "text": "PT relation",
+      "pdf_page": 42
+    },
+    "verified": true
+  },
+  {
+    "day": 9,
+    "source": "emva",
+    "chapter": "§2.2 Noise Model; §6.6 Evaluation of the Measurements according to the Photon Transfer Method",
+    "pdf_pages": [
+      6,
+      17
+    ],
+    "formulas": [
+      {
+        "label": "System gain direction DN/electron",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      }
+    ],
+    "figures": [
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "analysis": "Fit range must exclude compressed high-signal tail and saturation."
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 10,
+    "source": "emva",
+    "chapter": "§2.2 Noise Model; §5 Overview Measurement Setup and Methods; §6.5 Measurement Conditions; §6.6 Photon Transfer Evaluation",
+    "pdf_pages": [
+      6,
+      12,
+      15,
+      16,
+      17
+    ],
+    "formulas": [
+      {
+        "label": "Mean–variance relation",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      },
+      {
+        "label": "Two-frame spatial mean",
+        "pdf_page": 15,
+        "original_number": "28",
+        "kind": "source"
+      },
+      {
+        "label": "Half mean squared frame difference",
+        "pdf_page": 16,
+        "original_number": "29",
+        "kind": "source"
+      },
+      {
+        "label": "QE as responsivity divided by system gain",
+        "pdf_page": 17,
+        "original_number": "30",
+        "kind": "source"
+      },
+      {
+        "label": "Zero-intercept least-squares gain estimator",
+        "pdf_page": 16,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5",
+        "pdf_page": 16,
+        "analysis": "Responsivity uses photon input on the horizontal axis."
+      },
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "analysis": "Gain uses mean DN on the horizontal axis; high-signal deviation must not bias fit."
+      }
+    ],
+    "quote": {
+      "text": "Overall system gain",
+      "pdf_page": 16
+    },
+    "verified": true
+  },
+  {
+    "day": 10,
+    "source": "ptc",
+    "chapter": "§4.1 Photon Transfer Relation",
+    "pdf_pages": [
+      42
+    ],
+    "formulas": [
+      {
+        "label": "Sensitivity transfers mean output to input",
+        "pdf_page": 42,
+        "original_number": "4.3",
+        "kind": "source"
+      },
+      {
+        "label": "Sensitivity transfers noise output to input",
+        "pdf_page": 42,
+        "original_number": "4.4",
+        "kind": "source"
+      },
+      {
+        "label": "Inverse gain unit convention electron/DN",
+        "pdf_page": 42,
+        "original_number": "4.5",
+        "kind": "source"
+      }
+    ],
+    "figures": [],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 11,
+    "source": "emva",
+    "chapter": "§2.3 SNR; §2.4 Signal Saturation and Absolute Sensitivity Threshold; §3.1 Mean and Variance; §6.6 Photon Transfer Evaluation",
+    "pdf_pages": [
+      6,
+      7,
+      8,
+      12,
+      17,
+      18
+    ],
+    "formulas": [
+      {
+        "label": "Input-domain SNR",
+        "pdf_page": 7,
+        "original_number": "11",
+        "kind": "source"
+      },
+      {
+        "label": "Saturation electron capacity",
+        "pdf_page": 7,
+        "original_number": "14",
+        "kind": "source"
+      },
+      {
+        "label": "Photon requirement for target SNR",
+        "pdf_page": 7,
+        "original_number": "15",
+        "kind": "source"
+      },
+      {
+        "label": "Approximate absolute sensitivity threshold",
+        "pdf_page": 8,
+        "original_number": "17",
+        "kind": "source"
+      },
+      {
+        "label": "Dynamic range",
+        "pdf_page": 8,
+        "original_number": "18",
+        "kind": "source"
+      },
+      {
+        "label": "Dark electron mean versus exposure",
+        "pdf_page": 8,
+        "original_number": "19",
+        "kind": "source"
+      },
+      {
+        "label": "Dark noise variance versus exposure",
+        "pdf_page": 8,
+        "original_number": "20",
+        "kind": "source"
+      },
+      {
+        "label": "Quantization-corrected input dark noise",
+        "pdf_page": 17,
+        "original_number": "31",
+        "kind": "source"
+      },
+      {
+        "label": "Shot-limited maximum SNR",
+        "pdf_page": 18,
+        "original_number": "33",
+        "kind": "source"
+      },
+      {
+        "label": "Quadratic derivation of photon requirement",
+        "pdf_page": 7,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "7",
+        "pdf_page": 18,
+        "analysis": "Low-input dark-noise penalty, shot-noise middle region, spatial-nonuniformity high-signal penalty."
+      }
+    ],
+    "quote": {
+      "text": "Absolute sensitivity threshold",
+      "pdf_page": 18
+    },
+    "verified": true
+  },
+  {
+    "day": 12,
+    "source": "emva",
+    "chapter": "§4 Spatial Nonuniformity and Defect Pixels; §8.1 Spatial Standard Deviation, DSNU, PRNU and total SNR; §8.2–8.4",
+    "pdf_pages": [
+      8,
+      9,
+      10,
+      11,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "formulas": [
+      {
+        "label": "DSNU and PRNU definitions",
+        "pdf_page": 9,
+        "original_number": "25",
+        "kind": "source"
+      },
+      {
+        "label": "Temporal frame average",
+        "pdf_page": 21,
+        "original_number": "42",
+        "kind": "source"
+      },
+      {
+        "label": "Residual temporal variance correction",
+        "pdf_page": 21,
+        "original_number": "43",
+        "kind": "source"
+      },
+      {
+        "label": "Input-electron DSNU",
+        "pdf_page": 22,
+        "original_number": "45",
+        "kind": "source"
+      },
+      {
+        "label": "PRNU relative response standard deviation",
+        "pdf_page": 22,
+        "original_number": "46",
+        "kind": "source"
+      },
+      {
+        "label": "Total SNR including nonuniformities",
+        "pdf_page": 22,
+        "original_number": "48",
+        "kind": "source"
+      },
+      {
+        "label": "PRNU-dominated high-signal SNR limit",
+        "pdf_page": 22,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "2",
+        "pdf_page": 10,
+        "analysis": "Averaging reveals spatial-distribution tails hidden by temporal scatter."
+      },
+      {
+        "number": "3",
+        "pdf_page": 11,
+        "analysis": "Cumulative tail fraction supports application-specific defective-pixel limits."
+      },
+      {
+        "number": "10",
+        "pdf_page": 23,
+        "analysis": "Dark-image spectra distinguish periodic structure from spatial white background."
+      },
+      {
+        "number": "11",
+        "pdf_page": 24,
+        "analysis": "Photoresponse spectra expose directional periodic sensitivity patterns."
+      },
+      {
+        "number": "12",
+        "pdf_page": 25,
+        "analysis": "Mean and extreme profiles reveal gradual structure and sparse outliers."
+      }
+    ],
+    "quote": {
+      "text": "Spatial Nonuniformity",
+      "pdf_page": 21
+    },
+    "verified": true
+  },
+  {
+    "day": 13,
+    "source": "emva",
+    "chapter": "§2.2 Noise Model; §6.5–6.7 Measurement, Photon Transfer, Linearity; §10 Publishing the Results",
+    "pdf_pages": [
+      6,
+      15,
+      16,
+      17,
+      18,
+      19,
+      31,
+      32
+    ],
+    "formulas": [
+      {
+        "label": "Mean–variance relation",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      },
+      {
+        "label": "Linear response fit for relative linearity evaluation",
+        "pdf_page": 18,
+        "original_number": "34",
+        "kind": "source"
+      },
+      {
+        "label": "Weighted relative residual least-squares objective",
+        "pdf_page": 19,
+        "original_number": null,
+        "kind": "derived"
+      },
+      {
+        "label": "Frame-mean drift bias in difference variance",
+        "pdf_page": 16,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "5",
+        "pdf_page": 16,
+        "analysis": "Responsivity fit requires its own axis and range definitions."
+      },
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "analysis": "High-end variance decline is clipping, not improved sensor noise."
+      },
+      {
+        "number": "7",
+        "pdf_page": 18,
+        "analysis": "SNR curve cross-checks derived parameters."
+      },
+      {
+        "number": "8",
+        "pdf_page": 19,
+        "analysis": "Relative residual reveals small systematic nonlinear response hidden by the main signal curve."
+      }
+    ],
+    "quote": {
+      "text": "Fit range",
+      "pdf_page": 17
+    },
+    "verified": true
+  },
+  {
+    "day": 13,
+    "source": "ptc",
+    "chapter": "§5.1–5.2; §5.5 Variance PTC",
+    "pdf_pages": [
+      56,
+      57,
+      75
+    ],
+    "formulas": [],
+    "figures": [
+      {
+        "number": "5.3",
+        "pdf_page": 57,
+        "analysis": "Back-to-back difference separates stable patterns from time noise."
+      },
+      {
+        "number": "5.26",
+        "pdf_page": 75,
+        "analysis": "Standard-deviation plot emphasizes noise regimes."
+      },
+      {
+        "number": "5.27",
+        "pdf_page": 75,
+        "analysis": "Variance plot emphasizes gain slope without changing raw information."
+      }
+    ],
+    "quote": null,
+    "verified": true
+  },
+  {
+    "day": 14,
+    "source": "emva",
+    "chapter": "§1 Scope; §2 Signal and Noise; §5 Setup; §6 Methods; §8 Nonuniformity; §10 Publishing",
+    "pdf_pages": [
+      4,
+      6,
+      7,
+      8,
+      12,
+      15,
+      16,
+      17,
+      18,
+      21,
+      22,
+      31,
+      32
+    ],
+    "formulas": [
+      {
+        "label": "Photo-induced mean signal",
+        "pdf_page": 6,
+        "original_number": "6",
+        "kind": "source"
+      },
+      {
+        "label": "Mean–variance system gain",
+        "pdf_page": 6,
+        "original_number": "9",
+        "kind": "source"
+      },
+      {
+        "label": "Saturation electron capacity",
+        "pdf_page": 7,
+        "original_number": "14",
+        "kind": "source"
+      },
+      {
+        "label": "Dynamic-range input ratio",
+        "pdf_page": 8,
+        "original_number": "18",
+        "kind": "source"
+      },
+      {
+        "label": "QE from two measured slopes",
+        "pdf_page": 17,
+        "original_number": "30",
+        "kind": "source"
+      },
+      {
+        "label": "Total SNR with DSNU and PRNU",
+        "pdf_page": 22,
+        "original_number": "48",
+        "kind": "source"
+      },
+      {
+        "label": "Output rescaling leaves QE invariant",
+        "pdf_page": 17,
+        "original_number": null,
+        "kind": "derived"
+      }
+    ],
+    "figures": [
+      {
+        "number": "6",
+        "pdf_page": 17,
+        "analysis": "Gain and saturation definitions belong to a fixed operating point."
+      },
+      {
+        "number": "7",
+        "pdf_page": 18,
+        "analysis": "SNR curve tests mutual consistency of derived parameters."
+      },
+      {
+        "number": "Table 2",
+        "pdf_page": 32,
+        "analysis": "Required parameters, units and conditions form a publication checklist, not a universal ranking."
+      }
+    ],
+    "quote": {
+      "text": "Operation point(s)",
+      "pdf_page": 31
+    },
+    "verified": true
+  }
+]
